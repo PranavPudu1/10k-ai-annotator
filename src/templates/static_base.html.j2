@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<script src="https://cdn.tailwindcss.com"></script>
+{% block extra_head %}{% endblock %}
+<style>
+  :root {
+    --ai: #2563eb;
+    --ai-bg: rgba(37, 99, 235, 0.18);
+    --coder-a: #ea580c;
+    --coder-a-bg: rgba(234, 88, 12, 0.18);
+    --coder-b: #9333ea;
+    --coder-b-bg: rgba(147, 51, 234, 0.18);
+    --coders-both: #0d9488;
+    --coders-both-bg: rgba(13, 148, 136, 0.20);
+    --ai-and-a: #16a34a;
+    --ai-and-a-bg: rgba(22, 163, 74, 0.20);
+    --ai-and-b: #0891b2;
+    --ai-and-b-bg: rgba(8, 145, 178, 0.20);
+    --ai-and-both: #ca8a04;
+    --ai-and-both-bg: rgba(202, 138, 4, 0.20);
+    --text-color: #1c1917;
+  }
+  html, body { background: #fafaf9; color: #1c1917; }
+  body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; margin: 0; }
+
+  .app-header {
+    padding: 16px 24px 12px;
+    background: white;
+    border-bottom: 1px solid #e7e5e4;
+  }
+  .app-header h1 { font-size: 18px; font-weight: 600; margin: 0; color: #1c1917; }
+  .app-header .nav-back {
+    display: inline-block; margin-top: 4px; font-size: 12px;
+    color: #57534e; text-decoration: none;
+  }
+  .app-header .nav-back:hover { color: #1c1917; text-decoration: underline; }
+
+  details.legend-expander {
+    background: white;
+    border: 1px solid #e7e5e4;
+    border-radius: 6px;
+    margin: 16px 24px 0;
+  }
+  details.legend-expander > summary {
+    cursor: pointer;
+    padding: 10px 14px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1c1917;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  details.legend-expander > summary::-webkit-details-marker { display: none; }
+  details.legend-expander > summary::before {
+    content: "▾";
+    font-size: 12px;
+    color: #78716c;
+    transition: transform 120ms;
+  }
+  details.legend-expander:not([open]) > summary::before { transform: rotate(-90deg); }
+  details.legend-expander > .legend-body { padding: 0 14px 12px; }
+
+  .tabs {
+    margin: 16px 24px 0;
+    border-bottom: 1px solid #e7e5e4;
+    display: flex;
+    gap: 4px;
+  }
+  .tabs a {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #57534e;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 120ms, border-color 120ms;
+  }
+  .tabs a:hover { color: #1c1917; }
+  .tabs a.active {
+    color: #1c1917;
+    font-weight: 600;
+    border-bottom-color: #1c1917;
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <h1>{{ page_title }}</h1>
+  <p class="nav-back">
+    <a href="{{ doc_landing_href|default('../index.html') }}">&larr; Versions for this doc</a>
+    &middot;
+    <a href="../../index.html">All documents</a>
+  </p>
+</header>
+{% if version_id %}
+<details class="legend-expander" {{ 'open' if active_tab == 'document' else '' }}>
+  <summary>About this version — {{ version_id }}</summary>
+  <div class="legend-body">
+    <p style="font-size: 13px; color: #292524; line-height: 1.55;">{{ version_description }}</p>
+  </div>
+</details>
+{% endif %}
+
+<details class="legend-expander">
+  <summary>What the cards mean</summary>
+  <div class="legend-body">
+    {{ legend_html | safe }}
+  </div>
+</details>
+
+<nav class="tabs">
+  <a href="index.html" class="{% if active_tab == 'document' %}active{% endif %}">Document View</a>
+  <a href="annotations.html" class="{% if active_tab == 'annotations' %}active{% endif %}">All Annotations</a>
+  <a href="evaluation.html" class="{% if active_tab == 'evaluation' %}active{% endif %}">Evaluation</a>
+  <a href="missed.html" class="{% if active_tab == 'missed' %}active{% endif %}">Missed Human Tags</a>
+</nav>
+
+{% block content %}{% endblock %}
+
+</body>
+</html>

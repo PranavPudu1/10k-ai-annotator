@@ -1,0 +1,195 @@
+Artificial Intelligence
+Deepfake
+Natural Language Processing
+Machine Learning
+Deep Learning
+Computer Vision
+Generative
+Image Recognition
+Speech Recognition
+Voice Assistant
+Chatbot
+Recommendation System
+A.I.
+AI
+AI strategy
+ML
+NLP
+Recommender System
+Artificial General Intelligence
+AGI
+business intelligence
+big data
+data science
+data scientist
+AI/ML
+data mining
+object recognition
+large language model
+machine translation
+support vector machine
+classification algorithm
+generative ai
+supervised learning
+computational linguistic
+clustering algorithm
+clustering algorithms
+recommender system
+recommender systems
+dimensionality reduction
+information extraction
+kernel method
+kernel methods
+XAI
+Neural network
+Neural networks
+predictive analytics
+recommendation system
+recommendation systems
+recommendation engine
+GenAI
+Generative AI
+algorithmic fairness
+algorithmic accountability
+iso 42001
+ISO/IEC 42001:2023
+ISO/IEC 42001
+NIST AI RMF
+model card
+automated decision
+virtual assistant
+agent assistant
+cognitive computing
+reinforcement learning
+supervised learning
+unsupervised learning
+LLM
+LLMs
+large language models
+foundation model
+foundation models
+human-in-the-loop
+LSTM
+transformer architecture
+prompt engineering
+transfer learning
+ensemble learning
+random forest
+gradient boosting
+decision tree
+anomaly detection
+named entity recognition
+federated learning
+text generation
+AutoML
+MLOps
+edge AI
+AI ethics
+AI audit
+AI auditing
+AI markets
+model interpretability
+Ai safety
+AI governance
+agentic AI
+multimodal AI
+facial recognition
+speech synthesis
+predictive maintenance
+autonomous vehicles
+autonomous systems
+expert system
+expert systems
+AI-powered
+AI-enhanced
+AI-enabled
+AI-driven
+AI-assisted
+AI-augmented
+AI-accelerated
+AI-optimized
+AI-infused
+AI-integrated
+AI-backed
+AI-supported
+AI-first
+AI-native
+AI-centric
+AI-ready
+AI-aware
+AI-based
+AI-embedded
+AI-orchestrated
+AI-automated
+agent orchestration
+machine-learning-powered
+ML-powered
+ML-enhanced
+model-driven
+algorithmically optimized
+intelligent automation
+smart automation
+cognitive automation
+semi-autonomous
+agentic AI
+AI agents
+autonomous agents
+multi-agent
+agent-based
+LLM-powered
+LLM-enhanced
+LLM-enabled
+LLM-integrated
+generative AI
+GenAI-powered
+GenAI-enhanced
+foundation-model-powered
+foundation-model-based
+large language model
+language model
+neural-network-powered
+deep-learning-powered
+computer-vision-powered
+NLP-powered
+speech-enabled
+predictive analytics
+recommendation engine
+personalization engine
+context-aware
+real-time inference
+edge AI
+on-device AI
+human-in-the-loop
+AI copilots
+copilot-enabled
+decision support
+augmentation layer
+model-assisted workflow
+workflow automation
+intelligent routing
+smart summarization
+semantic search
+retrieval-augmented generation
+RAG-enabled
+vector search
+embedding-based
+knowledge-augmented
+self-learning
+continual learning
+reinforcement-learning-based
+privacy-preserving AI
+federated learning
+responsible AI
+explainable AI
+XAI-enabled
+trustworthy AI
+Claude
+CoPilot
+ChatGPT
+Anthropic
+OpenAI
+EU AI Act
+European Union AI Act
+Partnership on AI
+Data center
+Cybersecurity

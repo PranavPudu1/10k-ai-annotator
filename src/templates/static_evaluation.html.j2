@@ -1,0 +1,162 @@
+{% extends "static_base.html.j2" %}
+
+{% block extra_head %}
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<style>
+  .eval-content { padding: 20px 24px 80px; max-width: 1200px; margin: 0 auto; }
+  .eval-content h2 { font-size: 20px; font-weight: 600; margin: 28px 0 10px; color: #1c1917; }
+  .eval-content h2:first-of-type { margin-top: 12px; }
+  .eval-content p { font-size: 14px; line-height: 1.55; color: #292524; margin: 8px 0; }
+  .eval-content ul { font-size: 14px; line-height: 1.6; color: #292524; padding-left: 22px; margin: 8px 0; }
+  .eval-content .muted { color: #57534e; font-size: 13px; }
+
+  .metric-row { display: flex; gap: 16px; margin: 12px 0 8px; flex-wrap: wrap; }
+  .metric-card {
+    background: white; border: 1px solid #e7e5e4; border-radius: 8px;
+    padding: 14px 18px; flex: 1 1 200px; min-width: 180px;
+  }
+  .metric-card .label { font-size: 12px; color: #57534e; }
+  .metric-card .value { font-size: 28px; font-weight: 600; color: #1c1917; margin-top: 4px; }
+  .metric-card .sub { font-size: 12px; color: #78716c; margin-top: 2px; }
+
+  table.eval-table {
+    width: 100%; border-collapse: collapse; margin: 8px 0 4px;
+    font-size: 13px; background: white; border: 1px solid #e7e5e4; border-radius: 6px;
+  }
+  table.eval-table th, table.eval-table td {
+    padding: 8px 12px; text-align: left; border-bottom: 1px solid #f5f5f4;
+  }
+  table.eval-table th { background: #f5f5f4; font-weight: 600; color: #44403c; }
+  table.eval-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.eval-table tr:last-child td { border-bottom: none; }
+
+  .plotly-fig { background: white; border: 1px solid #e7e5e4; border-radius: 8px; padding: 8px; margin: 10px 0; }
+
+  a.csv-button {
+    display: inline-block; margin-top: 8px; padding: 8px 16px;
+    background: #1c1917; color: white; text-decoration: none; border-radius: 6px;
+    font-size: 14px; font-weight: 500;
+  }
+  a.csv-button:hover { background: #44403c; }
+</style>
+{% endblock %}
+
+{% block content %}
+<main class="eval-content">
+
+  <h2>What we did</h2>
+  <p>
+    We had <strong>humans</strong> and an <strong>AI</strong> label sentences in this
+    10-K against the <strong>same predefined taxonomy</strong> of 11 risk and
+    mitigation categories. Both sides picked from the same menu — neither
+    invented categories on the fly. This tab quantifies how close the two label sets are.
+  </p>
+  <p class="muted">
+    Caveat to keep in mind: the humans did not exhaustively code every relevant
+    sentence in the 10-K. Some sentences counted here as "false positives" may be
+    genuine RAI catches the humans skipped. Treat <strong>precision as a lower
+    bound</strong> on real precision; treat <strong>recall as AI-vs-human
+    agreement</strong>, not real-world risk recall.
+  </p>
+
+  <div class="metric-row">
+    <div class="metric-card"><div class="label">Sentences AI tagged</div><div class="value">{{ counts.anchors_with_ai }}</div></div>
+    <div class="metric-card"><div class="label">Sentences humans tagged</div><div class="value">{{ counts.anchors_with_human }}</div></div>
+    <div class="metric-card"><div class="label">Sentences both tagged</div><div class="value">{{ counts.anchors_with_both }}</div></div>
+  </div>
+
+  <h2>How close was AI, per category?</h2>
+  <p>For each category we show three numbers:</p>
+  <ul>
+    <li><strong>Support</strong> = how many sentences the human tagged with this category.</li>
+    <li><strong>Precision</strong> = of the AI's tags in this category, how often the human agreed. High precision means the AI isn't over-tagging.</li>
+    <li><strong>Recall</strong> = of the human's tags in this category, how often the AI caught it. High recall means the AI isn't missing risks.</li>
+    <li>Cells render <code>—</code> when the metric is undefined.</li>
+  </ul>
+
+  <table class="eval-table">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th class="num">Support</th>
+        <th class="num">Precision</th>
+        <th class="num">Recall</th>
+        <th class="num">F1</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in per_category_rows %}
+      <tr>
+        <td>{{ row.category }}</td>
+        <td class="num">{{ row.support }}</td>
+        <td class="num">{{ row.precision }}</td>
+        <td class="num">{{ row.recall }}</td>
+        <td class="num">{{ row.f1 }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  <p style="margin-top: 18px;"><strong>Rolled-up summary across all categories:</strong></p>
+  <div class="metric-row">
+    <div class="metric-card">
+      <div class="label">Weighted F1</div>
+      <div class="value">{{ "%.2f"|format(aggregate.weighted[2]) }}</div>
+      <div class="sub">precision = {{ "%.2f"|format(aggregate.weighted[0]) }} · recall = {{ "%.2f"|format(aggregate.weighted[1]) }}</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">Micro F1</div>
+      <div class="value">{{ "%.2f"|format(aggregate.micro[2]) }}</div>
+      <div class="sub">precision = {{ "%.2f"|format(aggregate.micro[0]) }} · recall = {{ "%.2f"|format(aggregate.micro[1]) }}</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">Macro F1</div>
+      <div class="value">{{ "%.2f"|format(aggregate.macro[2]) }}</div>
+      <div class="sub">precision = {{ "%.2f"|format(aggregate.macro[0]) }} · recall = {{ "%.2f"|format(aggregate.macro[1]) }}</div>
+    </div>
+  </div>
+  <p class="muted">
+    Weighted F1 is the most defensible single headline on this dataset (class
+    imbalance is real). Macro drops because half the categories have 0 or 1 human
+    labels — there's not enough data to fairly judge AI on them.
+  </p>
+
+  <h2>Where did AI and humans agree and disagree?</h2>
+  <p>
+    Each row is what the <strong>human</strong> said about a sentence; each column
+    is what the <strong>AI</strong> said. A cell counts sentences that fell into
+    that combination. Dark = many sentences, light = few or none.
+  </p>
+  <ul>
+    <li><strong>Diagonal cells</strong> = both sides picked the same category. <em>(Agreement.)</em></li>
+    <li><strong>Top <code>none</code> row</strong> = AI tagged a sentence the human did not. <em>(Over-tagging.)</em></li>
+    <li><strong>Left <code>none</code> column</strong> = human tagged a sentence the AI ignored. <em>(Misses.)</em></li>
+    <li><strong>Other off-diagonal cells</strong> = both sides tagged but disagreed on category. <em>(Categorization confusion.)</em></li>
+  </ul>
+  <div class="plotly-fig">{{ confusion_fig_html | safe }}</div>
+  <p>{{ confusion_interpretation | safe }}</p>
+
+  <h2>Where is AI over-tagging?</h2>
+  <p>
+    For sentences the human did <em>not</em> label, which categories did the AI
+    reach for? These are the most direct prompt-tuning targets.
+  </p>
+  <div class="plotly-fig">{{ fp_fig_html | safe }}</div>
+
+  <h2>A note on mitigation strength</h2>
+  <p>
+    When both sides flagged a sentence as a Risk Mitigation, humans used strength
+    {{ human_strength_levels }} and AI used strength {{ ai_strength_levels }}. The
+    two sides aren't reading the rubric the same way — humans calibrate lower
+    ("commitment / intention" → strength 1) and AI calibrates higher ("claims of
+    implementation" → strength 2). This is a separate fix from the detection
+    over-tagging surfaced above.
+  </p>
+
+  <h2>Export</h2>
+  <a class="csv-button" href="evaluation_per_sentence.csv" download>
+    Download per-sentence comparison (CSV)
+  </a>
+
+</main>
+{% endblock %}

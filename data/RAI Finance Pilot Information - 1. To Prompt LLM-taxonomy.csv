@@ -1,0 +1,84 @@
+"Harm/Risk or Mitigation?
+***Our observation from pilot: Annotations of mitigations will mostly like follow a risk annotation. ",Category Harm or Risk or Mitigation,Subcategory,Description and/or Examples,"Strength of the Mitigation
+1-3
+1: Below Average --> Commitment / intention / Planning to do it
+2: Average --> Claims to have implemented it, but vaguely explained or not explained
+3: Above Average --> Lists explicitly specific steps or names a framework"
+Risk,Legal,Litigation,"10ks have to disclose this as a risk;
+we're including it as a separate category instead of risk because it probably impacts financial materiality negatively
+whereas we're hoping disclosuring of RAI risks and mitigations will impact financial materiality positively (aka reward disclosure/honesty about things not required by SEC; though by those standards, the risks are technically something that SEC requires them to provide for investors to make informed decisions)",n/a
+Risk,Legal,IP & Copyright,"Violation of IP & Copyright specifically, whether directly, or through use of models/tools trained on data that violate these",n/a
+Risk,Legal,Compliance Costs,Costs or other burdens company takes on to meet compliance requirements for policy/regulation/law like EU AI Act,n/a
+Risk,Legal,Uncertainty & Complexity,"Other legal risks not specified around IP, Copyright, or Compliance. For example:
+1. regulatory uncertainty and complexity
+2. legal uncertainty and complexity
+3. Potential legal actions or liability they may face e.g., being subject to legal action for AI adoption/development, governance failure (lack of having governance/accountability frameworks)",n/a
+Risk,Legal,Other,Legal risks not specified above. We should discuss this as a group to determine correct subcategories,n/a
+Risk,Competitive,Investment Cost & Uncertainty,"Large (and maybe unknown) investment/cost needed to get AI-ready, or to create sophisticated AI",n/a
+Risk,Competitive,Market Share Uncertainty,"Language describing market share uncertainty, for example:
+1. AI Innovation Race and Rapid Development Pressure
+2. Fear of falling behind
+3. Loss of market share",n/a
+Risk,Competitive,Other,Competitive risks not specified above. We should discuss this as a group to determine correct subcategories,n/a
+Risk,Reputational,Individual or Organizational Reputation,"Risk of causing negative perception of company or individual, for example:
+1. Negative PR events of AI use/development that lead to negative perceptions
+2. Reputational risk of individuals (libel if malicious actor uses against someone?)
+3. Creation of AI systems that have low system capability or robustness, performing with many errors, leading to lower perception of reputation",n/a
+Risk,Reputational,Other ,Reputational risks not specified above. We should discuss this as a group to determine correct subcategories,n/a
+Risk,Sociotechnical,Environmental,"Use of water, natural resources, pollution that's created. For example, increased utilization/build of data centers and energy consumption would go under this.",n/a
+Risk,Sociotechnical,Malicious Actors / Misuse,"Examples include:
+1. Toxic content, hate speech: e.g., AI tools generate content that includes/spreads toxic content/hate speech
+2. Misinformation: e.g., AI tools they use create or spread misinformation; and/or AI tools they develop create or spread misinformation
+3. Malicious actors/misuse: e.g., Powerful AI capabilities can be misused by actors for harms: Disinformation, surveillance, and influence at scale, Cyberattacks, weapon development or use, and mass harm, Fraud, scams, and targeted manipulation
+4. Dangerous AI capabilities/sentience: e.g., AI pursuing its own goals in conflict with human goals or values",n/a
+Risk,Sociotechnical,Human-centered,"Examples include:
+1. Human well-being: e.g., Physical (injury/death), psychological (mental health)
+2. Human Autonomy: e.g., Overreliance and unsafe use, Loss of human agency and autonomy
+3. Human Rights & Welfare: e.g., Civil, political, economic, social, and cultural human rights
+4. Human Culture & Humanistic Values: e.g., Devaluation of human effort, humanistic pursuits, culture
+5. Discrimination: e.g., Acknowledges AI they use can cause discriminatory outcomes; or AI they develop can cause discriminatory outcomes
+of individuals, of communities
+6. Socioeconomic: e.g., Displacement of communities, Power centralization and unfair distribution of benefits, Increased inequality and decline in employment quality",
+Risk,Sociotechnical,Privacy & Security,"Examples include:
+1. Privacy breaches: Compromise of privacy by obtaining, leaking or correctly inferring sensitive information (data)
+2. Security vulnerabilities: hackers; AI system may increase security vulnerabilities and attacks
+AI systems leave them vulnerable to malicious actors who hack systems for cyberattacks, fraud, scams
+3. (In)transparency of AI: Lack of interpretability or transparency of a system being adopted or built
+
+Privacy is often related to data and user privacy; privacy and security often go hand in hand",n/a
+Risk,Sociotechnical,Other,Sociotechnical risks not specified above. We should discuss this as a group to determine correct subcategories,n/a
+Risk,"AI Safety (General, Broad)",-,If the sentence/clause just generally says AI can increase safety risks or other general risks,n/a
+Risk Mitigation,Governance & Oversight,Board Structure & Oversight,"Someone on the executive or advisory board (or some equivalent) is denoted as having AI expertise (strength: 2) and/or responsible AI expertise (strength: 3), or that they'll add someone (strength: 1)",
+Risk Mitigation,Governance & Oversight,Overall Risk Management & Governance Plan,"Describes effort to overall manage risk (any: e.g., privacy, security, IP, general) and/or employ a governance framework:
+Strength 1: commitment or intention to do this
+Strength 2: claims to have done it (we are mitigating risk)
+Strength 3: provides concrete steps, states what framework they are using, or provides evidence elsewhere of a report/document that details this.
+**Worker training to use AI safely = counts as an example of this category+subcategory
+**Contractual requirements for how 3rd parties use their tech falls here too for overall risk management",
+Risk Mitigation,Governance & Oversight,Whistleblower Protections or Conflict of Interest Disclosures,"Importance of protecting whistleblowers or importance of sharing COI (strength: 1)
+That they protect whistleblowers or that they disclosure COI (strength: 2)
+Explanation on how/that these individuals rights are irrevocably protected / how COI is disclosed (strength: 3)",
+Risk Mitigation,Environmental Impact,Environmental Impact Mitigation,"Acknowledgement/commitment for mitigating harm to physical environment from AI use/development (strength: 1)
+That they're doing it but not how (strength: 2)
+Protocols for how they are trying to mitigate harm to the physical environment from AI use/development (strength: 3)",
+Risk Mitigation,Societal Impact,Design for AI-Human Value Alignment,AI/ML models created are designed to align with human values,
+Risk Mitigation,Societal Impact,Societal Impact Assessment,"Has assessed AI/ML models using impact assessment frameworks to mitigate harms on aspects related to human rights, employment/labor, equality (including power dynamics, power distribution), income (economic divide), resource access (digital divide), and culture",
+Risk Mitigation,Societal Impact,Education / Public Goodwill,Education for the public to engage with AI responsibly,
+Risk Mitigation,Technical & Security Controls,AI Capabilities Safeguards,"Safeguards for capabilities restrictions, robustness in performance",
+Risk Mitigation,Technical & Security Controls,AI-Generated Content,"Measures to detect, track, resolve AI-generated content (hate speech, discriminatory content)",
+Risk Mitigation,Technical & Security Controls,"AI Security, Privacy, and Data Protections","Security and privacy measures to protect user (data) privacy and system access e.g., hacking or other unauthorized access to the system through, 
+1. multi-authentication protocols
+2. compliance with information security standards
+Combining for now with Data Governance because of data + user data privacy overlap. Data Governance can be understood as: ""Commitment to or specific ""policies and procedures that govern responsible data acquisition, curation, and usage to ensure compliance, quality, user privacy, and removal of harmful content.""",
+Risk Mitigation,Operational Process Controls,Testing & Auditing,"Commitment to or protocols for auditing, bug bounty programs (e.g., white hat hackers), red-teaming of their models for AI they are deploying or building",
+Risk Mitigation,Operational Process Controls,System Access Management,"Commitment to or specific ""Operational policies and verification systems that govern who can use AI systems and for what purposes to prevent safety circumvention, deliberate misuse, and deployment in high-risk contexts.""",
+Risk Mitigation,Operational Process Controls,Post-deployment Monitoring,Commitment to or specific procedures for post-AI deployment performance / harm monitoring; and a plan for how to respond to incidents that occur,
+Risk Mitigation,Operational Process Controls,"Incident Monitoring, Response, and Recovery","Monitoring: Commitment to or specific procedures for post-AI deployment performance / harm monitoring; and a plan for how to respond to incidents that occur
+Incident Response and Recovery: Commitment to or specific procedures for how to respond to incidents that occur
+
+**This is also combined with Transparency & Accountability 4.3: ""Formal processes and protocols that document and share AI safety incidents, security breaches, near-misses, and relevant threat intelligence with appropriate stakeholders to enable coordinated responses and systemic improvements."" <--if they have this, it's a strength of 5",
+Risk Mitigation,Transparency,System Documentation,Formal disclosure practices and verification mechanisms that communicate AI system information and enable external scrutiny.        ,
+Risk Mitigation,Transparency,Third-Party System Access for Assessment,"Mechanisms granting controlled system access to vetted external parties to enable independent assessment, validation, and safety research of AI models and capabilities.
+**if they mention letting third parties access and audit for safety/risks --> use this to categorize alongside auditing
+**if they mention having contractual requirements for how third parties can use their tech --> use governance, overall risk mitigation to categorize",
+Risk Mitigation,Transparency,User Rights & Recourse,"Frameworks and procedures that enable users to identify and understand AI system interactions, report issues, request explanations, and seek recourse or remediation when affected by AI systems.",

@@ -1,0 +1,10 @@
+{
+  "id": "keyword_per_sentence",
+  "name": "Keyword filter + per-sentence (no context)",
+  "description": "Filter sentences using the same AI vocabulary. Each matched sentence is sent to the LLM by itself with no neighbor context — one LLM call per matched sentence.",
+  "chunker": "keyword_per_sentence",
+  "chunker_params": {},
+  "model": "gpt-5.4-mini",
+  "n_chunks": 587,
+  "created_at": "2026-06-15T12:28:32"
+}

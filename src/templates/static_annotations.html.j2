@@ -1,0 +1,217 @@
+{% extends "static_base.html.j2" %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+<style>
+  .ann-counts {
+    padding: 12px 24px 8px;
+    font-size: 14px;
+    color: #1c1917;
+  }
+  .ann-counts strong { font-weight: 600; }
+  .ann-counts .muted { color: #57534e; }
+
+  .ann-wrapper {
+    padding: 12px 24px 32px;
+    background: transparent;
+  }
+  .ann-wrapper table.dataTable {
+    background: white;
+    border: 1px solid #e7e5e4;
+    border-radius: 6px;
+    font-size: 13px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100% !important;
+  }
+  .ann-wrapper table.dataTable thead th {
+    background: #f5f5f4;
+    color: #1c1917;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 1px solid #e7e5e4;
+    padding: 8px 10px;
+  }
+  .ann-wrapper table.dataTable tbody td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #f5f5f4;
+    color: #1c1917;
+    vertical-align: top;
+  }
+  .ann-wrapper table.dataTable tbody tr:hover td { background: #fafaf9; }
+
+  /* Source pills in table */
+  .src-pill {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+  }
+  .src-pill.ai      { background: #2563eb; }
+  .src-pill.human   { background: #ea580c; }
+  .src-pill.coder-a { background: #ea580c; }
+  .src-pill.coder-b { background: #9333ea; }
+
+  .anchor-cell { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: #44403c; white-space: nowrap; }
+  .strength-cell { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .sentence-cell { color: #1c1917; max-width: 480px; }
+
+  /* Toolbar row above the table: filter pills + CSV download */
+  .ann-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 8px 24px 4px;
+  }
+  .filter-group { display: inline-flex; gap: 6px; align-items: center; }
+  .filter-group .label { font-size: 13px; color: #57534e; margin-right: 4px; }
+  .filter-pill {
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 999px;
+    border: 1px solid #d6d3d1;
+    background: white;
+    color: #44403c;
+    cursor: pointer;
+    transition: background 100ms, color 100ms, border-color 100ms;
+    user-select: none;
+  }
+  .filter-pill:hover { background: #f5f5f4; }
+  .filter-pill.active { color: white; border-color: transparent; }
+  .filter-pill.active[data-filter="all"]      { background: #1c1917; }
+  .filter-pill.active[data-filter="ai"]       { background: #2563eb; }
+  .filter-pill.active[data-filter="coder-a"]  { background: #ea580c; }
+  .filter-pill.active[data-filter="coder-b"]  { background: #9333ea; }
+
+  .download-group { display: inline-flex; gap: 6px; align-items: center; }
+  .download-group .label { font-size: 13px; color: #57534e; margin-right: 4px; }
+  a.csv-download {
+    display: inline-flex; align-items: center;
+    padding: 5px 12px; font-size: 12px; font-weight: 500;
+    color: white; text-decoration: none; border-radius: 6px;
+    border: 1px solid transparent;
+  }
+  a.csv-download.all    { background: #1c1917; }
+  a.csv-download:hover  { filter: brightness(0.9); }
+
+  /* DataTables controls */
+  .dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #d6d3d1;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 6px;
+  }
+  .dataTables_wrapper .dataTables_length select {
+    border: 1px solid #d6d3d1;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin: 0 4px;
+  }
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_paginate { color: #44403c; font-size: 13px; }
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 4px 10px;
+    margin-left: 2px;
+    border-radius: 4px;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="ann-counts">
+  <strong>{{ rows | length }} annotations</strong> —
+  <span class="muted">AI {{ counts.ai_total }} ({{ counts.ai_unmatched }} unmatched) · A {{ counts.human_a_total }} · B {{ counts.human_b_total }} ({{ counts.human_unmatched }} unmatched)</span>
+</div>
+
+<div class="ann-toolbar">
+  <div class="filter-group">
+    <span class="label">Filter:</span>
+    <button class="filter-pill active" data-filter="all">All</button>
+    <button class="filter-pill" data-filter="ai">AI only</button>
+    <button class="filter-pill" data-filter="coder-a">{{ coder_a_name or "Coder A" }}</button>
+    <button class="filter-pill" data-filter="coder-b">{{ coder_b_name or "Coder B" }}</button>
+  </div>
+  <div class="download-group">
+    <span class="label">Download:</span>
+    <a class="csv-download all" href="all_annotations.csv" download>CSV</a>
+  </div>
+</div>
+
+<div class="ann-wrapper">
+  <table id="ann-table" class="display compact" style="width:100%">
+    <thead>
+      <tr>
+        <th>Source</th>
+        <th>Coder</th>
+        <th>Anchor</th>
+        <th>Sentence (first 120 chars)</th>
+        <th>Type</th>
+        <th>Category</th>
+        <th>Subcategory</th>
+        <th>Strength</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+        {% if r.Source == 'AI' %}
+          {% set src_class = 'ai' %}{% set row_filter = 'ai' %}
+        {% elif r.Coder and r.Coder.startswith('A') %}
+          {% set src_class = 'coder-a' %}{% set row_filter = 'coder-a' %}
+        {% else %}
+          {% set src_class = 'coder-b' %}{% set row_filter = 'coder-b' %}
+        {% endif %}
+      <tr data-row-filter="{{ row_filter }}">
+        <td><span class="src-pill {{ src_class }}">{{ r.Source }}</span></td>
+        <td>{{ r.Coder }}</td>
+        <td class="anchor-cell">{{ r["Anchor ID"] }}</td>
+        <td class="sentence-cell">{{ r.Sentence }}</td>
+        <td>{{ r.Type }}</td>
+        <td>{{ r.Category }}</td>
+        <td>{{ r.Subcategory }}</td>
+        <td class="strength-cell">{% if r.Strength is not none %}{{ r.Strength }}/3{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+<script>
+$(function() {
+  let activeFilter = 'all';
+  $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+    if (settings.nTable.id !== 'ann-table') return true;
+    if (activeFilter === 'all') return true;
+    const tr = settings.aoData[dataIndex].nTr;
+    return tr && tr.getAttribute('data-row-filter') === activeFilter;
+  });
+
+  const table = $('#ann-table').DataTable({
+    pageLength: 50,
+    lengthMenu: [25, 50, 100, 250, { label: 'All', value: -1 }],
+    order: [],
+    columnDefs: [
+      { targets: 0, width: '60px' },
+      { targets: 1, width: '120px' },
+      { targets: 2, width: '80px' },
+      { targets: 3, width: '480px' },
+      { targets: 7, width: '70px' }
+    ]
+  });
+
+  $('.filter-pill').on('click', function() {
+    activeFilter = $(this).data('filter');
+    $('.filter-pill').removeClass('active');
+    $(this).addClass('active');
+    table.draw();
+  });
+});
+</script>
+{% endblock %}

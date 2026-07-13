@@ -1,0 +1,4171 @@
+[
+  {
+    "sentence_idx": 16,
+    "anchor_id": "s-00016",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 63,
+    "anchor_id": "s-00063",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 71,
+    "anchor_id": "s-00071",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 72,
+    "anchor_id": "s-00072",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 75,
+    "anchor_id": "s-00075",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 76,
+    "anchor_id": "s-00076",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 77,
+    "anchor_id": "s-00077",
+    "matched_terms": [
+      "artificial intelligence",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 84,
+    "anchor_id": "s-00084",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 86,
+    "anchor_id": "s-00086",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 90,
+    "anchor_id": "s-00090",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 94,
+    "anchor_id": "s-00094",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 97,
+    "anchor_id": "s-00097",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 106,
+    "anchor_id": "s-00106",
+    "matched_terms": [
+      "AI",
+      "AI-first"
+    ]
+  },
+  {
+    "sentence_idx": 107,
+    "anchor_id": "s-00107",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 110,
+    "anchor_id": "s-00110",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 118,
+    "anchor_id": "s-00118",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 122,
+    "anchor_id": "s-00122",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 123,
+    "anchor_id": "s-00123",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 124,
+    "anchor_id": "s-00124",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 125,
+    "anchor_id": "s-00125",
+    "matched_terms": [
+      "AI",
+      "multimodal AI"
+    ]
+  },
+  {
+    "sentence_idx": 127,
+    "anchor_id": "s-00127",
+    "matched_terms": [
+      "ml"
+    ]
+  },
+  {
+    "sentence_idx": 128,
+    "anchor_id": "s-00128",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 129,
+    "anchor_id": "s-00129",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 130,
+    "anchor_id": "s-00130",
+    "matched_terms": [
+      "AI-optimized",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 131,
+    "anchor_id": "s-00131",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 134,
+    "anchor_id": "s-00134",
+    "matched_terms": [
+      "Responsible AI"
+    ]
+  },
+  {
+    "sentence_idx": 135,
+    "anchor_id": "s-00135",
+    "matched_terms": [
+      "ai",
+      "responsible AI",
+      "AI-optimized",
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 136,
+    "anchor_id": "s-00136",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 137,
+    "anchor_id": "s-00137",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 138,
+    "anchor_id": "s-00138",
+    "matched_terms": [
+      "AI-optimized",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 139,
+    "anchor_id": "s-00139",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 140,
+    "anchor_id": "s-00140",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 141,
+    "anchor_id": "s-00141",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 142,
+    "anchor_id": "s-00142",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 144,
+    "anchor_id": "s-00144",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 146,
+    "anchor_id": "s-00146",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 147,
+    "anchor_id": "s-00147",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 148,
+    "anchor_id": "s-00148",
+    "matched_terms": [
+      "AI",
+      "ai",
+      "generative AI"
+    ]
+  },
+  {
+    "sentence_idx": 149,
+    "anchor_id": "s-00149",
+    "matched_terms": [
+      "AI agents",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 151,
+    "anchor_id": "s-00151",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 152,
+    "anchor_id": "s-00152",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 153,
+    "anchor_id": "s-00153",
+    "matched_terms": [
+      "generative AI"
+    ]
+  },
+  {
+    "sentence_idx": 154,
+    "anchor_id": "s-00154",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 159,
+    "anchor_id": "s-00159",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 160,
+    "anchor_id": "s-00160",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 162,
+    "anchor_id": "s-00162",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 163,
+    "anchor_id": "s-00163",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 164,
+    "anchor_id": "s-00164",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 170,
+    "anchor_id": "s-00170",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 171,
+    "anchor_id": "s-00171",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 172,
+    "anchor_id": "s-00172",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 173,
+    "anchor_id": "s-00173",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 184,
+    "anchor_id": "s-00184",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 191,
+    "anchor_id": "s-00191",
+    "matched_terms": [
+      "Large language models"
+    ]
+  },
+  {
+    "sentence_idx": 193,
+    "anchor_id": "s-00193",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 201,
+    "anchor_id": "s-00201",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 205,
+    "anchor_id": "s-00205",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 206,
+    "anchor_id": "s-00206",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 207,
+    "anchor_id": "s-00207",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 209,
+    "anchor_id": "s-00209",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 214,
+    "anchor_id": "s-00214",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 224,
+    "anchor_id": "s-00224",
+    "matched_terms": [
+      "AI-optimized",
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 225,
+    "anchor_id": "s-00225",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 226,
+    "anchor_id": "s-00226",
+    "matched_terms": [
+      "AI",
+      "ai",
+      "generative AI"
+    ]
+  },
+  {
+    "sentence_idx": 227,
+    "anchor_id": "s-00227",
+    "matched_terms": [
+      "vector search"
+    ]
+  },
+  {
+    "sentence_idx": 228,
+    "anchor_id": "s-00228",
+    "matched_terms": [
+      "Cybersecurity",
+      "AI",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 230,
+    "anchor_id": "s-00230",
+    "matched_terms": [
+      "AI agents"
+    ]
+  },
+  {
+    "sentence_idx": 231,
+    "anchor_id": "s-00231",
+    "matched_terms": [
+      "machine learning",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 233,
+    "anchor_id": "s-00233",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 234,
+    "anchor_id": "s-00234",
+    "matched_terms": [
+      "AI-powered",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 240,
+    "anchor_id": "s-00240",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 251,
+    "anchor_id": "s-00251",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 258,
+    "anchor_id": "s-00258",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 259,
+    "anchor_id": "s-00259",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 264,
+    "anchor_id": "s-00264",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 267,
+    "anchor_id": "s-00267",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 269,
+    "anchor_id": "s-00269",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 270,
+    "anchor_id": "s-00270",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 277,
+    "anchor_id": "s-00277",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 280,
+    "anchor_id": "s-00280",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 286,
+    "anchor_id": "s-00286",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 287,
+    "anchor_id": "s-00287",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 289,
+    "anchor_id": "s-00289",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 299,
+    "anchor_id": "s-00299",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 300,
+    "anchor_id": "s-00300",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 302,
+    "anchor_id": "s-00302",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 306,
+    "anchor_id": "s-00306",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 307,
+    "anchor_id": "s-00307",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 308,
+    "anchor_id": "s-00308",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 310,
+    "anchor_id": "s-00310",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 312,
+    "anchor_id": "s-00312",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 313,
+    "anchor_id": "s-00313",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 315,
+    "anchor_id": "s-00315",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 316,
+    "anchor_id": "s-00316",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 317,
+    "anchor_id": "s-00317",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 319,
+    "anchor_id": "s-00319",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 327,
+    "anchor_id": "s-00327",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 328,
+    "anchor_id": "s-00328",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 329,
+    "anchor_id": "s-00329",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 330,
+    "anchor_id": "s-00330",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 334,
+    "anchor_id": "s-00334",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 343,
+    "anchor_id": "s-00343",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 346,
+    "anchor_id": "s-00346",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 347,
+    "anchor_id": "s-00347",
+    "matched_terms": [
+      "generative AI",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 348,
+    "anchor_id": "s-00348",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 349,
+    "anchor_id": "s-00349",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 350,
+    "anchor_id": "s-00350",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 351,
+    "anchor_id": "s-00351",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 352,
+    "anchor_id": "s-00352",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 355,
+    "anchor_id": "s-00355",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 360,
+    "anchor_id": "s-00360",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 365,
+    "anchor_id": "s-00365",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 368,
+    "anchor_id": "s-00368",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 369,
+    "anchor_id": "s-00369",
+    "matched_terms": [
+      "ai",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 373,
+    "anchor_id": "s-00373",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 377,
+    "anchor_id": "s-00377",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 386,
+    "anchor_id": "s-00386",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 393,
+    "anchor_id": "s-00393",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 395,
+    "anchor_id": "s-00395",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 396,
+    "anchor_id": "s-00396",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 397,
+    "anchor_id": "s-00397",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 398,
+    "anchor_id": "s-00398",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 404,
+    "anchor_id": "s-00404",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 407,
+    "anchor_id": "s-00407",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 409,
+    "anchor_id": "s-00409",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 410,
+    "anchor_id": "s-00410",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 411,
+    "anchor_id": "s-00411",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 412,
+    "anchor_id": "s-00412",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 413,
+    "anchor_id": "s-00413",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 414,
+    "anchor_id": "s-00414",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 415,
+    "anchor_id": "s-00415",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 416,
+    "anchor_id": "s-00416",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 418,
+    "anchor_id": "s-00418",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 420,
+    "anchor_id": "s-00420",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 421,
+    "anchor_id": "s-00421",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 422,
+    "anchor_id": "s-00422",
+    "matched_terms": [
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 425,
+    "anchor_id": "s-00425",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 426,
+    "anchor_id": "s-00426",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 427,
+    "anchor_id": "s-00427",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 428,
+    "anchor_id": "s-00428",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 433,
+    "anchor_id": "s-00433",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 434,
+    "anchor_id": "s-00434",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 435,
+    "anchor_id": "s-00435",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 436,
+    "anchor_id": "s-00436",
+    "matched_terms": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "sentence_idx": 437,
+    "anchor_id": "s-00437",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 438,
+    "anchor_id": "s-00438",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 439,
+    "anchor_id": "s-00439",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 441,
+    "anchor_id": "s-00441",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 442,
+    "anchor_id": "s-00442",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 450,
+    "anchor_id": "s-00450",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 452,
+    "anchor_id": "s-00452",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 453,
+    "anchor_id": "s-00453",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 458,
+    "anchor_id": "s-00458",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 459,
+    "anchor_id": "s-00459",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 460,
+    "anchor_id": "s-00460",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 461,
+    "anchor_id": "s-00461",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 462,
+    "anchor_id": "s-00462",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 469,
+    "anchor_id": "s-00469",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 474,
+    "anchor_id": "s-00474",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 475,
+    "anchor_id": "s-00475",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 476,
+    "anchor_id": "s-00476",
+    "matched_terms": [
+      "AI",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 477,
+    "anchor_id": "s-00477",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 478,
+    "anchor_id": "s-00478",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 479,
+    "anchor_id": "s-00479",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 480,
+    "anchor_id": "s-00480",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 487,
+    "anchor_id": "s-00487",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 488,
+    "anchor_id": "s-00488",
+    "matched_terms": [
+      "AI",
+      "AI-centric"
+    ]
+  },
+  {
+    "sentence_idx": 490,
+    "anchor_id": "s-00490",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 492,
+    "anchor_id": "s-00492",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 493,
+    "anchor_id": "s-00493",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 495,
+    "anchor_id": "s-00495",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 496,
+    "anchor_id": "s-00496",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 498,
+    "anchor_id": "s-00498",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 503,
+    "anchor_id": "s-00503",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 507,
+    "anchor_id": "s-00507",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 508,
+    "anchor_id": "s-00508",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 509,
+    "anchor_id": "s-00509",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 511,
+    "anchor_id": "s-00511",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 527,
+    "anchor_id": "s-00527",
+    "matched_terms": [
+      "ml"
+    ]
+  },
+  {
+    "sentence_idx": 528,
+    "anchor_id": "s-00528",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 532,
+    "anchor_id": "s-00532",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 536,
+    "anchor_id": "s-00536",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 539,
+    "anchor_id": "s-00539",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 540,
+    "anchor_id": "s-00540",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 542,
+    "anchor_id": "s-00542",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 543,
+    "anchor_id": "s-00543",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 545,
+    "anchor_id": "s-00545",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 549,
+    "anchor_id": "s-00549",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 552,
+    "anchor_id": "s-00552",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 555,
+    "anchor_id": "s-00555",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 556,
+    "anchor_id": "s-00556",
+    "matched_terms": [
+      "EU AI Act",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 557,
+    "anchor_id": "s-00557",
+    "matched_terms": [
+      "EU AI Act",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 558,
+    "anchor_id": "s-00558",
+    "matched_terms": [
+      "ai",
+      "AI",
+      "Artificial Intelligence",
+      "foundation models"
+    ]
+  },
+  {
+    "sentence_idx": 559,
+    "anchor_id": "s-00559",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 560,
+    "anchor_id": "s-00560",
+    "matched_terms": [
+      "deepfake",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 563,
+    "anchor_id": "s-00563",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 567,
+    "anchor_id": "s-00567",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 568,
+    "anchor_id": "s-00568",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 571,
+    "anchor_id": "s-00571",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 573,
+    "anchor_id": "s-00573",
+    "matched_terms": [
+      "AI",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 574,
+    "anchor_id": "s-00574",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 577,
+    "anchor_id": "s-00577",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 578,
+    "anchor_id": "s-00578",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 579,
+    "anchor_id": "s-00579",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 591,
+    "anchor_id": "s-00591",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 595,
+    "anchor_id": "s-00595",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 596,
+    "anchor_id": "s-00596",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 598,
+    "anchor_id": "s-00598",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 605,
+    "anchor_id": "s-00605",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 607,
+    "anchor_id": "s-00607",
+    "matched_terms": [
+      "AI",
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 608,
+    "anchor_id": "s-00608",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 613,
+    "anchor_id": "s-00613",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 614,
+    "anchor_id": "s-00614",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 617,
+    "anchor_id": "s-00617",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 618,
+    "anchor_id": "s-00618",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 620,
+    "anchor_id": "s-00620",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 621,
+    "anchor_id": "s-00621",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 622,
+    "anchor_id": "s-00622",
+    "matched_terms": [
+      "ai",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 623,
+    "anchor_id": "s-00623",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 625,
+    "anchor_id": "s-00625",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 627,
+    "anchor_id": "s-00627",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 628,
+    "anchor_id": "s-00628",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 629,
+    "anchor_id": "s-00629",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 630,
+    "anchor_id": "s-00630",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 633,
+    "anchor_id": "s-00633",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 634,
+    "anchor_id": "s-00634",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 636,
+    "anchor_id": "s-00636",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 638,
+    "anchor_id": "s-00638",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 644,
+    "anchor_id": "s-00644",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 667,
+    "anchor_id": "s-00667",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 671,
+    "anchor_id": "s-00671",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 674,
+    "anchor_id": "s-00674",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 691,
+    "anchor_id": "s-00691",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 692,
+    "anchor_id": "s-00692",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 697,
+    "anchor_id": "s-00697",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 698,
+    "anchor_id": "s-00698",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 699,
+    "anchor_id": "s-00699",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 701,
+    "anchor_id": "s-00701",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 702,
+    "anchor_id": "s-00702",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 703,
+    "anchor_id": "s-00703",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 705,
+    "anchor_id": "s-00705",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 706,
+    "anchor_id": "s-00706",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 708,
+    "anchor_id": "s-00708",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 709,
+    "anchor_id": "s-00709",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 710,
+    "anchor_id": "s-00710",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 711,
+    "anchor_id": "s-00711",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 712,
+    "anchor_id": "s-00712",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 713,
+    "anchor_id": "s-00713",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 716,
+    "anchor_id": "s-00716",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 720,
+    "anchor_id": "s-00720",
+    "matched_terms": [
+      "CYBERSECURITY"
+    ]
+  },
+  {
+    "sentence_idx": 721,
+    "anchor_id": "s-00721",
+    "matched_terms": [
+      "ai",
+      "agi",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 722,
+    "anchor_id": "s-00722",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 723,
+    "anchor_id": "s-00723",
+    "matched_terms": [
+      "ai",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 724,
+    "anchor_id": "s-00724",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 725,
+    "anchor_id": "s-00725",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 726,
+    "anchor_id": "s-00726",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 727,
+    "anchor_id": "s-00727",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 734,
+    "anchor_id": "s-00734",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 736,
+    "anchor_id": "s-00736",
+    "matched_terms": [
+      "ai",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 737,
+    "anchor_id": "s-00737",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 738,
+    "anchor_id": "s-00738",
+    "matched_terms": [
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 740,
+    "anchor_id": "s-00740",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 741,
+    "anchor_id": "s-00741",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 769,
+    "anchor_id": "s-00769",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 806,
+    "anchor_id": "s-00806",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 812,
+    "anchor_id": "s-00812",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 815,
+    "anchor_id": "s-00815",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 820,
+    "anchor_id": "s-00820",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 823,
+    "anchor_id": "s-00823",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 824,
+    "anchor_id": "s-00824",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 833,
+    "anchor_id": "s-00833",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 842,
+    "anchor_id": "s-00842",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 843,
+    "anchor_id": "s-00843",
+    "matched_terms": [
+      "data center",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 844,
+    "anchor_id": "s-00844",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 845,
+    "anchor_id": "s-00845",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 847,
+    "anchor_id": "s-00847",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 868,
+    "anchor_id": "s-00868",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 871,
+    "anchor_id": "s-00871",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 872,
+    "anchor_id": "s-00872",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 873,
+    "anchor_id": "s-00873",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 876,
+    "anchor_id": "s-00876",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 877,
+    "anchor_id": "s-00877",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 881,
+    "anchor_id": "s-00881",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 894,
+    "anchor_id": "s-00894",
+    "matched_terms": [
+      "AI",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 895,
+    "anchor_id": "s-00895",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 903,
+    "anchor_id": "s-00903",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 908,
+    "anchor_id": "s-00908",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 910,
+    "anchor_id": "s-00910",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 917,
+    "anchor_id": "s-00917",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 921,
+    "anchor_id": "s-00921",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 925,
+    "anchor_id": "s-00925",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 926,
+    "anchor_id": "s-00926",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 928,
+    "anchor_id": "s-00928",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 930,
+    "anchor_id": "s-00930",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 933,
+    "anchor_id": "s-00933",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 942,
+    "anchor_id": "s-00942",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 951,
+    "anchor_id": "s-00951",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 977,
+    "anchor_id": "s-00977",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 978,
+    "anchor_id": "s-00978",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 983,
+    "anchor_id": "s-00983",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 994,
+    "anchor_id": "s-00994",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1011,
+    "anchor_id": "s-01011",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1013,
+    "anchor_id": "s-01013",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1020,
+    "anchor_id": "s-01020",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1029,
+    "anchor_id": "s-01029",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1030,
+    "anchor_id": "s-01030",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1032,
+    "anchor_id": "s-01032",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1045,
+    "anchor_id": "s-01045",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1048,
+    "anchor_id": "s-01048",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1049,
+    "anchor_id": "s-01049",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1051,
+    "anchor_id": "s-01051",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1052,
+    "anchor_id": "s-01052",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1096,
+    "anchor_id": "s-01096",
+    "matched_terms": [
+      "AI",
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 1100,
+    "anchor_id": "s-01100",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 1102,
+    "anchor_id": "s-01102",
+    "matched_terms": [
+      "data center",
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 1107,
+    "anchor_id": "s-01107",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1119,
+    "anchor_id": "s-01119",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1125,
+    "anchor_id": "s-01125",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1129,
+    "anchor_id": "s-01129",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1134,
+    "anchor_id": "s-01134",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1137,
+    "anchor_id": "s-01137",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1139,
+    "anchor_id": "s-01139",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1148,
+    "anchor_id": "s-01148",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1151,
+    "anchor_id": "s-01151",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1155,
+    "anchor_id": "s-01155",
+    "matched_terms": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "sentence_idx": 1159,
+    "anchor_id": "s-01159",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1163,
+    "anchor_id": "s-01163",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1168,
+    "anchor_id": "s-01168",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1169,
+    "anchor_id": "s-01169",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1170,
+    "anchor_id": "s-01170",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1171,
+    "anchor_id": "s-01171",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1172,
+    "anchor_id": "s-01172",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1173,
+    "anchor_id": "s-01173",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1174,
+    "anchor_id": "s-01174",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1175,
+    "anchor_id": "s-01175",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1176,
+    "anchor_id": "s-01176",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1177,
+    "anchor_id": "s-01177",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1182,
+    "anchor_id": "s-01182",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1183,
+    "anchor_id": "s-01183",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1184,
+    "anchor_id": "s-01184",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1185,
+    "anchor_id": "s-01185",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1190,
+    "anchor_id": "s-01190",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1193,
+    "anchor_id": "s-01193",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1194,
+    "anchor_id": "s-01194",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1204,
+    "anchor_id": "s-01204",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1210,
+    "anchor_id": "s-01210",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1213,
+    "anchor_id": "s-01213",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1214,
+    "anchor_id": "s-01214",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1217,
+    "anchor_id": "s-01217",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1225,
+    "anchor_id": "s-01225",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1227,
+    "anchor_id": "s-01227",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1231,
+    "anchor_id": "s-01231",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1232,
+    "anchor_id": "s-01232",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1233,
+    "anchor_id": "s-01233",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1234,
+    "anchor_id": "s-01234",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1236,
+    "anchor_id": "s-01236",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1238,
+    "anchor_id": "s-01238",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1239,
+    "anchor_id": "s-01239",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1242,
+    "anchor_id": "s-01242",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1244,
+    "anchor_id": "s-01244",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1245,
+    "anchor_id": "s-01245",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1246,
+    "anchor_id": "s-01246",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1247,
+    "anchor_id": "s-01247",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1248,
+    "anchor_id": "s-01248",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1250,
+    "anchor_id": "s-01250",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1258,
+    "anchor_id": "s-01258",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1269,
+    "anchor_id": "s-01269",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1276,
+    "anchor_id": "s-01276",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1292,
+    "anchor_id": "s-01292",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1295,
+    "anchor_id": "s-01295",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1299,
+    "anchor_id": "s-01299",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1300,
+    "anchor_id": "s-01300",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1304,
+    "anchor_id": "s-01304",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1345,
+    "anchor_id": "s-01345",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1346,
+    "anchor_id": "s-01346",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1353,
+    "anchor_id": "s-01353",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1361,
+    "anchor_id": "s-01361",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1376,
+    "anchor_id": "s-01376",
+    "matched_terms": [
+      "AI",
+      "cybersecurity"
+    ]
+  },
+  {
+    "sentence_idx": 1377,
+    "anchor_id": "s-01377",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1387,
+    "anchor_id": "s-01387",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1392,
+    "anchor_id": "s-01392",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1397,
+    "anchor_id": "s-01397",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1399,
+    "anchor_id": "s-01399",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1416,
+    "anchor_id": "s-01416",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1417,
+    "anchor_id": "s-01417",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1419,
+    "anchor_id": "s-01419",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1420,
+    "anchor_id": "s-01420",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1421,
+    "anchor_id": "s-01421",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1422,
+    "anchor_id": "s-01422",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1423,
+    "anchor_id": "s-01423",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1424,
+    "anchor_id": "s-01424",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1429,
+    "anchor_id": "s-01429",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1430,
+    "anchor_id": "s-01430",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1432,
+    "anchor_id": "s-01432",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1433,
+    "anchor_id": "s-01433",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1434,
+    "anchor_id": "s-01434",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1441,
+    "anchor_id": "s-01441",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1442,
+    "anchor_id": "s-01442",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1443,
+    "anchor_id": "s-01443",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1444,
+    "anchor_id": "s-01444",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1445,
+    "anchor_id": "s-01445",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1446,
+    "anchor_id": "s-01446",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1461,
+    "anchor_id": "s-01461",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1463,
+    "anchor_id": "s-01463",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1464,
+    "anchor_id": "s-01464",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1465,
+    "anchor_id": "s-01465",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1466,
+    "anchor_id": "s-01466",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1467,
+    "anchor_id": "s-01467",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1473,
+    "anchor_id": "s-01473",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1478,
+    "anchor_id": "s-01478",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1482,
+    "anchor_id": "s-01482",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1484,
+    "anchor_id": "s-01484",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1489,
+    "anchor_id": "s-01489",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1492,
+    "anchor_id": "s-01492",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1493,
+    "anchor_id": "s-01493",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1494,
+    "anchor_id": "s-01494",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1495,
+    "anchor_id": "s-01495",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1497,
+    "anchor_id": "s-01497",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1500,
+    "anchor_id": "s-01500",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1501,
+    "anchor_id": "s-01501",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1502,
+    "anchor_id": "s-01502",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1503,
+    "anchor_id": "s-01503",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1517,
+    "anchor_id": "s-01517",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 1519,
+    "anchor_id": "s-01519",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 1521,
+    "anchor_id": "s-01521",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1522,
+    "anchor_id": "s-01522",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 1525,
+    "anchor_id": "s-01525",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1530,
+    "anchor_id": "s-01530",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1531,
+    "anchor_id": "s-01531",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1532,
+    "anchor_id": "s-01532",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1535,
+    "anchor_id": "s-01535",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1537,
+    "anchor_id": "s-01537",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1539,
+    "anchor_id": "s-01539",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1540,
+    "anchor_id": "s-01540",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1544,
+    "anchor_id": "s-01544",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1546,
+    "anchor_id": "s-01546",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1551,
+    "anchor_id": "s-01551",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1552,
+    "anchor_id": "s-01552",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1553,
+    "anchor_id": "s-01553",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1554,
+    "anchor_id": "s-01554",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1559,
+    "anchor_id": "s-01559",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1563,
+    "anchor_id": "s-01563",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1565,
+    "anchor_id": "s-01565",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1570,
+    "anchor_id": "s-01570",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1571,
+    "anchor_id": "s-01571",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1575,
+    "anchor_id": "s-01575",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1576,
+    "anchor_id": "s-01576",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1580,
+    "anchor_id": "s-01580",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1584,
+    "anchor_id": "s-01584",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1591,
+    "anchor_id": "s-01591",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1593,
+    "anchor_id": "s-01593",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1602,
+    "anchor_id": "s-01602",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1604,
+    "anchor_id": "s-01604",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1614,
+    "anchor_id": "s-01614",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1615,
+    "anchor_id": "s-01615",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1616,
+    "anchor_id": "s-01616",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1617,
+    "anchor_id": "s-01617",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1618,
+    "anchor_id": "s-01618",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1619,
+    "anchor_id": "s-01619",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1620,
+    "anchor_id": "s-01620",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1621,
+    "anchor_id": "s-01621",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1624,
+    "anchor_id": "s-01624",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1626,
+    "anchor_id": "s-01626",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1628,
+    "anchor_id": "s-01628",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1629,
+    "anchor_id": "s-01629",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1630,
+    "anchor_id": "s-01630",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1632,
+    "anchor_id": "s-01632",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1634,
+    "anchor_id": "s-01634",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1636,
+    "anchor_id": "s-01636",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1637,
+    "anchor_id": "s-01637",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1638,
+    "anchor_id": "s-01638",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1640,
+    "anchor_id": "s-01640",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1641,
+    "anchor_id": "s-01641",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1642,
+    "anchor_id": "s-01642",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1643,
+    "anchor_id": "s-01643",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1644,
+    "anchor_id": "s-01644",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1647,
+    "anchor_id": "s-01647",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1648,
+    "anchor_id": "s-01648",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1649,
+    "anchor_id": "s-01649",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1650,
+    "anchor_id": "s-01650",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1651,
+    "anchor_id": "s-01651",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1652,
+    "anchor_id": "s-01652",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1653,
+    "anchor_id": "s-01653",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1654,
+    "anchor_id": "s-01654",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1657,
+    "anchor_id": "s-01657",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1658,
+    "anchor_id": "s-01658",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1659,
+    "anchor_id": "s-01659",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1660,
+    "anchor_id": "s-01660",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1663,
+    "anchor_id": "s-01663",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1670,
+    "anchor_id": "s-01670",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1671,
+    "anchor_id": "s-01671",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1674,
+    "anchor_id": "s-01674",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1677,
+    "anchor_id": "s-01677",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1678,
+    "anchor_id": "s-01678",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1679,
+    "anchor_id": "s-01679",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1680,
+    "anchor_id": "s-01680",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1681,
+    "anchor_id": "s-01681",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1682,
+    "anchor_id": "s-01682",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1690,
+    "anchor_id": "s-01690",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1692,
+    "anchor_id": "s-01692",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1693,
+    "anchor_id": "s-01693",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1694,
+    "anchor_id": "s-01694",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1697,
+    "anchor_id": "s-01697",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1700,
+    "anchor_id": "s-01700",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1702,
+    "anchor_id": "s-01702",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1711,
+    "anchor_id": "s-01711",
+    "matched_terms": [
+      "data center"
+    ]
+  },
+  {
+    "sentence_idx": 1725,
+    "anchor_id": "s-01725",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1728,
+    "anchor_id": "s-01728",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1732,
+    "anchor_id": "s-01732",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1734,
+    "anchor_id": "s-01734",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1737,
+    "anchor_id": "s-01737",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1747,
+    "anchor_id": "s-01747",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1748,
+    "anchor_id": "s-01748",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1753,
+    "anchor_id": "s-01753",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1757,
+    "anchor_id": "s-01757",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1758,
+    "anchor_id": "s-01758",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1762,
+    "anchor_id": "s-01762",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1775,
+    "anchor_id": "s-01775",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1785,
+    "anchor_id": "s-01785",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1786,
+    "anchor_id": "s-01786",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1787,
+    "anchor_id": "s-01787",
+    "matched_terms": [
+      "ai",
+      "large language model"
+    ]
+  },
+  {
+    "sentence_idx": 1788,
+    "anchor_id": "s-01788",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1789,
+    "anchor_id": "s-01789",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1796,
+    "anchor_id": "s-01796",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1798,
+    "anchor_id": "s-01798",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1799,
+    "anchor_id": "s-01799",
+    "matched_terms": [
+      "ai",
+      "ml"
+    ]
+  },
+  {
+    "sentence_idx": 1800,
+    "anchor_id": "s-01800",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1801,
+    "anchor_id": "s-01801",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1804,
+    "anchor_id": "s-01804",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1805,
+    "anchor_id": "s-01805",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1810,
+    "anchor_id": "s-01810",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1812,
+    "anchor_id": "s-01812",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1816,
+    "anchor_id": "s-01816",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1822,
+    "anchor_id": "s-01822",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1823,
+    "anchor_id": "s-01823",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1825,
+    "anchor_id": "s-01825",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1827,
+    "anchor_id": "s-01827",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1837,
+    "anchor_id": "s-01837",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1846,
+    "anchor_id": "s-01846",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1854,
+    "anchor_id": "s-01854",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1856,
+    "anchor_id": "s-01856",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1857,
+    "anchor_id": "s-01857",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1862,
+    "anchor_id": "s-01862",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1863,
+    "anchor_id": "s-01863",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1864,
+    "anchor_id": "s-01864",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1866,
+    "anchor_id": "s-01866",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1869,
+    "anchor_id": "s-01869",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1871,
+    "anchor_id": "s-01871",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1877,
+    "anchor_id": "s-01877",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1880,
+    "anchor_id": "s-01880",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1892,
+    "anchor_id": "s-01892",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1895,
+    "anchor_id": "s-01895",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1901,
+    "anchor_id": "s-01901",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1937,
+    "anchor_id": "s-01937",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1938,
+    "anchor_id": "s-01938",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1962,
+    "anchor_id": "s-01962",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1963,
+    "anchor_id": "s-01963",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1964,
+    "anchor_id": "s-01964",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1966,
+    "anchor_id": "s-01966",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1969,
+    "anchor_id": "s-01969",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1977,
+    "anchor_id": "s-01977",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1978,
+    "anchor_id": "s-01978",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1983,
+    "anchor_id": "s-01983",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1985,
+    "anchor_id": "s-01985",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1994,
+    "anchor_id": "s-01994",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 1998,
+    "anchor_id": "s-01998",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 1999,
+    "anchor_id": "s-01999",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 2002,
+    "anchor_id": "s-02002",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2003,
+    "anchor_id": "s-02003",
+    "matched_terms": [
+      "ai",
+      "AI",
+      "anthropic"
+    ]
+  },
+  {
+    "sentence_idx": 2005,
+    "anchor_id": "s-02005",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2006,
+    "anchor_id": "s-02006",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2017,
+    "anchor_id": "s-02017",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2018,
+    "anchor_id": "s-02018",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2019,
+    "anchor_id": "s-02019",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2030,
+    "anchor_id": "s-02030",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2037,
+    "anchor_id": "s-02037",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2041,
+    "anchor_id": "s-02041",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2043,
+    "anchor_id": "s-02043",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2046,
+    "anchor_id": "s-02046",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2049,
+    "anchor_id": "s-02049",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2066,
+    "anchor_id": "s-02066",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2069,
+    "anchor_id": "s-02069",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 2070,
+    "anchor_id": "s-02070",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2071,
+    "anchor_id": "s-02071",
+    "matched_terms": [
+      "AI"
+    ]
+  },
+  {
+    "sentence_idx": 2072,
+    "anchor_id": "s-02072",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2082,
+    "anchor_id": "s-02082",
+    "matched_terms": [
+      "ai"
+    ]
+  },
+  {
+    "sentence_idx": 2096,
+    "anchor_id": "s-02096",
+    "matched_terms": [
+      "ai"
+    ]
+  }
+]

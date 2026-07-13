@@ -1,0 +1,296 @@
+[
+  {
+    "phase": "p1_passages",
+    "raw_response": {
+      "id": "chatcmpl-DtPfXJ1TYyu502g6pQcIgmxdFwl7h",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"passages\":[{\"start_anchor\":\"s-00077\",\"end_anchor\":\"s-00077\",\"topic_summary\":\"Discussion of capital expenditures rising to support AI products and services.\"},{\"start_anchor\":\"s-00106\",\"end_anchor\":\"s-00110\",\"topic_summary\":\"Overview of Alphabet’s long-standing AI-first strategy and centralized AI R&D structure.\"},{\"start_anchor\":\"s-00122\",\"end_anchor\":\"s-00142\",\"topic_summary\":\"Description of Google’s AI product strategy, Gemini rollout, and responsible AI positioning.\"},{\"start_anchor\":\"s-00143\",\"end_anchor\":\"s-00149\",\"topic_summary\":\"AI cloud platform offerings and generative AI tools for enterprises and developers.\"},{\"start_anchor\":\"s-00151\",\"end_anchor\":\"s-00160\",\"topic_summary\":\"Use of generative AI across consumer products, advertising, and productivity features.\"},{\"start_anchor\":\"s-00162\",\"end_anchor\":\"s-00164\",\"topic_summary\":\"AI-enabled features embedded in Pixel devices and mobile platforms.\"},{\"start_anchor\":\"s-00170\",\"end_anchor\":\"s-00172\",\"topic_summary\":\"Long-term investment in AI as a core moonshot and future product driver.\"},{\"start_anchor\":\"s-00201\",\"end_anchor\":\"s-00202\",\"topic_summary\":\"AI-enhanced devices and products as a long-term growth focus.\"},{\"start_anchor\":\"s-00206\",\"end_anchor\":\"s-00207\",\"topic_summary\":\"AI’s foundational role in advertising products and advertiser tools.\"},{\"start_anchor\":\"s-00222\",\"end_anchor\":\"s-00234\",\"topic_summary\":\"Google Cloud’s AI infrastructure, Vertex AI, and Gemini-based enterprise offerings.\"},{\"start_anchor\":\"s-00264\",\"end_anchor\":\"s-00279\",\"topic_summary\":\"Sustainability discussion highlighting uncertainty around AI’s future environmental impact.\"},{\"start_anchor\":\"s-00300\",\"end_anchor\":\"s-00303\",\"topic_summary\":\"Government regulation section discussing increasing global AI-related laws and compliance impacts.\"},{\"start_anchor\":\"s-00346\",\"end_anchor\":\"s-00351\",\"topic_summary\":\"Aggressive companywide AI investment and competitive/cost dependencies around AI development and deployment.\"},{\"start_anchor\":\"s-00357\",\"end_anchor\":\"s-00361\",\"topic_summary\":\"Risk that investments in AI-enabled products and other new initiatives may not be commercially viable or deliver adequate returns.\"},{\"start_anchor\":\"s-00368\",\"end_anchor\":\"s-00377\",\"topic_summary\":\"AI platform development within Google Cloud and the risks of new products using AI, including ethical, legal, and regulatory challenges.\"},{\"start_anchor\":\"s-00475\",\"end_anchor\":\"s-00480\",\"topic_summary\":\"Explicit risk that AI development and deployment may cause harmful content, discrimination, IP, privacy, and reputational harm.\"},{\"start_anchor\":\"s-00488\",\"end_anchor\":\"s-00495\",\"topic_summary\":\"AI-related security risk, including new AI features, unanticipated threats, and potential misuse of AI by third parties.\"},{\"start_anchor\":\"s-00514\",\"end_anchor\":\"s-00518\",\"topic_summary\":\"AI-related safety and review efforts that surface misuse of services and user data, including abusive behaviors.\"},{\"start_anchor\":\"s-00525\",\"end_anchor\":\"s-00536\",\"topic_summary\":\"AI-driven abuse and problematic content on platforms, including mitigation through detection, prevention, and content quality efforts.\"},{\"start_anchor\":\"s-00547\",\"end_anchor\":\"s-00560\",\"topic_summary\":\"General regulatory environment with specific focus on AI laws, the EU AI Act, and uncertainty around U.S. and state AI regulation.\"},{\"start_anchor\":\"s-00571\",\"end_anchor\":\"s-00576\",\"topic_summary\":\"AI product and internal-system deployment creating regulatory, legal, and compliance exposure, alongside responses through programs and initiatives.\"},{\"start_anchor\":\"s-00595\",\"end_anchor\":\"s-00595\",\"topic_summary\":\"Litigation and claims that may involve AI training, development, and commercialization among other non-AI matters.\"},{\"start_anchor\":\"s-00607\",\"end_anchor\":\"s-00610\",\"topic_summary\":\"AI data-use and privacy risks arising from training on large datasets and potential regulatory scrutiny over AI technologies.\"},{\"start_anchor\":\"s-00622\",\"end_anchor\":\"s-00623\",\"topic_summary\":\"Intellectual property claim exposure increasing as the company develops and acquires new AI technologies.\"},{\"start_anchor\":\"s-00688\",\"end_anchor\":\"s-00688\",\"topic_summary\":\"Strategic-investment discussion noting that building AI capabilities into products is part of broader corporate strategy rather than a standalone mitigation.\"},{\"start_anchor\":\"s-01998\",\"end_anchor\":\"s-02004\",\"topic_summary\":\"Segment reporting note describing consolidation of general AI model teams and other AI-focused shared R&D activities.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099083,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 994,
+        "prompt_tokens": 68684,
+        "total_tokens": 69678,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p2_outside_mentions",
+    "raw_response": {
+      "id": "chatcmpl-DtPfgS36MTB6G2QbmHAFe1cJAIo6l",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00191\"},{\"anchor_id\":\"s-00193\"},{\"anchor_id\":\"s-00251\"},{\"anchor_id\":\"s-00812\"},{\"anchor_id\":\"s-00823\"},{\"anchor_id\":\"s-00824\"},{\"anchor_id\":\"s-00842\"},{\"anchor_id\":\"s-00843\"},{\"anchor_id\":\"s-00894\"},{\"anchor_id\":\"s-00895\"},{\"anchor_id\":\"s-01096\"},{\"anchor_id\":\"s-01102\"},{\"anchor_id\":\"s-01103\"},{\"anchor_id\":\"s-01729\"},{\"anchor_id\":\"s-01787\"},{\"anchor_id\":\"s-01827\"},{\"anchor_id\":\"s-01850\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099092,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 150,
+        "prompt_tokens": 61571,
+        "total_tokens": 61721,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p3_context_filter",
+    "raw_response": {
+      "id": "chatcmpl-DtPflpKURWVcTKTY8EIboQbRJey0O",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00077\",\"keep\":true,\"reason\":\"Inside an AI-topic passage about rising capex, this sentence describes a downstream consequence: increased infrastructure spending to support AI products and services.\"},{\"anchor_id\":\"s-00106\",\"keep\":false,\"reason\":\"This is a strategy/positioning statement that Alphabet is an AI-first company, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00107\",\"keep\":false,\"reason\":\"This is generic corporate leadership context and does not describe an AI risk or mitigation.\"},{\"anchor_id\":\"s-00108\",\"keep\":false,\"reason\":\"This is a business-structure fact with no AI risk or mitigation framing.\"},{\"anchor_id\":\"s-00109\",\"keep\":false,\"reason\":\"This is a segment-reporting fact and does not discuss AI risk or mitigation.\"},{\"anchor_id\":\"s-00110\",\"keep\":false,\"reason\":\"This is a descriptive statement about centralized AI R&D, not a risk consequence or mitigation action.\"},{\"anchor_id\":\"s-00122\",\"keep\":false,\"reason\":\"This is a section heading and not a risk or mitigation sentence.\"},{\"anchor_id\":\"s-00123\",\"keep\":false,\"reason\":\"This is positive AI strategy language about AI’s benefits, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00124\",\"keep\":false,\"reason\":\"This is product-strategy language describing AI deployment, not a risk or mitigation statement.\"},{\"anchor_id\":\"s-00125\",\"keep\":false,\"reason\":\"This is a product launch description of Gemini, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00126\",\"keep\":false,\"reason\":\"This is a factual product-launch statement about Gemini 2.0, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00127\",\"keep\":false,\"reason\":\"This is product capability marketing for Gemini, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00128\",\"keep\":false,\"reason\":\"This describes AI features being used across products, which is product description rather than risk or mitigation framing.\"},{\"anchor_id\":\"s-00129\",\"keep\":false,\"reason\":\"This is a deployment fact about Gemini being used in products, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00130\",\"keep\":false,\"reason\":\"This is an AI-cloud offering description, not a risk consequence or mitigation action.\"},{\"anchor_id\":\"s-00131\",\"keep\":false,\"reason\":\"This is a positive statement about AI’s potential, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00132\",\"keep\":false,\"reason\":\"This is an example of AI achievement and product capability, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00133\",\"keep\":false,\"reason\":\"This is corporate strategy/product messaging about improving products with AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00134\",\"keep\":false,\"reason\":\"This is a section heading and does not itself state a risk or mitigation.\"},{\"anchor_id\":\"s-00135\",\"keep\":false,\"reason\":\"This is mostly product/infrastructure positioning for responsible AI and lacks a concrete risk consequence or specific mitigation action.\"},{\"anchor_id\":\"s-00136\",\"keep\":false,\"reason\":\"This is an operational efficiency statement about data centers, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00137\",\"keep\":false,\"reason\":\"This is a performance/improvement example for AI Overviews, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00138\",\"keep\":false,\"reason\":\"This is a product/infrastructure capability description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00139\",\"keep\":false,\"reason\":\"This is a product experience statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00140\",\"keep\":false,\"reason\":\"This is a description of AI prototypes and features, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00141\",\"keep\":false,\"reason\":\"This is a general responsible-AI posture statement, but it does not specify a concrete risk consequence or mitigation action.\"},{\"anchor_id\":\"s-00142\",\"keep\":false,\"reason\":\"This is a general responsible-AI principle statement without a specific downstream risk consequence or mitigation action.\"},{\"anchor_id\":\"s-00143\",\"keep\":false,\"reason\":\"This is a section heading for cloud innovation, not a risk or mitigation sentence.\"},{\"anchor_id\":\"s-00144\",\"keep\":false,\"reason\":\"This is a general statement about AI as a technology shift for enterprises, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00145\",\"keep\":false,\"reason\":\"This is a general market-observation sentence with no AI risk or mitigation framing.\"},{\"anchor_id\":\"s-00146\",\"keep\":false,\"reason\":\"This is a corporate strategy statement about making AI innovation scalable, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00147\",\"keep\":false,\"reason\":\"This is a capability/infrastructure description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00148\",\"keep\":false,\"reason\":\"This is a product/platform capability description for Vertex AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00149\",\"keep\":false,\"reason\":\"This is an AI product description for Gemini for Google Cloud, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00150\",\"keep\":false,\"reason\":\"This is a section heading and not a risk or mitigation sentence.\"},{\"anchor_id\":\"s-00151\",\"keep\":false,\"reason\":\"This is a corporate strategy statement about transforming products with AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00152\",\"keep\":false,\"reason\":\"This is a product-feature description of AI Overviews and NotebookLM, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00153\",\"keep\":false,\"reason\":\"This is product-marketing language about embedding generative AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00154\",\"keep\":false,\"reason\":\"This is a feature description for the Gemini app, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00155\",\"keep\":false,\"reason\":\"This is a feature description for Gemini in Workspace, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00156\",\"keep\":false,\"reason\":\"This is a product-use statement about improving YouTube recommendations, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00157\",\"keep\":false,\"reason\":\"This is an advertising business description, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00158\",\"keep\":false,\"reason\":\"This is a bridge fragment with no standalone disclosure content.\"},{\"anchor_id\":\"s-00159\",\"keep\":false,\"reason\":\"This is a product-description phrase about making ads easier with AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00160\",\"keep\":false,\"reason\":\"This is an advertising product description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00162\",\"keep\":false,\"reason\":\"This is an AI-device capability description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00163\",\"keep\":false,\"reason\":\"This is a product-feature description of Pixel devices with Gemini Nano, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00164\",\"keep\":false,\"reason\":\"This is a platform-access description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00170\",\"keep\":false,\"reason\":\"This is a strategy statement about long-term AI investment, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00171\",\"keep\":false,\"reason\":\"This is a strategy statement about AI becoming core to products, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00172\",\"keep\":false,\"reason\":\"This is a corporate strategy statement about investing for the long term in AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00191\",\"keep\":true,\"reason\":\"Inside a Search/AI passage, this states a downstream consequence of LLMs improving the natural-language queries users can ask and the quality of results.\"},{\"anchor_id\":\"s-00193\",\"keep\":true,\"reason\":\"Inside an AI-focused Search passage, this states the downstream consequence of Gemini and AI Overviews improving Search for users and reaching more countries/users.\"},{\"anchor_id\":\"s-00201\",\"keep\":false,\"reason\":\"This is a general product-strategy statement about AI-enhanced devices, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00202\",\"keep\":false,\"reason\":\"This is a long-term investment statement about devices and AI, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00206\",\"keep\":false,\"reason\":\"This is a broad business description of AI’s role in advertising, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00207\",\"keep\":false,\"reason\":\"This is an advertising product-capability description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00222\",\"keep\":false,\"reason\":\"This is a cloud revenue description and not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00223\",\"keep\":false,\"reason\":\"This is an introductory sentence to cloud offerings with no AI risk or mitigation framing.\"},{\"anchor_id\":\"s-00224\",\"keep\":false,\"reason\":\"This is a cloud infrastructure capability description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00225\",\"keep\":false,\"reason\":\"This is a cloud-use description for AI models, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00226\",\"keep\":false,\"reason\":\"This is a developer-platform capability description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00227\",\"keep\":false,\"reason\":\"This is a model-quality/product-description sentence, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00228\",\"keep\":false,\"reason\":\"This is a cloud cybersecurity product description and is boilerplate security language not scoped to an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00229\",\"keep\":false,\"reason\":\"This is a section divider with no disclosure content.\"},{\"anchor_id\":\"s-00230\",\"keep\":false,\"reason\":\"This is a data-and-analytics product description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00231\",\"keep\":false,\"reason\":\"This is a platform capability description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00232\",\"keep\":false,\"reason\":\"This is an applications-portfolio description, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00233\",\"keep\":false,\"reason\":\"This is a Google Workspace feature-history statement, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00234\",\"keep\":false,\"reason\":\"This is a product-feature description of Gemini for Workspace, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00251\",\"keep\":false,\"reason\":\"This is a generic competition list item and not an AI-specific risk or mitigation disclosure by itself.\"},{\"anchor_id\":\"s-00264\",\"keep\":false,\"reason\":\"This is a sustainability section heading and not a disclosure sentence.\"},{\"anchor_id\":\"s-00265\",\"keep\":false,\"reason\":\"This is a generic sustainability strategy statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00266\",\"keep\":false,\"reason\":\"This is an environmental-information statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00267\",\"keep\":false,\"reason\":\"This is a general operations-efficiency statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00268\",\"keep\":false,\"reason\":\"This is a sustainability aspiration statement with no AI-specific risk consequence.\"},{\"anchor_id\":\"s-00269\",\"keep\":false,\"reason\":\"This is a net-zero goal statement and not an AI risk disclosure.\"},{\"anchor_id\":\"s-00270\",\"keep\":false,\"reason\":\"This is a carbon-removal investment statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00271\",\"keep\":false,\"reason\":\"This is a carbon-free-energy procurement statement and not an AI-specific mitigation.\"},{\"anchor_id\":\"s-00272\",\"keep\":false,\"reason\":\"This is a goal/date-style sustainability statement, not an AI risk disclosure.\"},{\"anchor_id\":\"s-00273\",\"keep\":false,\"reason\":\"This is an implementation statement about carbon removals, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00274\",\"keep\":false,\"reason\":\"This is a generic statement that goals are ambitious, not an AI-specific risk consequence.\"},{\"anchor_id\":\"s-00275\",\"keep\":false,\"reason\":\"This is a generic statement that progress will not be linear, not an AI-specific risk disclosure.\"},{\"anchor_id\":\"s-00276\",\"keep\":false,\"reason\":\"This is a project-timeline statement, not an AI risk disclosure.\"},{\"anchor_id\":\"s-00277\",\"keep\":true,\"reason\":\"Inside a sustainability passage, this explicitly identifies uncertainty around AI’s future environmental impact as a risk consequence.\"},{\"anchor_id\":\"s-00278\",\"keep\":false,\"reason\":\"This is a generic statement about technological solutions and is not specifically an AI risk consequence.\"},{\"anchor_id\":\"s-00279\",\"keep\":false,\"reason\":\"This is a broad emissions-trend statement, not an AI-specific risk disclosure.\"},{\"anchor_id\":\"s-00300\",\"keep\":true,\"reason\":\"Inside a regulatory-risk passage, this identifies AI-related laws and enforcement actions as an expanding risk environment with compliance consequences.\"},{\"anchor_id\":\"s-00301\",\"keep\":true,\"reason\":\"Inside a regulatory-risk passage, this states that inconsistent global rules can make compliance onerous and increase costs and business restrictions.\"},{\"anchor_id\":\"s-00302\",\"keep\":true,\"reason\":\"This sentence states concrete business harms from complying with AI-related and other regulations, including higher costs, product limitations, and harm to results.\"},{\"anchor_id\":\"s-00303\",\"keep\":false,\"reason\":\"This is a reference sentence pointing to other sections, not a risk disclosure itself.\"},{\"anchor_id\":\"s-00346\",\"keep\":false,\"reason\":\"This is a strategy statement about expanding AI investment, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00347\",\"keep\":false,\"reason\":\"This is a strategy statement about integrating AI capabilities, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00348\",\"keep\":true,\"reason\":\"This sentence directly states that AI technology is competitive, rapidly evolving, and requires significant investment, which is a concrete AI-specific risk.\"},{\"anchor_id\":\"s-00349\",\"keep\":true,\"reason\":\"This sentence states an AI-specific operational dependency risk on third-party equipment, network capacity, energy, and other infrastructure costs.\"},{\"anchor_id\":\"s-00350\",\"keep\":true,\"reason\":\"This sentence states that competitors may develop superior or cheaper AI technologies, a direct AI market-risk disclosure.\"},{\"anchor_id\":\"s-00351\",\"keep\":true,\"reason\":\"This sentence states that third-party IP rights could interfere with making, using, or selling AI products and services.\"},{\"anchor_id\":\"s-00357\",\"keep\":false,\"reason\":\"This is a broad statement about ongoing investment in new businesses and technologies, not a specific AI risk or mitigation.\"},{\"anchor_id\":\"s-00358\",\"keep\":false,\"reason\":\"This is an incomplete fragment and not a standalone sentence for annotation.\"},{\"anchor_id\":\"s-00359\",\"keep\":false,\"reason\":\"This is a fragment referring to AI capabilities, not a complete sentence.\"},{\"anchor_id\":\"s-00360\",\"keep\":false,\"reason\":\"This is a corporate strategy statement about building AI capabilities, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00361\",\"keep\":true,\"reason\":\"This sentence states that investments, including AI-related investments in the surrounding passage, may not be commercially viable or deliver adequate returns.\"},{\"anchor_id\":\"s-00368\",\"keep\":true,\"reason\":\"Inside an AI/cloud risk passage, this says Google Cloud is advancing AI platforms and models to support its services, which anchors downstream AI business risk in the passage.\"},{\"anchor_id\":\"s-00369\",\"keep\":false,\"reason\":\"This is an ordinary infrastructure-and-hiring cost statement, not an AI-specific risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00370\",\"keep\":true,\"reason\":\"Inside an AI/cloud competitive passage, this says competitors are rapidly developing cloud-based services, a direct competitive-risk consequence.\"},{\"anchor_id\":\"s-00371\",\"keep\":true,\"reason\":\"This sentence states that competitive pricing and delivery dynamics may prevent achieving business objectives, a downstream AI/cloud risk consequence in context.\"},{\"anchor_id\":\"s-00372\",\"keep\":false,\"reason\":\"This is generic regulatory-compliance language for a customer segment and is not specifically an AI risk or mitigation.\"},{\"anchor_id\":\"s-00373\",\"keep\":false,\"reason\":\"This is a general legal-risk statement about audits and compliance, not an AI-scoped risk or mitigation.\"},{\"anchor_id\":\"s-00374\",\"keep\":false,\"reason\":\"This is a broad regulatory-capital statement, not an AI-specific risk or mitigation.\"},{\"anchor_id\":\"s-00375\",\"keep\":false,\"reason\":\"This is a broad investment statement about Other Bets, not an AI-specific risk or mitigation.\"},{\"anchor_id\":\"s-00376\",\"keep\":false,\"reason\":\"This is a general competition statement about Other Bets and emerging technologies, not specifically an AI risk or mitigation.\"},{\"anchor_id\":\"s-00377\",\"keep\":true,\"reason\":\"This sentence expressly says new and evolving products using AI raise ethical, legal, and regulatory challenges that may negatively affect brands and demand.\"},{\"anchor_id\":\"s-00346\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00370\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00371\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00372\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00373\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00374\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00375\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00376\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00377\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00475\",\"keep\":true,\"reason\":\"This sentence explicitly states that issues in AI development and use may cause reputational harm and increased liability exposure.\"},{\"anchor_id\":\"s-00476\",\"keep\":true,\"reason\":\"This sentence enumerates AI-specific risks such as harmful content, discrimination, IP infringement, publicity-rights violations, privacy, and cybersecurity issues.\"},{\"anchor_id\":\"s-00477\",\"keep\":true,\"reason\":\"This sentence states that AI systems could trigger competitive harm, regulatory action, legal liability, and reputational harm.\"},{\"anchor_id\":\"s-00478\",\"keep\":true,\"reason\":\"This sentence says AI uses present ethical issues and broad societal effects, which is a concrete AI-related risk framing.\"},{\"anchor_id\":\"s-00479\",\"keep\":true,\"reason\":\"This sentence is a mitigation action: investing resources to develop, test, and maintain products to implement AI responsibly and reduce harmful effects.\"},{\"anchor_id\":\"s-00480\",\"keep\":true,\"reason\":\"This sentence states that unintended AI consequences may affect human rights, privacy, employment, and lead to claims, lawsuits, and regulatory scrutiny.\"},{\"anchor_id\":\"s-00488\",\"keep\":true,\"reason\":\"This sentence states that new AI features may be susceptible to unanticipated security threats, a specific AI-related risk consequence.\"},{\"anchor_id\":\"s-00489\",\"keep\":false,\"reason\":\"This is a generic software-code error statement and not AI-specific.\"},{\"anchor_id\":\"s-00490\",\"keep\":false,\"reason\":\"This is a broad security/privacy boilerplate statement not specifically scoped to AI.\"},{\"anchor_id\":\"s-00491\",\"keep\":false,\"reason\":\"This is generic follow-on security incident language, not AI-specific.\"},{\"anchor_id\":\"s-00492\",\"keep\":false,\"reason\":\"This is generic cybersecurity mitigation boilerplate and not specifically scoped to AI systems.\"},{\"anchor_id\":\"s-00493\",\"keep\":false,\"reason\":\"This is general cybersecurity boilerplate about cyber attacks, not AI-specific.\"},{\"anchor_id\":\"s-00494\",\"keep\":false,\"reason\":\"This is general cybersecurity risk language, not AI-specific.\"},{\"anchor_id\":\"s-00495\",\"keep\":true,\"reason\":\"This sentence explicitly states AI technologies may increase exposure to cyber attacks or other security incidents through third-party exploitation.\"},{\"anchor_id\":\"s-00514\",\"keep\":false,\"reason\":\"This is generic safety and content-review language centered on user data abuse, not AI-scoped mitigation.\"},{\"anchor_id\":\"s-00515\",\"keep\":false,\"reason\":\"This is cybersecurity/data-misuse mitigation boilerplate, not specifically scoped to AI systems.\"},{\"anchor_id\":\"s-00516\",\"keep\":false,\"reason\":\"This is a discovery statement about misuse of user data, not an AI-specific risk or mitigation.\"},{\"anchor_id\":\"s-00517\",\"keep\":false,\"reason\":\"This is a general limitations statement about discovering incidents and is not AI-specific.\"},{\"anchor_id\":\"s-00518\",\"keep\":false,\"reason\":\"This is a generic content-abuse description, not specifically tied to AI risk or mitigation.\"},{\"anchor_id\":\"s-00525\",\"keep\":false,\"reason\":\"This is a generic problematic-content statement and not AI-specific enough for the taxonomy.\"},{\"anchor_id\":\"s-00526\",\"keep\":false,\"reason\":\"This is general abuse/content-guidelines language and not an AI-specific risk or mitigation.\"},{\"anchor_id\":\"s-00527\",\"keep\":false,\"reason\":\"This is general anti-spam/content-quality mitigation language and not specifically AI-scoped.\"},{\"anchor_id\":\"s-00528\",\"keep\":true,\"reason\":\"Inside a content-abuse passage, this states that increased AI use may create new avenues of abuse for bad actors, a direct AI-related risk.\"},{\"anchor_id\":\"s-00529\",\"keep\":false,\"reason\":\"This is a generic web-spam example and not an AI-specific risk or mitigation by itself.\"},{\"anchor_id\":\"s-00530\",\"keep\":false,\"reason\":\"This is a downstream content-quality consequence but not specifically AI-scoped enough on its own.\"},{\"anchor_id\":\"s-00531\",\"keep\":false,\"reason\":\"This is generic web-spam persistence language, not AI-specific.\"},{\"anchor_id\":\"s-00532\",\"keep\":false,\"reason\":\"This is generic web-spam detection mitigation and not specifically AI-scoped.\"},{\"anchor_id\":\"s-00533\",\"keep\":false,\"reason\":\"This is generic low-quality content discussion, not AI-specific.\"},{\"anchor_id\":\"s-00534\",\"keep\":false,\"reason\":\"This is a generic anti-abuse algorithm statement, not AI-specific.\"},{\"anchor_id\":\"s-00535\",\"keep\":false,\"reason\":\"This is a generic content-moderation issues statement, not AI-specific.\"},{\"anchor_id\":\"s-00536\",\"keep\":false,\"reason\":\"This is a generic failure-to-moderate consequence and not specifically tied to AI.\"},{\"anchor_id\":\"s-00547\",\"keep\":false,\"reason\":\"This is a generic regulatory-environment statement, not AI-specific enough by itself.\"},{\"anchor_id\":\"s-00548\",\"keep\":false,\"reason\":\"This is a broad legal-regimes statement and not an AI risk or mitigation by itself.\"},{\"anchor_id\":\"s-00549\",\"keep\":true,\"reason\":\"This sentence identifies AI among the regulatory areas with new laws and regulations that can harm the business, which is a direct AI-related risk context.\"},{\"anchor_id\":\"s-00550\",\"keep\":false,\"reason\":\"This is a generic compliance-cost statement and not a specific AI risk consequence.\"},{\"anchor_id\":\"s-00551\",\"keep\":false,\"reason\":\"This is a section marker and not a disclosure sentence.\"},{\"anchor_id\":\"s-00552\",\"keep\":true,\"reason\":\"This sentence states that changing laws can lead to less useful products, altered business models, and substantial costs, which is a concrete downstream consequence in the AI-regulatory passage.\"},{\"anchor_id\":\"s-00553\",\"keep\":false,\"reason\":\"This is a lead-in to examples, not a standalone risk disclosure.\"},{\"anchor_id\":\"s-00554\",\"keep\":false,\"reason\":\"This is a competition/regulatory example and not specifically an AI risk consequence.\"},{\"anchor_id\":\"s-00555\",\"keep\":true,\"reason\":\"This sentence specifically identifies AI laws and regulations as a source of monetary penalties or other regulatory actions.\"},{\"anchor_id\":\"s-00556\",\"keep\":false,\"reason\":\"This is a date/regulation timing statement and not itself a risk consequence.\"},{\"anchor_id\":\"s-00557\",\"keep\":false,\"reason\":\"This is a regulation-summary statement describing EU AI Act requirements, not a risk consequence.\"},{\"anchor_id\":\"s-00558\",\"keep\":true,\"reason\":\"This sentence states that federal AI-regulatory uncertainty in the U.S. remains unresolved, which is a concrete AI regulatory-risk disclosure.\"},{\"anchor_id\":\"s-00559\",\"keep\":true,\"reason\":\"This sentence states that states may regulate AI model development and deployment, creating a concrete AI compliance risk.\"},{\"anchor_id\":\"s-00560\",\"keep\":true,\"reason\":\"This sentence notes proposals and laws on AI-generated synthetic media, which is a concrete AI-regulatory risk area.\"},{\"anchor_id\":\"s-00557\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00558\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00559\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00560\",\"keep\":false,\"reason\":\"duplicate combination not emitted\"},{\"anchor_id\":\"s-00571\",\"keep\":true,\"reason\":\"This sentence explicitly states that AI product commercialization can subject the company to regulatory action and legal liability, a direct AI risk disclosure.\"},{\"anchor_id\":\"s-00572\",\"keep\":false,\"reason\":\"This is a page-number fragment and not a standalone sentence.\"},{\"anchor_id\":\"s-00573\",\"keep\":true,\"reason\":\"This sentence states that AI in products and internal systems could trigger regulatory action and legal liability under AI, privacy, cybersecurity, IP, and related laws.\"},{\"anchor_id\":\"s-00574\",\"keep\":false,\"reason\":\"This is a generic laws-and-regulations statement beyond AI and does not itself add AI-specific risk.\"},{\"anchor_id\":\"s-00575\",\"keep\":false,\"reason\":\"This is a broad response/governance statement and not an AI-specific mitigation in itself.\"},{\"anchor_id\":\"s-00576\",\"keep\":false,\"reason\":\"This is a generic caution that goals may not be realized, not an AI-specific risk or mitigation.\"},{\"anchor_id\":\"s-00595\",\"keep\":false,\"reason\":\"This is a broad litigation/claims sentence that mentions AI among many other matters, but its central claim is not AI-specific enough.\"},{\"anchor_id\":\"s-00607\",\"keep\":true,\"reason\":\"This sentence states that AI training on large datasets is driving new data-protection obligations, a concrete AI-related privacy/regulatory risk.\"},{\"anchor_id\":\"s-00608\",\"keep\":true,\"reason\":\"This sentence states that AI can increase the risk of inadvertent disclosure and trigger stronger regulatory scrutiny and enforcement actions.\"},{\"anchor_id\":\"s-00609\",\"keep\":false,\"reason\":\"This is a general adverse-rulings statement and not specifically about AI.\"},{\"anchor_id\":\"s-00610\",\"keep\":false,\"reason\":\"This is a generic compliance-cost statement and not specifically about AI.\"},{\"anchor_id\":\"s-00622\",\"keep\":true,\"reason\":\"This sentence states that intellectual property claims may increase as the company develops and acquires AI technologies, a concrete AI-related risk.\"},{\"anchor_id\":\"s-00623\",\"keep\":true,\"reason\":\"This sentence states the downstream consequences of such IP claims, including damages, licensing costs, and limits on selling AI-related products and services.\"},{\"anchor_id\":\"s-00688\",\"keep\":false,\"reason\":\"This is generic strategic-arrangement language and not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00812\",\"keep\":true,\"reason\":\"This sentence states that competition from other AI product developers may affect revenues, which is a concrete AI market-risk disclosure.\"},{\"anchor_id\":\"s-00823\",\"keep\":true,\"reason\":\"Inside a monetization passage, this sentence says AI-driven changes in user-advertiser interactions may affect monetization of products and services.\"},{\"anchor_id\":\"s-00824\",\"keep\":true,\"reason\":\"This sentence states that incorporating AI innovations into Search could affect monetization trends, a downstream consequence from the AI passage.\"},{\"anchor_id\":\"s-00842\",\"keep\":true,\"reason\":\"This sentence states that the company will continue deploying AI across its businesses and investing in technical infrastructure in support of AI products and services, which is a downstream capex consequence in the AI-investment passage.\"},{\"anchor_id\":\"s-00843\",\"keep\":true,\"reason\":\"This sentence states that infrastructure investment will increase to support AI products and services, a concrete downstream consequence of the AI initiative.\"},{\"anchor_id\":\"s-00894\",\"keep\":false,\"reason\":\"This is a product-offering description of cloud solutions, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-00895\",\"keep\":false,\"reason\":\"This is a product description of Gemini for Google Workspace, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01096\",\"keep\":true,\"reason\":\"This sentence states that technical infrastructure investments include ongoing business activities including AI, which is a downstream consequence of the AI capex theme.\"},{\"anchor_id\":\"s-01102\",\"keep\":true,\"reason\":\"This sentence states that technical infrastructure investment will increase to support AI products and services, a concrete downstream consequence of the AI passage.\"},{\"anchor_id\":\"s-01103\",\"keep\":false,\"reason\":\"This is a general depreciation accounting statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01729\",\"keep\":false,\"reason\":\"This is a funding fact about Waymo and does not present an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01787\",\"keep\":false,\"reason\":\"This is a licensing transaction fact, not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01827\",\"keep\":false,\"reason\":\"This is an antitrust enforcement history statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01850\",\"keep\":false,\"reason\":\"This is a remedies-history statement for antitrust litigation, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01998\",\"keep\":false,\"reason\":\"This is a segment-reporting consolidation fact, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-01999\",\"keep\":false,\"reason\":\"This is an accounting classification statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-02000\",\"keep\":false,\"reason\":\"This is a staffing/organization fact and not a risk or mitigation disclosure.\"},{\"anchor_id\":\"s-02001\",\"keep\":false,\"reason\":\"This is an accounting allocation statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-02002\",\"keep\":false,\"reason\":\"This is an accounting allocation statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-02003\",\"keep\":false,\"reason\":\"This is an accounting cost-category statement, not an AI risk or mitigation disclosure.\"},{\"anchor_id\":\"s-02004\",\"keep\":false,\"reason\":\"This is a severance/office-space accounting statement, not an AI risk or mitigation disclosure.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099097,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 6741,
+        "prompt_tokens": 136378,
+        "total_tokens": 143119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p4_kind",
+    "raw_response": {
+      "id": "chatcmpl-DtPgLa3S7Qzb1lsnOh6Y8EKcLY5un",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00077\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00191\",\"kind\":null},{\"anchor_id\":\"s-00193\",\"kind\":null},{\"anchor_id\":\"s-00277\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00300\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00301\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00302\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00348\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00349\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00350\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00351\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00361\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00368\",\"kind\":null},{\"anchor_id\":\"s-00370\",\"kind\":null},{\"anchor_id\":\"s-00371\",\"kind\":null},{\"anchor_id\":\"s-00377\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00475\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00476\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00477\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00478\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00479\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00480\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00488\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00495\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00528\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00549\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00552\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00555\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00558\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00559\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00560\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00571\",\"kind\":null},{\"anchor_id\":\"s-00573\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00607\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00608\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00622\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00623\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00812\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00823\",\"kind\":null},{\"anchor_id\":\"s-00824\",\"kind\":null},{\"anchor_id\":\"s-00842\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00843\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-01096\",\"kind\":null},{\"anchor_id\":\"s-01102\",\"kind\":\"Risk Mitigation\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099133,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 552,
+        "prompt_tokens": 4242,
+        "total_tokens": 4794,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p5a_risk_cats",
+    "raw_response": {
+      "id": "chatcmpl-DtPgOkpP5649MbcdjOZfPONjnw9OO",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00277\",\"category\":\"Sociotechnical\",\"subcategory\":\"Environmental\"},{\"anchor_id\":\"s-00300\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00301\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00302\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00302\",\"category\":\"Competitive\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00302\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00348\",\"category\":\"Competitive\",\"subcategory\":\"Investment Cost & Uncertainty\"},{\"anchor_id\":\"s-00349\",\"category\":\"Competitive\",\"subcategory\":\"Investment Cost & Uncertainty\"},{\"anchor_id\":\"s-00350\",\"category\":\"Competitive\",\"subcategory\":\"Market Share Uncertainty\"},{\"anchor_id\":\"s-00351\",\"category\":\"Legal\",\"subcategory\":\"IP & Copyright\"},{\"anchor_id\":\"s-00361\",\"category\":\"Competitive\",\"subcategory\":\"Investment Cost & Uncertainty\"},{\"anchor_id\":\"s-00361\",\"category\":\"Legal\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00377\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00377\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00475\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00475\",\"category\":\"Legal\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00476\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00476\",\"category\":\"Sociotechnical\",\"subcategory\":\"Human-centered\"},{\"anchor_id\":\"s-00476\",\"category\":\"Legal\",\"subcategory\":\"IP & Copyright\"},{\"anchor_id\":\"s-00476\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00476\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00477\",\"category\":\"Competitive\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00477\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00477\",\"category\":\"Legal\",\"subcategory\":\"IP & Copyright\"},{\"anchor_id\":\"s-00477\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00477\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00480\",\"category\":\"Sociotechnical\",\"subcategory\":\"Human-centered\"},{\"anchor_id\":\"s-00480\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00480\",\"category\":\"Legal\",\"subcategory\":\"Litigation\"},{\"anchor_id\":\"s-00480\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00480\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00488\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00495\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00528\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00549\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00552\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00552\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00555\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00558\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00559\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00560\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00573\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00573\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00607\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00607\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00608\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00608\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00622\",\"category\":\"Legal\",\"subcategory\":\"Litigation\"},{\"anchor_id\":\"s-00623\",\"category\":\"Legal\",\"subcategory\":\"Litigation\"},{\"anchor_id\":\"s-00812\",\"category\":\"Competitive\",\"subcategory\":\"Market Share Uncertainty\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099136,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 967,
+        "prompt_tokens": 4600,
+        "total_tokens": 5567,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p5b_mit_cats",
+    "raw_response": {
+      "id": "chatcmpl-DtPgTX1FAlLMaFc6iDIa2JVs9n5W9",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00479\",\"category\":\"Technical & Security Controls\",\"subcategory\":\"AI Capabilities Safeguards\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099141,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 3316,
+        "total_tokens": 3354,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p6_strength",
+    "raw_response": {
+      "id": "chatcmpl-DtPgUIasdIoYSMNaKybaFXpwGXSft",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00479\",\"strength\":2}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782099142,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 2092,
+        "total_tokens": 2118,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  }
+]

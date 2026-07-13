@@ -1,0 +1,359 @@
+[
+  {
+    "sentence": "Our approach will continue to evolve and will require us to navigate significant uncertainty, including the uncertainty around the future environmental impact of AI, which is complex and difficult to predict.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Environmental",
+    "strength": null
+  },
+  {
+    "sentence": "Particularly with regard to AI; competition; consumer protection; content moderation; data privacy and security; news publications; and sustainability and other social matters, we have seen an increase in new and evolving laws and regulations, as well as related enforcement actions and investigations, being proposed and implemented in recent years by legislative and regulatory bodies around the world.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "As we have seen in recent years, different laws and regulations on the same topic may not always have the same requirements, and even when requirements overlap, the rules are not always consistently implemented, interpreted, and enforced from jurisdiction to jurisdiction.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "Our compliance with these laws and regulations may be onerous and could, individually or in the aggregate, increase our cost of doing business, make our products and services less useful, limit our ability to pursue certain business practices or offer certain products and services, cause us to change our business models and operations, affect our competitive position relative to our peers, and/or otherwise harm our business, reputation, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "Our compliance with these laws and regulations may be onerous and could, individually or in the aggregate, increase our cost of doing business, make our products and services less useful, limit our ability to pursue certain business practices or offer certain products and services, cause us to change our business models and operations, affect our competitive position relative to our peers, and/or otherwise harm our business, reputation, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Other",
+    "strength": null
+  },
+  {
+    "sentence": "Our compliance with these laws and regulations may be onerous and could, individually or in the aggregate, increase our cost of doing business, make our products and services less useful, limit our ability to pursue certain business practices or offer certain products and services, cause us to change our business models and operations, affect our competitive position relative to our peers, and/or otherwise harm our business, reputation, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null
+  },
+  {
+    "sentence": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure, development and operational costs, to meet the changing needs and expectations of our existing users and attract new users.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Additionally, other companies may develop AI products and technologies that are similar or superior to our technologies or more cost-effective to develop and/or deploy.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Other companies may also have (or in the future may obtain) patents or other proprietary rights that would prevent, limit, or interfere with our ability to make, use, or sell our own AI products and services.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "IP & Copyright",
+    "strength": null
+  },
+  {
+    "sentence": "Our investments ultimately may not be commercially viable or may not result in an adequate return of capital and, in pursuing new strategies, we may incur unanticipated liabilities.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Our investments ultimately may not be commercially viable or may not result in an adequate return of capital and, in pursuing new strategies, we may incur unanticipated liabilities.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Other",
+    "strength": null
+  },
+  {
+    "sentence": "In addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal, regulatory, and other challenges, which may negatively affect our brands and demand for our products and services.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null
+  },
+  {
+    "sentence": "In addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal, regulatory, and other challenges, which may negatively affect our brands and demand for our products and services.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "Issues in the development and use of AI may result in reputational harm and increased liability exposure.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null
+  },
+  {
+    "sentence": "Issues in the development and use of AI may result in reputational harm and increased liability exposure.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Other",
+    "strength": null
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Human-centered",
+    "strength": null
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "IP & Copyright",
+    "strength": null
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Other",
+    "strength": null
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "IP & Copyright",
+    "strength": null
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Human-centered",
+    "strength": null
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Litigation",
+    "strength": null
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "We continue to add new features involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to unanticipated security threats as our and the market’s understanding of AI-centric security risks and protection methods continue to develop.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber attacks or other security incidents, particularly where such technologies are exploited by third parties to breach our or other parties’ systems, including when such technologies are used to target our employees or impersonate members of senior management in order to gain unauthorized access to our systems.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "Increased use of AI in our offerings and internal systems may create new avenues of abuse for bad actors.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "In recent years, governments around the world have proposed and adopted a large number of new laws and regulations relevant to the digital economy, particularly in the areas of data privacy and security, competition, AI, and online content.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "New or changing laws and regulations, or interpretations or applications of existing laws and regulations in a manner inconsistent with our interpretations of such laws and regulations and/or our practices, have resulted in, and may continue to result in, less useful products and services, altered business models and operations, limited ability to pursue certain business practices or offer certain products and services, substantial costs, and civil or criminal liability.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "New or changing laws and regulations, or interpretations or applications of existing laws and regulations in a manner inconsistent with our interpretations of such laws and regulations and/or our practices, have resulted in, and may continue to result in, less useful products and services, altered business models and operations, limited ability to pursue certain business practices or offer certain products and services, substantial costs, and civil or criminal liability.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "•AI: Laws and regulations focused on the development, use, and provision of AI technologies and other digital products and services, which could result in monetary penalties or other regulatory actions.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "In the U.S., there is increasing uncertainty as to the federal government's approach to AI regulation going forward, as the continued applicability of the White House's 2023 Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence, which lays out a framework for the U.S. government, among other things, to monitor private sector development of certain foundation models, remains subject to regulatory development.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "Several states are considering enacting or have already enacted regulations concerning the use of AI technologies, including those focused on consumer protection, and depending on the scope of AI regulation at the federal level, some states may move to regulate AI model development and deployment.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "Further, at the federal and state level, there have been various proposals (and in some cases laws enacted) addressing “deepfakes” and other AI-generated synthetic media.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "Additionally, the increasing adoption of AI technologies, which rely on the collection of large amounts of data and use of such data for training purposes, has led data protection authorities around the world to consider and adopt new and evolving interpretations of data protection laws, imposing specific obligations with respect to the processing of personal data, including required notices, consents, and opt-outs.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "Additionally, the increasing adoption of AI technologies, which rely on the collection of large amounts of data and use of such data for training purposes, has led data protection authorities around the world to consider and adopt new and evolving interpretations of data protection laws, imposing specific obligations with respect to the processing of personal data, including required notices, consents, and opt-outs.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "Further, the increased risk of inadvertent disclosure of confidential information or personal data in connection with the utilization of AI technologies may result in stronger regulatory scrutiny, leading to legal and regulatory investigations and enforcement actions that may negatively affect our business, even if unfounded.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "Further, the increased risk of inadvertent disclosure of confidential information or personal data in connection with the utilization of AI technologies may result in stronger regulatory scrutiny, leading to legal and regulatory investigations and enforcement actions that may negatively affect our business, even if unfounded.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "As we continue to expand our business, the number of intellectual property claims against us has increased and may continue to increase as we develop and acquire new products, services, and technologies, including AI technologies.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Litigation",
+    "strength": null
+  },
+  {
+    "sentence": "Adverse results in any of these lawsuits may include awards of monetary damages, costly royalty or licensing agreements (if licenses are available at all), or orders limiting our ability to sell our products and services in the U.S. or elsewhere, including by preventing us from offering certain features, functionalities, products, or services in certain jurisdictions.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Litigation",
+    "strength": null
+  },
+  {
+    "sentence": "In addition, we face increasing competition for user engagement and advertisers, including from other developers and providers of AI products and services, which may affect our revenues.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significant resources to develop, test, and maintain our products and services, but we may not be able to identify or resolve all AI-related issues, deficiencies, and/or failures before they arise.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Capabilities Safeguards",
+    "strength": 2
+  }
+]

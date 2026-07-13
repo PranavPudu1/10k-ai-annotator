@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>10-K · RAI Annotation Prototype</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  :root {
+    --ai: #2563eb;
+    --ai-bg: rgba(37, 99, 235, 0.18);
+    --coder-a: #ea580c;
+    --coder-a-bg: rgba(234, 88, 12, 0.18);
+    --coder-b: #9333ea;
+    --coder-b-bg: rgba(147, 51, 234, 0.18);
+    --coders-both: #0d9488;
+    --coders-both-bg: rgba(13, 148, 136, 0.20);
+    --ai-and-a: #16a34a;
+    --ai-and-a-bg: rgba(22, 163, 74, 0.20);
+    --ai-and-b: #0891b2;
+    --ai-and-b-bg: rgba(8, 145, 178, 0.20);
+    --ai-and-both: #ca8a04;
+    --ai-and-both-bg: rgba(202, 138, 4, 0.20);
+  }
+  html, body { background: #fafaf9; color: #1c1917; }
+  body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+  .doc-text {
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    line-height: 1.75;
+    font-size: 16px;
+    color: #1c1917;
+  }
+  .doc-text p { margin: 0 0 1em 0; }
+  .annotated { padding: 1px 2px; border-radius: 2px; transition: background 120ms; }
+  .annotated.source-ai           { background: var(--ai-bg); }
+  .annotated.source-coder-a      { background: var(--coder-a-bg); }
+  .annotated.source-coder-b      { background: var(--coder-b-bg); }
+  .annotated.source-coders-both  { background: var(--coders-both-bg); }
+  .annotated.source-ai-and-a     { background: var(--ai-and-a-bg); }
+  .annotated.source-ai-and-b     { background: var(--ai-and-b-bg); }
+  .annotated.source-ai-and-both  { background: var(--ai-and-both-bg); }
+  .grid-root { position: relative; }
+  .side-col { position: relative; }
+  .card {
+    position: absolute;
+    left: 8px; right: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: white;
+    border: 1px solid #e7e5e4;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    font-size: 12px;
+    line-height: 1.35;
+    transition: outline 120ms, box-shadow 120ms;
+  }
+  .card.ai       { border-left: 3px solid var(--ai); }
+  .card.coder-a  { border-left: 3px solid var(--coder-a); }
+  .card.coder-b  { border-left: 3px solid var(--coder-b); }
+  .card .pill {
+    display: inline-block;
+    padding: 1px 6px; border-radius: 999px;
+    font-size: 10px; font-weight: 600;
+    margin-right: 4px;
+    vertical-align: 1px;
+    color: white;
+  }
+  .card.ai .pill       { background: var(--ai); }
+  .card.coder-a .pill  { background: var(--coder-a); }
+  .card.coder-b .pill  { background: var(--coder-b); }
+  .card .kind { font-weight: 600; color: #44403c; }
+  .card .cat  { color: #44403c; }
+  .card .sub  { color: #1c1917; font-weight: 500; margin-top: 2px; }
+  .card .strength {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 1px 6px;
+    border-radius: 4px;
+    background: #f5f5f4;
+    font-size: 10px;
+    font-variant-numeric: tabular-nums;
+  }
+  .grid-root[data-hover-anchor] .annotated { opacity: 0.4; }
+  .grid-root[data-hover-anchor] .card      { opacity: 0.35; }
+  .grid-root[data-hover-anchor="__none__"] .annotated,
+  .grid-root[data-hover-anchor="__none__"] .card { opacity: 1; }
+  .annotated.hover { opacity: 1 !important; outline: 2px solid #1c1917; outline-offset: 1px; }
+  .card.hover      { opacity: 1 !important; outline: 2px solid #1c1917; outline-offset: -1px; }
+  .legend-swatch { display:inline-block; width:14px; height:14px; border-radius:3px; vertical-align:-2px; margin-right:4px; }
+  .unmatched-section h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #78716c; margin: 24px 0 8px; }
+</style>
+</head>
+<body>
+
+<header class="px-6 pt-4 pb-3 border-b border-stone-200 bg-white sticky top-0 z-10">
+  <div class="text-xs text-stone-600 flex gap-4 flex-wrap items-center">
+    <span><span class="legend-swatch" style="background:var(--ai-bg); border:1px solid var(--ai);"></span>AI only</span>
+    <span><span class="legend-swatch" style="background:var(--coder-a-bg); border:1px solid var(--coder-a);"></span>{{ coder_a_name or "Coder A" }} only</span>
+    <span><span class="legend-swatch" style="background:var(--coder-b-bg); border:1px solid var(--coder-b);"></span>{{ coder_b_name or "Coder B" }} only</span>
+    <span><span class="legend-swatch" style="background:var(--coders-both-bg); border:1px solid var(--coders-both);"></span>Both coders</span>
+    <span><span class="legend-swatch" style="background:var(--ai-and-a-bg); border:1px solid var(--ai-and-a);"></span>AI + A</span>
+    <span><span class="legend-swatch" style="background:var(--ai-and-b-bg); border:1px solid var(--ai-and-b);"></span>AI + B</span>
+    <span><span class="legend-swatch" style="background:var(--ai-and-both-bg); border:1px solid var(--ai-and-both);"></span>AI + both coders</span>
+    <span class="text-stone-500">| AI {{ counts.ai_total }} ({{ counts.ai_unmatched }} unmatched) · A {{ counts.human_a_total }} · B {{ counts.human_b_total }} ({{ counts.human_unmatched }} unmatched)</span>
+  </div>
+</header>
+
+<main class="grid-root grid gap-4 px-6 py-6"
+      style="grid-template-columns: 1fr 2fr 1fr;">
+
+  <!-- Left: AI cards -->
+  <aside class="side-col" id="col-ai">
+    {% for card in ai_cards %}
+      <div class="card ai" data-card data-anchor-target="{{ card.anchor_id }}">
+        <div class="row1"><span class="pill">AI</span><span class="kind">{{ card.kind }}</span> · <span class="cat">{{ card.category }}</span></div>
+        <div class="sub">{{ card.subcategory if card.subcategory and card.subcategory != '-' else card.category }}</div>
+        {% if card.kind == 'Risk Mitigation' and card.strength is not none %}<div class="strength">Strength: {{ card.strength }}/3</div>{% endif %}
+      </div>
+    {% endfor %}
+    {% if unmatched_ai %}
+    <div class="unmatched-section">
+      <h3>Unmatched to document text</h3>
+      {% for card in unmatched_ai %}
+      <div class="card ai" style="position: static; margin-bottom: 8px;">
+        <div class="row1"><span class="pill">AI</span><span class="kind">{{ card.kind }}</span> · <span class="cat">{{ card.category }}</span></div>
+        <div class="sub">{{ card.subcategory if card.subcategory and card.subcategory != '-' else card.category }}</div>
+        {% if card.kind == 'Risk Mitigation' and card.strength is not none %}<div class="strength">Strength: {{ card.strength }}/3</div>{% endif %}
+        <div class="text-stone-500 mt-1" style="font-size:10px;">&ldquo;{{ card.sentence_excerpt }}&rdquo;</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </aside>
+
+  <!-- Middle: document text -->
+  <article class="doc-text" id="col-doc">
+    {% for para in paragraphs %}
+    <p>
+      {%- for token in para -%}
+        {%- if token.is_sentence and token.source_class -%}
+          <span data-anchor="{{ token.anchor_id }}" class="annotated {{ token.source_class }}">{{ token.text }}</span>
+        {%- else -%}
+          {{ token.text }}
+        {%- endif -%}
+      {%- endfor -%}
+    </p>
+    {% endfor %}
+  </article>
+
+  <!-- Right: human cards (A + B) -->
+  <aside class="side-col" id="col-human">
+    {% for card in human_cards %}
+      {% set coder_class = "coder-a" if card.coder == "A" else "coder-b" %}
+      {% set coder_label = card.coder ~ (" — " ~ card.coder_name if card.coder_name else "") %}
+      <div class="card {{ coder_class }}" data-card data-anchor-target="{{ card.anchor_id }}">
+        <div class="row1"><span class="pill">{{ coder_label }}</span><span class="kind">{{ card.kind }}</span> · <span class="cat">{{ card.category }}</span></div>
+        <div class="sub">{{ card.subcategory if card.subcategory and card.subcategory != '-' else card.category }}</div>
+        {% if card.kind == 'Risk Mitigation' and card.strength is not none %}<div class="strength">Strength: {{ card.strength }}/3</div>{% endif %}
+      </div>
+    {% endfor %}
+    {% if unmatched_human %}
+    <div class="unmatched-section">
+      <h3>Unmatched to document text</h3>
+      {% for card in unmatched_human %}
+      {% set coder_class = "coder-a" if card.coder == "A" else "coder-b" %}
+      {% set coder_label = card.coder ~ (" — " ~ card.coder_name if card.coder_name else "") %}
+      <div class="card {{ coder_class }}" style="position: static; margin-bottom: 8px;">
+        <div class="row1"><span class="pill">{{ coder_label }}</span><span class="kind">{{ card.kind }}</span> · <span class="cat">{{ card.category }}</span></div>
+        <div class="sub">{{ card.subcategory if card.subcategory and card.subcategory != '-' else card.category }}</div>
+        {% if card.kind == 'Risk Mitigation' and card.strength is not none %}<div class="strength">Strength: {{ card.strength }}/3</div>{% endif %}
+        <div class="text-stone-500 mt-1" style="font-size:10px;">&ldquo;{{ card.sentence_excerpt }}&rdquo;</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </aside>
+</main>
+
+<script>
+(function() {
+  const gridRoot = document.querySelector('.grid-root');
+  const doc = document.getElementById('col-doc');
+  const colAi = document.getElementById('col-ai');
+  const colHuman = document.getElementById('col-human');
+
+  function positionCards() {
+    const gridRect = gridRoot.getBoundingClientRect();
+    const anchors = new Map();
+    doc.querySelectorAll('[data-anchor]').forEach(el => {
+      anchors.set(el.dataset.anchor, el);
+    });
+
+    for (const col of [colAi, colHuman]) {
+      const nextY = new Map();
+      const cards = col.querySelectorAll('[data-card][data-anchor-target]');
+      cards.forEach(card => {
+        const targetId = card.dataset.anchorTarget;
+        const target = anchors.get(targetId);
+        if (!target) {
+          card.style.position = 'static';
+          return;
+        }
+        const targetRect = target.getBoundingClientRect();
+        let y = targetRect.top - gridRect.top;
+        const claimed = nextY.get('__last__') || 0;
+        if (y < claimed) y = claimed;
+        card.style.top = y + 'px';
+        nextY.set('__last__', y + card.offsetHeight + 6);
+      });
+    }
+  }
+
+  function setHover(anchorId) {
+    document.querySelectorAll('.annotated.hover, .card.hover').forEach(el => el.classList.remove('hover'));
+    if (!anchorId) {
+      gridRoot.removeAttribute('data-hover-anchor');
+      return;
+    }
+    gridRoot.setAttribute('data-hover-anchor', anchorId);
+    document.querySelectorAll('[data-anchor="' + anchorId + '"]').forEach(el => el.classList.add('hover'));
+    document.querySelectorAll('[data-anchor-target="' + anchorId + '"]').forEach(el => el.classList.add('hover'));
+  }
+  doc.addEventListener('mouseover', e => {
+    const t = e.target.closest('[data-anchor]');
+    if (t) setHover(t.dataset.anchor);
+  });
+  doc.addEventListener('mouseleave', () => setHover(null));
+  for (const col of [colAi, colHuman]) {
+    col.addEventListener('mouseover', e => {
+      const t = e.target.closest('[data-card][data-anchor-target]');
+      if (t) setHover(t.dataset.anchorTarget);
+    });
+    col.addEventListener('mouseleave', () => setHover(null));
+  }
+
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(positionCards, 100);
+  });
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', positionCards);
+  } else {
+    positionCards();
+  }
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(positionCards);
+  }
+  setTimeout(positionCards, 300);
+  setTimeout(positionCards, 1500);
+
+  const ro = new ResizeObserver(() => {
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(positionCards, 100);
+  });
+  ro.observe(doc);
+})();
+</script>
+
+</body>
+</html>

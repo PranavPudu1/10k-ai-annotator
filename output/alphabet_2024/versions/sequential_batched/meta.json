@@ -1,0 +1,13 @@
+{
+  "id": "sequential_batched",
+  "name": "Sequential 4-phase chain",
+  "display_label": "V3 — Sequential 4-phase chain",
+  "description": "Break the annotation task into four sequential LLM calls. Phase 1 lists candidate AI-relevant anchors over the full doc. Phase 2 decides each candidate's kind (Risk / Risk Mitigation / drop). Phase 3 assigns category + subcategory from the relevant taxonomy half. Phase 4 scores mitigation strength. Each phase sees the prior phase's verdicts as context. ~4 calls, ~30s per doc, mirrors the staged human MVP flow.",
+  "workflow": "sequential",
+  "prompt_builder": "baseline",
+  "chunker": "full_doc",
+  "chunker_params": {},
+  "model": "gpt-5.4-mini",
+  "n_chunks": 4,
+  "created_at": "2026-06-21T21:53:54"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "keyword_window_20",
+  "name": "Keyword filter + ±20 sentence window",
+  "description": "Filter sentences using a 195-term AI vocabulary. For each sentence containing an AI keyword, take a window of 20 sentences before and 20 sentences after. Overlapping windows are merged. Each merged window is sent as its own LLM call. Annotations from every chunk are aggregated and deduplicated by sentence.",
+  "chunker": "keyword_window",
+  "chunker_params": {
+    "window_sentences": 20
+  },
+  "model": "gpt-5.4-mini",
+  "n_chunks": 3,
+  "created_at": "2026-06-15T12:16:14"
+}

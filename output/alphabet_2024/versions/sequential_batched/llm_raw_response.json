@@ -1,0 +1,212 @@
+[
+  {
+    "phase": "p1_candidates",
+    "raw_response": {
+      "id": "chatcmpl-DtP4vJNUQnUjudiPDvPYpTE1NCEAn",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00106\"},{\"anchor_id\":\"s-00110\"},{\"anchor_id\":\"s-00122\"},{\"anchor_id\":\"s-00123\"},{\"anchor_id\":\"s-00124\"},{\"anchor_id\":\"s-00125\"},{\"anchor_id\":\"s-00126\"},{\"anchor_id\":\"s-00127\"},{\"anchor_id\":\"s-00128\"},{\"anchor_id\":\"s-00129\"},{\"anchor_id\":\"s-00130\"},{\"anchor_id\":\"s-00131\"},{\"anchor_id\":\"s-00132\"},{\"anchor_id\":\"s-00134\"},{\"anchor_id\":\"s-00135\"},{\"anchor_id\":\"s-00137\"},{\"anchor_id\":\"s-00138\"},{\"anchor_id\":\"s-00139\"},{\"anchor_id\":\"s-00140\"},{\"anchor_id\":\"s-00141\"},{\"anchor_id\":\"s-00142\"},{\"anchor_id\":\"s-00144\"},{\"anchor_id\":\"s-00146\"},{\"anchor_id\":\"s-00147\"},{\"anchor_id\":\"s-00148\"},{\"anchor_id\":\"s-00149\"},{\"anchor_id\":\"s-00151\"},{\"anchor_id\":\"s-00152\"},{\"anchor_id\":\"s-00153\"},{\"anchor_id\":\"s-00154\"},{\"anchor_id\":\"s-00156\"},{\"anchor_id\":\"s-00159\"},{\"anchor_id\":\"s-00162\"},{\"anchor_id\":\"s-00163\"},{\"anchor_id\":\"s-00164\"},{\"anchor_id\":\"s-00170\"},{\"anchor_id\":\"s-00171\"},{\"anchor_id\":\"s-00172\"},{\"anchor_id\":\"s-00193\"},{\"anchor_id\":\"s-00206\"},{\"anchor_id\":\"s-00207\"},{\"anchor_id\":\"s-00224\"},{\"anchor_id\":\"s-00225\"},{\"anchor_id\":\"s-00226\"},{\"anchor_id\":\"s-00227\"},{\"anchor_id\":\"s-00228\"},{\"anchor_id\":\"s-00230\"},{\"anchor_id\":\"s-00231\"},{\"anchor_id\":\"s-00232\"},{\"anchor_id\":\"s-00233\"},{\"anchor_id\":\"s-00234\"},{\"anchor_id\":\"s-00300\"},{\"anchor_id\":\"s-00346\"},{\"anchor_id\":\"s-00347\"},{\"anchor_id\":\"s-00348\"},{\"anchor_id\":\"s-00349\"},{\"anchor_id\":\"s-00350\"},{\"anchor_id\":\"s-00351\"},{\"anchor_id\":\"s-00360\"},{\"anchor_id\":\"s-00368\"},{\"anchor_id\":\"s-00377\"},{\"anchor_id\":\"s-00475\"},{\"anchor_id\":\"s-00476\"},{\"anchor_id\":\"s-00477\"},{\"anchor_id\":\"s-00478\"},{\"anchor_id\":\"s-00479\"},{\"anchor_id\":\"s-00480\"},{\"anchor_id\":\"s-00488\"},{\"anchor_id\":\"s-00495\"},{\"anchor_id\":\"s-00514\"},{\"anchor_id\":\"s-00515\"},{\"anchor_id\":\"s-00518\"},{\"anchor_id\":\"s-00528\"},{\"anchor_id\":\"s-00534\"},{\"anchor_id\":\"s-00549\"},{\"anchor_id\":\"s-00555\"},{\"anchor_id\":\"s-00556\"},{\"anchor_id\":\"s-00557\"},{\"anchor_id\":\"s-00558\"},{\"anchor_id\":\"s-00559\"},{\"anchor_id\":\"s-00560\"},{\"anchor_id\":\"s-00571\"},{\"anchor_id\":\"s-00573\"},{\"anchor_id\":\"s-00595\"},{\"anchor_id\":\"s-00607\"},{\"anchor_id\":\"s-00608\"},{\"anchor_id\":\"s-00622\"},{\"anchor_id\":\"s-00777\"},{\"anchor_id\":\"s-00812\"},{\"anchor_id\":\"s-00823\"},{\"anchor_id\":\"s-00824\"},{\"anchor_id\":\"s-00842\"},{\"anchor_id\":\"s-00843\"},{\"anchor_id\":\"s-00894\"},{\"anchor_id\":\"s-00998\"},{\"anchor_id\":\"s-01002\"},{\"anchor_id\":\"s-01096\"},{\"anchor_id\":\"s-01102\"},{\"anchor_id\":\"s-01676\"},{\"anchor_id\":\"s-01729\"},{\"anchor_id\":\"s-01787\"},{\"anchor_id\":\"s-01998\"},{\"anchor_id\":\"s-01999\"},{\"anchor_id\":\"s-02000\"},{\"anchor_id\":\"s-02003\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782096813,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 854,
+        "prompt_tokens": 66664,
+        "total_tokens": 67518,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p2_kind",
+    "raw_response": {
+      "id": "chatcmpl-DtP51MIDnG3G9l61K8VizI8xngOEB",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00106\",\"kind\":null},{\"anchor_id\":\"s-00110\",\"kind\":null},{\"anchor_id\":\"s-00122\",\"kind\":null},{\"anchor_id\":\"s-00123\",\"kind\":null},{\"anchor_id\":\"s-00124\",\"kind\":null},{\"anchor_id\":\"s-00125\",\"kind\":null},{\"anchor_id\":\"s-00126\",\"kind\":null},{\"anchor_id\":\"s-00127\",\"kind\":null},{\"anchor_id\":\"s-00128\",\"kind\":null},{\"anchor_id\":\"s-00129\",\"kind\":null},{\"anchor_id\":\"s-00130\",\"kind\":null},{\"anchor_id\":\"s-00131\",\"kind\":null},{\"anchor_id\":\"s-00132\",\"kind\":null},{\"anchor_id\":\"s-00134\",\"kind\":null},{\"anchor_id\":\"s-00135\",\"kind\":null},{\"anchor_id\":\"s-00137\",\"kind\":null},{\"anchor_id\":\"s-00138\",\"kind\":null},{\"anchor_id\":\"s-00139\",\"kind\":null},{\"anchor_id\":\"s-00140\",\"kind\":null},{\"anchor_id\":\"s-00141\",\"kind\":null},{\"anchor_id\":\"s-00142\",\"kind\":null},{\"anchor_id\":\"s-00144\",\"kind\":null},{\"anchor_id\":\"s-00146\",\"kind\":null},{\"anchor_id\":\"s-00147\",\"kind\":null},{\"anchor_id\":\"s-00148\",\"kind\":null},{\"anchor_id\":\"s-00149\",\"kind\":null},{\"anchor_id\":\"s-00151\",\"kind\":null},{\"anchor_id\":\"s-00152\",\"kind\":null},{\"anchor_id\":\"s-00153\",\"kind\":null},{\"anchor_id\":\"s-00154\",\"kind\":null},{\"anchor_id\":\"s-00156\",\"kind\":null},{\"anchor_id\":\"s-00159\",\"kind\":null},{\"anchor_id\":\"s-00162\",\"kind\":null},{\"anchor_id\":\"s-00163\",\"kind\":null},{\"anchor_id\":\"s-00164\",\"kind\":null},{\"anchor_id\":\"s-00170\",\"kind\":null},{\"anchor_id\":\"s-00171\",\"kind\":null},{\"anchor_id\":\"s-00172\",\"kind\":null},{\"anchor_id\":\"s-00193\",\"kind\":null},{\"anchor_id\":\"s-00206\",\"kind\":null},{\"anchor_id\":\"s-00207\",\"kind\":null},{\"anchor_id\":\"s-00224\",\"kind\":null},{\"anchor_id\":\"s-00225\",\"kind\":null},{\"anchor_id\":\"s-00226\",\"kind\":null},{\"anchor_id\":\"s-00227\",\"kind\":null},{\"anchor_id\":\"s-00228\",\"kind\":null},{\"anchor_id\":\"s-00230\",\"kind\":null},{\"anchor_id\":\"s-00231\",\"kind\":null},{\"anchor_id\":\"s-00232\",\"kind\":null},{\"anchor_id\":\"s-00233\",\"kind\":null},{\"anchor_id\":\"s-00234\",\"kind\":null},{\"anchor_id\":\"s-00300\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00346\",\"kind\":null},{\"anchor_id\":\"s-00347\",\"kind\":null},{\"anchor_id\":\"s-00348\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00349\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00350\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00351\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00360\",\"kind\":null},{\"anchor_id\":\"s-00368\",\"kind\":null},{\"anchor_id\":\"s-00377\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00475\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00476\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00477\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00478\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00479\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00480\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00488\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00495\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00514\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00515\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00518\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00528\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00534\",\"kind\":\"Risk Mitigation\"},{\"anchor_id\":\"s-00549\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00555\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00556\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00557\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00558\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00559\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00560\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00571\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00573\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00595\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00607\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00608\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00622\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00777\",\"kind\":null},{\"anchor_id\":\"s-00812\",\"kind\":\"Risk\"},{\"anchor_id\":\"s-00823\",\"kind\":null},{\"anchor_id\":\"s-00824\",\"kind\":null},{\"anchor_id\":\"s-00842\",\"kind\":null},{\"anchor_id\":\"s-00843\",\"kind\":null},{\"anchor_id\":\"s-00894\",\"kind\":null},{\"anchor_id\":\"s-00998\",\"kind\":null},{\"anchor_id\":\"s-01002\",\"kind\":null},{\"anchor_id\":\"s-01096\",\"kind\":null},{\"anchor_id\":\"s-01102\",\"kind\":null},{\"anchor_id\":\"s-01676\",\"kind\":null},{\"anchor_id\":\"s-01729\",\"kind\":null},{\"anchor_id\":\"s-01787\",\"kind\":null},{\"anchor_id\":\"s-01998\",\"kind\":null},{\"anchor_id\":\"s-01999\",\"kind\":null},{\"anchor_id\":\"s-02000\",\"kind\":null},{\"anchor_id\":\"s-02003\",\"kind\":null}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782096819,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 1282,
+        "prompt_tokens": 4494,
+        "total_tokens": 5776,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p3a_risk_cats",
+    "raw_response": {
+      "id": "chatcmpl-DtP58QX8rtFwy3YaRWO3EKTpMlU7k",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00300\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00300\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00348\",\"category\":\"Competitive\",\"subcategory\":\"Investment Cost & Uncertainty\"},{\"anchor_id\":\"s-00349\",\"category\":\"Competitive\",\"subcategory\":\"Investment Cost & Uncertainty\"},{\"anchor_id\":\"s-00350\",\"category\":\"Competitive\",\"subcategory\":\"Market Share Uncertainty\"},{\"anchor_id\":\"s-00351\",\"category\":\"Legal\",\"subcategory\":\"IP & Copyright\"},{\"anchor_id\":\"s-00377\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00475\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00475\",\"category\":\"Legal\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00476\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00476\",\"category\":\"Sociotechnical\",\"subcategory\":\"Human-centered\"},{\"anchor_id\":\"s-00476\",\"category\":\"Legal\",\"subcategory\":\"IP & Copyright\"},{\"anchor_id\":\"s-00476\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00477\",\"category\":\"Competitive\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00477\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00477\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00477\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00477\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00478\",\"category\":\"Sociotechnical\",\"subcategory\":\"Human-centered\"},{\"anchor_id\":\"s-00480\",\"category\":\"Sociotechnical\",\"subcategory\":\"Human-centered\"},{\"anchor_id\":\"s-00480\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00480\",\"category\":\"Reputational\",\"subcategory\":\"Individual or Organizational Reputation\"},{\"anchor_id\":\"s-00480\",\"category\":\"Legal\",\"subcategory\":\"Litigation\"},{\"anchor_id\":\"s-00488\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00495\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00495\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00518\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00518\",\"category\":\"Sociotechnical\",\"subcategory\":\"Human-centered\"},{\"anchor_id\":\"s-00528\",\"category\":\"Sociotechnical\",\"subcategory\":\"Malicious Actors / Misuse\"},{\"anchor_id\":\"s-00549\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00549\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00555\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00556\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00557\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00558\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00559\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00559\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00560\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00571\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00573\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00573\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00573\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00595\",\"category\":\"Legal\",\"subcategory\":\"Litigation\"},{\"anchor_id\":\"s-00595\",\"category\":\"Legal\",\"subcategory\":\"Other\"},{\"anchor_id\":\"s-00607\",\"category\":\"Legal\",\"subcategory\":\"Compliance Costs\"},{\"anchor_id\":\"s-00607\",\"category\":\"Legal\",\"subcategory\":\"Uncertainty & Complexity\"},{\"anchor_id\":\"s-00608\",\"category\":\"Sociotechnical\",\"subcategory\":\"Privacy & Security\"},{\"anchor_id\":\"s-00608\",\"category\":\"Legal\",\"subcategory\":\"Litigation\"},{\"anchor_id\":\"s-00622\",\"category\":\"Legal\",\"subcategory\":\"IP & Copyright\"},{\"anchor_id\":\"s-00812\",\"category\":\"Competitive\",\"subcategory\":\"Market Share Uncertainty\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782096826,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 974,
+        "prompt_tokens": 2660,
+        "total_tokens": 3634,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p3b_mit_cats",
+    "raw_response": {
+      "id": "chatcmpl-DtP5DjNXFpWIfTy0txTtzvYWNzNdz",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00479\",\"category\":\"Governance & Oversight\",\"subcategory\":\"Overall Risk Management & Governance Plan\"},{\"anchor_id\":\"s-00514\",\"category\":\"Technical & Security Controls\",\"subcategory\":\"AI Security, Privacy, and Data Protections\"},{\"anchor_id\":\"s-00515\",\"category\":\"Technical & Security Controls\",\"subcategory\":\"AI Security, Privacy, and Data Protections\"},{\"anchor_id\":\"s-00515\",\"category\":\"Operational Process Controls\",\"subcategory\":\"Testing & Auditing\"},{\"anchor_id\":\"s-00534\",\"category\":\"Technical & Security Controls\",\"subcategory\":\"AI Capabilities Safeguards\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782096831,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 1401,
+        "total_tokens": 1539,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "phase": "p4_strength",
+    "raw_response": {
+      "id": "chatcmpl-DtP5FfDzKzjwyr2NAktmiNmuEl0vj",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"verdicts\":[{\"anchor_id\":\"s-00479\",\"strength\":2},{\"anchor_id\":\"s-00514\",\"strength\":2},{\"anchor_id\":\"s-00515\",\"strength\":3},{\"anchor_id\":\"s-00515\",\"strength\":3},{\"anchor_id\":\"s-00534\",\"strength\":2}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": [],
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1782096833,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "object": "chat.completion",
+      "service_tier": "default",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 74,
+        "prompt_tokens": 466,
+        "total_tokens": 540,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "sentence": "Our expectation that our capital expenditures will increase, including our expected spend and the expected increase in our technical infrastructure investment to support the growth of our business and our long-term initiatives, in particular in support of artificial intelligence (AI) products and services;",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Our business is characterized by rapid change as well as new and disruptive technologies.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Competing successfully depends heavily on our ability to develop and distribute innovative products and technologies to the marketplace across our businesses.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "We are expanding our investment in AI across the entire company.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "This includes generative AI and continuing to integrate AI capabilities into our products and services.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure, development and operational costs, to meet the changing needs and expectations of our existing users and attract new users.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Additionally, other companies may develop AI products and technologies that are similar or superior to our technologies or more cost-effective to develop and/or deploy.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "Other companies may also have (or in the future may obtain) patents or other proprietary rights that would prevent, limit, or interfere with our ability to make, use, or sell our own AI products and services.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "IP & Copyright",
+    "strength": null
+  },
+  {
+    "sentence": "The investments that we are making across our businesses, such as building AI capabilities into new and existing products and services, reflect our ongoing efforts to innovate and provide products and services that are helpful to users, advertisers, publishers, customers, and content providers.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "We use our foreign exchange risk management program will not fully offset our net exposure to fluctuations in foreign currency exchange rates;",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Other",
+    "strength": null
+  },
+  {
+    "sentence": "We have already devoted and will continue to invest significant resources to develop, test, and maintain our products and services, but we may not be able to identify or resolve all AI-related issues, deficiencies, and/or failures before they arise.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Human-centered",
+    "strength": null
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Human-centered",
+    "strength": null
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "Our development, use, and commercialization of AI products and services (including our",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "We continue to add new features involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to unanticipated security threats as our and the market’s understanding of AI-centric security risks and protection methods continue to develop.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber attacks or other security incidents, particularly where such technologies are exploited by third parties to breach our or other parties’ systems, including when such technologies are used to target our employees or impersonate members of senior management in order to gain unauthorized access to our systems.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "Increased use of AI in our offerings and internal systems may create new avenues of abuse for bad actors.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "Some uses of AI will present ethical issues and may have broad effects on society.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null
+  },
+  {
+    "sentence": "We make it a priority to protect the privacy and security of our products, users, and customers, even if there are near-term financial consequences.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2
+  },
+  {
+    "sentence": "We do this by continuously investing in building products that are secure by default; strictly upholding responsible data practices that emphasize privacy by design; and building easy-to-use settings that put people in control.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 3
+  },
+  {
+    "sentence": "We are continually enhancing these efforts over time, whether by enabling users to auto-delete their data, applying privacy technologies like on-device processing, giving people tools to control their experience, or advancing anti-malware, anti-phishing, and password security features.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 3
+  },
+  {
+    "sentence": "Our business and financial results may be materially affected by risks from cybersecurity threats, including as a result of previously identified cybersecurity incidents, but we cannot provide assurance that they will not be materially affected in the future by such risks or any future material incidents.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "Our ongoing investments in safety, security, and content review will likely continue to identify abuse of our platforms and misuse of user data.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 2
+  },
+  {
+    "sentence": "In addition to our efforts to prevent and mitigate cyber attacks, we are making significant investments in safety, security, and review efforts to combat misuse of our services and unauthorized access to user data by third parties, including investigation and review of platform applications that could access the information of users of our services.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2
+  },
+  {
+    "sentence": "Such incidents and activities may include the use of user data or our systems in a manner inconsistent with our terms, contracts or policies, the existence of false or undesirable user accounts, election interference, improper ad purchases, activities that threaten people’s safety on- or off-line, or instances of spamming, scraping, or spreading disinformation.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "We, like others in the industry, face violations of our content guidelines across our platforms, including sophisticated attempts by bad actors to manipulate our hosting and advertising systems to fraudulently generate revenues, or to otherwise generate traffic that does not represent genuine user interest or intent.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "We continue to invest in and deploy proprietary technology to detect and prevent web spam on our platforms, but there is no guarantee that our technology will always be successful, and our users may have negative experiences on our platforms if our technology fails to work as intended, which may affect our users' decisions in continuing to use our platforms.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI-Generated Content",
+    "strength": 2
+  },
+  {
+    "sentence": "We are continually launching algorithmic changes designed to detect and prevent abuse from low-quality websites, but we may not always be successful.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 2
+  },
+  {
+    "sentence": "We also face other challenges on our platforms, including violations of our content guidelines involving incidents such as attempted election interference; activities that threaten the safety and/or well-being of our users, including minors, on- or off-line; and the spreading of misinformation or disinformation.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null
+  },
+  {
+    "sentence": "We are subject to numerous U.S. federal and state as well as foreign laws and regulations covering a wide variety of subjects, and our introduction of new businesses, products, services, and technologies will likely continue to subject us to additional laws and regulations.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "The costs of compliance with these measures are high and are likely to increase in the future, including as a result of differing, and sometimes conflicting, laws and regulations.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "For example, the EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year transitional period (although certain obligations will take effect at an earlier or later time).",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "The EU AI Act introduces various requirements for AI systems and models placed on the market or put into service in the EU, including specific transparency and other requirements for general purpose AI systems and the models on which those systems are based.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null
+  },
+  {
+    "sentence": "Our development, use, and commercialization of AI products and services (including our implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null
+  },
+  {
+    "sentence": "We expect to increase, relative to 2024, our investment in our technical infrastructure, including servers, network equipment, and data centers, to support the growth of our business and our long-term initiatives, in particular in support of AI products and services.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "We maintain a comprehensive process for identifying, assessing, and managing material risks from cybersecurity threats as part of our broader risk management system and processes.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 3
+  },
+  {
+    "sentence": "Teams of dedicated privacy, safety, and security professionals oversee cybersecurity risk management and mitigation, incident prevention, detection, and remediation.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "Any incident assessed as potentially being or potentially becoming material is promptly escalated for further assessment, and then reported to designated members of our senior management.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Incident Monitoring, Response, and Recovery",
+    "strength": 3
+  },
+  {
+    "sentence": "The Audit and Compliance Committee has oversight responsibility for risks and incidents relating to cybersecurity threats, including compliance with disclosure requirements, cooperation with law enforcement, and related effects on financial and other risks, and it reports any findings and recommendations, as appropriate, to the full Board for consideration.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Board Structure & Oversight",
+    "strength": 2
+  },
+  {
+    "sentence": "Internal Audit maintains a dedicated cybersecurity auditing team that independently tests our cybersecurity controls.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 3
+  },
+  {
+    "sentence": "Our business strategy, results of operations and financial condition have not been materially affected by risks from cybersecurity threats, including as a result of previously identified cybersecurity incidents, but we cannot provide assurance that they will not be materially affected in the future by such risks or any future material incidents.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null
+  },
+  {
+    "sentence": "We use non-GAAP constant currency revenues (\"constant currency revenues\") and non-GAAP percentage change in constant currency revenues (\"percentage change in constant currency revenues\") for financial and operational decision-making and as a means to evaluate period-to-period comparisons.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "We believe the presentation of results on a constant currency basis in addition to U.S. Generally Accepted Accounting Principles (GAAP) results helps improve the ability to understand our performance, because it excludes the effects of foreign currency volatility that are not indicative of our core operating results.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "We are making significant investments in safety, security, and review efforts to combat misuse of our services and unauthorized access to user data by third parties, including investigation and review of platform applications that could access the information of users of our services.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2
+  },
+  {
+    "sentence": "Our investment in the portfolio of Other Bets includes businesses that are at various stages of development, ranging from those in the R&D phase to those that are in the beginning stages of commercialization.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null
+  },
+  {
+    "sentence": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significant resources to develop, test, and maintain our products and services, but we may not be able to identify or resolve all AI-related issues, deficiencies, and/or failures before they arise.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "As our business evolves, we periodically review, refine, and update our methodologies for monitoring, gathering, and counting the number of paid clicks and the number of impressions, and for identifying the revenues generated by the corresponding click and impression activity.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "We continue to invest heavily and develop localized versions of our products and advertising programs relevant to our users in these markets.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  },
+  {
+    "sentence": "We have adopted insider trading policies and procedures governing the purchase, sale, and other dispositions of securities of Alphabet by directors, officers, and employees that we believe are reasonably designed to promote compliance with insider trading laws, rules and regulations, and applicable Nasdaq listing standards.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2
+  }
+]

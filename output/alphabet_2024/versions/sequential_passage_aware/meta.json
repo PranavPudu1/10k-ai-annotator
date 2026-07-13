@@ -1,0 +1,13 @@
+{
+  "id": "sequential_passage_aware",
+  "name": "Passage-aware sequential + HAI guardrails",
+  "display_label": "V5 — Passage-aware sequential + HAI guardrails",
+  "description": "Six-phase pipeline designed to fix the recall gap surfaced by missed-anchor analysis: humans tag sentences whose AI relevance comes from the surrounding passage, which V3 and V4.1 explicitly excluded. Phase 1 identifies AI-topic passages at section level. Phase 2 sweeps candidates from inside those passages PLUS direct AI mentions outside them. Phase 3 applies the HAI v3 guardrails to drop cybersecurity boilerplate, financial-management language, product descriptions, etc. Phases 4-6 do kind/category/strength. HAI v3 rules (deep-read principles minus the strict-context rule, plus passage-aware additions) are in the system prompt of every phase.",
+  "workflow": "sequential_passage_aware",
+  "prompt_builder": "hai_tuned_v3",
+  "chunker": "full_doc",
+  "chunker_params": {},
+  "model": "gpt-5.4-mini",
+  "n_chunks": 6,
+  "created_at": "2026-06-21T22:32:23"
+}

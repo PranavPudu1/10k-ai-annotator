@@ -1,0 +1,3091 @@
+{
+  "cards_by_anchor": {
+    "s-00077": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "•our expectation that our capital expenditures will increase, including our expected spend and the expected increase in our technical infras"
+        }
+      ],
+      "human": []
+    },
+    "s-00127": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "AI Safety (General, Broad)",
+          "subcategory": "-",
+          "strength": null,
+          "sentence_excerpt": "Gemini can generalize and seamlessly understand, operate across, and combine different types of information including text, code, audio, ima"
+        }
+      ],
+      "human": []
+    },
+    "s-00135": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 1,
+          "sentence_excerpt": "We aim to build the most advanced, safe, and responsible AI through a full stack of robust AI-optimized infrastructure, including data cente"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Security, Privacy, and Data Protections",
+          "strength": 1,
+          "sentence_excerpt": "We aim to build the most advanced, safe, and responsible AI through a full stack of robust AI-optimized infrastructure, including data cente"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Societal Impact",
+          "subcategory": "Design for AI-Human Value Alignment",
+          "strength": 2,
+          "sentence_excerpt": "We aim to build the most advanced, safe, and responsible AI through a full stack of robust AI-optimized infrastructure, including data cente"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Societal Impact",
+          "subcategory": "Design for AI-Human Value Alignment",
+          "strength": 1,
+          "sentence_excerpt": "We aim to build the most advanced, safe, and responsible AI through a full stack of robust AI-optimized infrastructure, including data cente"
+        }
+      ]
+    },
+    "s-00141": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 1,
+          "sentence_excerpt": "We believe our approach to AI must be both bold and responsible."
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Societal Impact",
+          "subcategory": "Design for AI-Human Value Alignment",
+          "strength": 1,
+          "sentence_excerpt": "We believe our approach to AI must be both bold and responsible."
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Societal Impact",
+          "subcategory": "Design for AI-Human Value Alignment",
+          "strength": 1,
+          "sentence_excerpt": "We believe our approach to AI must be both bold and responsible."
+        }
+      ]
+    },
+    "s-00142": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 3,
+          "sentence_excerpt": "That means developing AI in a way that maximizes the positive benefits to society while addressing its potential challenges, guided by our A"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Societal Impact",
+          "subcategory": "Design for AI-Human Value Alignment",
+          "strength": 1,
+          "sentence_excerpt": "That means developing AI in a way that maximizes the positive benefits to society while addressing its potential challenges, guided by our A"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Societal Impact",
+          "subcategory": "Design for AI-Human Value Alignment",
+          "strength": 1,
+          "sentence_excerpt": "That means developing AI in a way that maximizes the positive benefits to society while addressing its potential challenges, guided by our A"
+        }
+      ]
+    },
+    "s-00149": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Incident Monitoring, Response, and Recovery",
+          "strength": 2,
+          "sentence_excerpt": "Gemini for Google Cloud provides pre-packaged AI agents that can assist developers to write, document, test, and operate software as well as"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Security, Privacy, and Data Protections",
+          "strength": 2,
+          "sentence_excerpt": "Gemini for Google Cloud provides pre-packaged AI agents that can assist developers to write, document, test, and operate software as well as"
+        }
+      ],
+      "human": []
+    },
+    "s-00153": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Transparency",
+          "subcategory": "System Documentation",
+          "strength": 1,
+          "sentence_excerpt": "We are embedding the power of generative AI to continue helping our users express themselves and get things done."
+        }
+      ],
+      "human": []
+    },
+    "s-00154": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "For example, the Gemini app allows users to collaborate with new AI features that include image generation capabilities, coding support, and"
+        }
+      ],
+      "human": []
+    },
+    "s-00171": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Our early investments in AI started out as moonshots but are now incorporated into our core products and central to future developments."
+        }
+      ],
+      "human": []
+    },
+    "s-00172": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "We continue to look toward the future and to invest for the long term, most notably for the application of AI to our products and services, "
+        }
+      ],
+      "human": []
+    },
+    "s-00193": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "System Access Management",
+          "strength": 2,
+          "sentence_excerpt": "We are now using Gemini customized for Google Search to provide our users an improved Search experience, and AI Overviews has been released "
+        }
+      ],
+      "human": []
+    },
+    "s-00206": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "AI has been foundational to our advertising business for more than a decade."
+        }
+      ],
+      "human": []
+    },
+    "s-00207": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "Products like Demand Gen, Performance Max, and Product Studio use the full power of our AI to help advertisers find untapped and incremental"
+        }
+      ],
+      "human": []
+    },
+    "s-00209": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Transparency",
+          "subcategory": "System Documentation",
+          "strength": 1,
+          "sentence_excerpt": "We continue to invest in both performance and brand advertising and seek to improve the measurability of advertising so advertisers understa"
+        }
+      ],
+      "human": []
+    },
+    "s-00226": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "AI Safety (General, Broad)",
+          "subcategory": "-",
+          "strength": null,
+          "sentence_excerpt": "•Developer Platform: provides developers, through the Vertex AI platform, the ability to train, tune, augment, test, and deploy applications"
+        }
+      ],
+      "human": []
+    },
+    "s-00228": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Security, Privacy, and Data Protections",
+          "strength": 2,
+          "sentence_excerpt": "•Cybersecurity: provides AI powered cybersecurity solutions to help customers analyze, detect, protect, and respond to a broad range of cybe"
+        }
+      ],
+      "human": []
+    },
+    "s-00233": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Security, Privacy, and Data Protections",
+          "strength": 2,
+          "sentence_excerpt": "AI has been used in Google Workspace for years to improve grammar, efficiency, security, and more with features like Smart Reply, Smart Comp"
+        }
+      ],
+      "human": []
+    },
+    "s-00277": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "Our approach will continue to evolve and will require us to navigate significant uncertainty, including the uncertainty around the future en"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Our approach will continue to evolve and will require us to navigate significant uncertainty, including the uncertainty around the future en"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "Our approach will continue to evolve and will require us to navigate significant uncertainty, including the uncertainty around the future en"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "Our approach will continue to evolve and will require us to navigate significant uncertainty, including the uncertainty around the future en"
+        }
+      ]
+    },
+    "s-00289": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Whistleblower Protections or Conflict of Interest Disclosures",
+          "strength": 1,
+          "sentence_excerpt": "We have work councils and statutory employee representation obligations in certain countries, and we are committed to supporting protected l"
+        }
+      ],
+      "human": []
+    },
+    "s-00299": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Many of these laws and regulations are evolving and their applicability and scope, as interpreted by the courts, remain uncertain."
+        }
+      ],
+      "human": []
+    },
+    "s-00300": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Particularly with regard to AI; competition; consumer protection; content moderation; data privacy and security; news publications; and sust"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Particularly with regard to AI; competition; consumer protection; content moderation; data privacy and security; news publications; and sust"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Particularly with regard to AI; competition; consumer protection; content moderation; data privacy and security; news publications; and sust"
+        }
+      ]
+    },
+    "s-00328": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Changes to our advertising policies and data privacy practices, such as our initiatives related to third-party cookies, including our announ"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Changes to our advertising policies and data privacy practices, such as our initiatives related to third-party cookies, including our announ"
+        }
+      ],
+      "human": []
+    },
+    "s-00330": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "Failing to provide superior value or deliver advertisements effectively and competitively could harm our business, reputation, financial con"
+        }
+      ],
+      "human": []
+    },
+    "s-00346": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "We are expanding our investment in AI across the entire company."
+        }
+      ],
+      "human": []
+    },
+    "s-00347": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "This includes generative AI and continuing to integrate AI capabilities into our products and services."
+        }
+      ],
+      "human": []
+    },
+    "s-00348": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure,"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Market Share Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure,"
+        }
+      ],
+      "human": []
+    },
+    "s-00349": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availab"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availab"
+        }
+      ],
+      "human": []
+    },
+    "s-00350": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Market Share Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Additionally, other companies may develop AI products and technologies that are similar or superior to our technologies or more cost-effecti"
+        }
+      ],
+      "human": []
+    },
+    "s-00351": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Other companies may also have (or in the future may obtain) patents or other proprietary rights that would prevent, limit, or interfere with"
+        }
+      ],
+      "human": []
+    },
+    "s-00352": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Our financial condition and operating results may also suffer if our products and services are not responsive in a timely manner to the evol"
+        }
+      ],
+      "human": []
+    },
+    "s-00360": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 1,
+          "sentence_excerpt": "as building AI capabilities into new and existing products and services, reflect our ongoing efforts to innovate and provide products and se"
+        }
+      ],
+      "human": []
+    },
+    "s-00365": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "These endeavors involve significant risks and uncertainties, including diversion of resources and management attention from current operatio"
+        }
+      ],
+      "human": []
+    },
+    "s-00368": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Within Google Cloud, we devote significant resources to develop and deploy our enterprise-ready cloud services, including Google Cloud Platf"
+        }
+      ],
+      "human": []
+    },
+    "s-00377": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "In addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal, regulatory, and other"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "In addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal, regulatory, and other"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "In addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal, regulatory, and other"
+        }
+      ]
+    },
+    "s-00393": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "For example, effective intellectual property protection may not be available in every country in which our products and services are distrib"
+        }
+      ],
+      "human": []
+    },
+    "s-00395": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Although we seek to obtain patent protection for our innovations, it is possible we may not be able to protect some of these innovations."
+        }
+      ],
+      "human": []
+    },
+    "s-00396": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Moreover, we may not have adequate patent or copyright protection for certain innovations that later turn out to be important."
+        }
+      ],
+      "human": []
+    },
+    "s-00404": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Any significant impairment of our intellectual property rights could harm our business and our ability to compete."
+        }
+      ],
+      "human": []
+    },
+    "s-00410": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Our brands have been, and may in the future be, negatively affected by a number of factors, including, among others, reputational issues, th"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our brands have been, and may in the future be, negatively affected by a number of factors, including, among others, reputational issues, th"
+        }
+      ],
+      "human": []
+    },
+    "s-00411": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "For example, if we fail to respond appropriately to the sharing of misinformation or objectionable content on our services and/or products o"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "For example, if we fail to respond appropriately to the sharing of misinformation or objectionable content on our services and/or products o"
+        }
+      ],
+      "human": []
+    },
+    "s-00427": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Market Share Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "For example, industry supply capacity for AI accelerators, including Graphics Processing Units, or GPUs, as well as our custom-built TPUs, i"
+        }
+      ],
+      "human": []
+    },
+    "s-00434": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Their failure to procure necessary license rights to intellectual property could affect our ability to sell our products or services and exp"
+        }
+      ],
+      "human": []
+    },
+    "s-00437": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attac"
+        }
+      ],
+      "human": []
+    },
+    "s-00442": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "In addition, our products and services are highly technical and complex and have contained in the past, and may contain in the future, error"
+        }
+      ],
+      "human": []
+    },
+    "s-00450": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "•sanctions, import and export controls, other market access barriers, political unrest, geopolitical tensions, changes in regimes, or armed "
+        }
+      ],
+      "human": []
+    },
+    "s-00452": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "•an evolving foreign policy landscape that could harm our revenues and could subject us to litigation, new regulatory costs and challenges ("
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "•an evolving foreign policy landscape that could harm our revenues and could subject us to litigation, new regulatory costs and challenges ("
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "•an evolving foreign policy landscape that could harm our revenues and could subject us to litigation, new regulatory costs and challenges ("
+        }
+      ],
+      "human": []
+    },
+    "s-00475": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+        },
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+        }
+      ]
+    },
+    "s-00476": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Human-centered",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infri"
+        }
+      ]
+    },
+    "s-00477": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        },
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to comp"
+        }
+      ]
+    },
+    "s-00478": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "AI Safety (General, Broad)",
+          "subcategory": "-",
+          "strength": null,
+          "sentence_excerpt": "Some uses of AI will present ethical issues and may have broad effects on society."
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Human-centered",
+          "strength": null,
+          "sentence_excerpt": "Some uses of AI will present ethical issues and may have broad effects on society."
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Human-centered",
+          "strength": null,
+          "sentence_excerpt": "Some uses of AI will present ethical issues and may have broad effects on society."
+        }
+      ]
+    },
+    "s-00479": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significan"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "AI Safety (General, Broad)",
+          "subcategory": "-",
+          "strength": null,
+          "sentence_excerpt": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significan"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Capabilities Safeguards",
+          "strength": 2,
+          "sentence_excerpt": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significan"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Capabilities Safeguards",
+          "strength": 2,
+          "sentence_excerpt": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significan"
+        },
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significan"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significan"
+        }
+      ]
+    },
+    "s-00480": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Human-centered",
+          "strength": null,
+          "sentence_excerpt": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or othe"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or othe"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or othe"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or othe"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or othe"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or othe"
+        }
+      ]
+    },
+    "s-00488": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "We continue to add new features involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to unant"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "We continue to add new features involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to unant"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "We continue to add new features involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to unant"
+        }
+      ]
+    },
+    "s-00490": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Systems and control failures, security breaches, failure to comply with our privacy policies, and/or inadvertent disclosure of user data cou"
+        }
+      ],
+      "human": []
+    },
+    "s-00492": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Security, Privacy, and Data Protections",
+          "strength": 2,
+          "sentence_excerpt": "While there is no guarantee that such incidents will not cause significant damage, we expect to continue to expend significant resources to "
+        }
+      ],
+      "human": []
+    },
+    "s-00493": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "We experience cyber attacks and other attempts to gain unauthorized access to our systems on a regular basis."
+        }
+      ],
+      "human": []
+    },
+    "s-00495": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber att"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber att"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber att"
+        }
+      ]
+    },
+    "s-00498": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our efforts to prevent security incidents and address undesirable activity on our platform may require us to spend additional resources to p"
+        }
+      ],
+      "human": []
+    },
+    "s-00507": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Because the techniques used to obtain unauthorized access to, disable or degrade service provided by or otherwise sabotage systems change fr"
+        }
+      ],
+      "human": []
+    },
+    "s-00508": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Further, if any partners with whom we share user or other customer information fail to implement adequate data-security practices, fail to c"
+        }
+      ],
+      "human": []
+    },
+    "s-00511": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "While we have dedicated significant resources to privacy and security incident response capabilities, including dedicated worldwide incident"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Incident Monitoring, Response, and Recovery",
+          "strength": 2,
+          "sentence_excerpt": "While we have dedicated significant resources to privacy and security incident response capabilities, including dedicated worldwide incident"
+        }
+      ],
+      "human": []
+    },
+    "s-00527": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Testing & Auditing",
+          "strength": 2,
+          "sentence_excerpt": "While we invest significantly in efforts to promote high-quality and relevant results and to detect and prevent low-quality content and inva"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "AI Safety (General, Broad)",
+          "subcategory": "-",
+          "strength": null,
+          "sentence_excerpt": "While we invest significantly in efforts to promote high-quality and relevant results and to detect and prevent low-quality content and inva"
+        }
+      ],
+      "human": []
+    },
+    "s-00528": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Increased use of AI in our offerings and internal systems may create new avenues of abuse for bad actors."
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Increased use of AI in our offerings and internal systems may create new avenues of abuse for bad actors."
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Increased use of AI in our offerings and internal systems may create new avenues of abuse for bad actors."
+        }
+      ]
+    },
+    "s-00532": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Although we continue to invest in and deploy proprietary technology to detect and prevent web spam on our platforms, there is no guarantee t"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Although we continue to invest in and deploy proprietary technology to detect and prevent web spam on our platforms, there is no guarantee t"
+        }
+      ],
+      "human": []
+    },
+    "s-00549": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "In recent years, governments around the world have proposed and adopted a large number of new laws and regulations relevant to the digital e"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "In recent years, governments around the world have proposed and adopted a large number of new laws and regulations relevant to the digital e"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "In recent years, governments around the world have proposed and adopted a large number of new laws and regulations relevant to the digital e"
+        }
+      ]
+    },
+    "s-00552": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "New or changing laws and regulations, or interpretations or applications of existing laws and regulations in a manner inconsistent with our "
+        }
+      ],
+      "human": []
+    },
+    "s-00555": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "•AI: Laws and regulations focused on the development, use, and provision of AI technologies and other digital products and services, which c"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "Laws and regulations focused on the development, use, and provision of AI technologies and other digital products and services, which could "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "Laws and regulations focused on the development, use, and provision of AI technologies and other digital products and services, which could "
+        }
+      ]
+    },
+    "s-00556": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "For example, the EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year transitional perio"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "For example, the EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year transitional perio"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "For example, the EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two- year transitional peri"
+        }
+      ]
+    },
+    "s-00557": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "The EU AI Act introduces various requirements for AI systems and models placed on the market or put into service in the EU, including specif"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "The EU AI Act introduces various requirements for AI systems and models placed on the market or put into service in the EU, including specif"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "The EU AI Act introduces various requirements for AI systems and models placed on the market or put into service in the EU, including specif"
+        }
+      ]
+    },
+    "s-00558": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "In the U.S., there is increasing uncertainty as to the federal government's approach to AI regulation going forward, as the continued applic"
+        }
+      ],
+      "human": []
+    },
+    "s-00559": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Several states are considering enacting or have already enacted regulations concerning the use of AI technologies, including those focused o"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "Several states are considering enacting or have already enacted regulations concerning the use of AI technologies, including those focused o"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "Several states are considering enacting or have already enacted regulations concerning the use of AI technologies, including those focused o"
+        }
+      ]
+    },
+    "s-00560": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Further, at the federal and state level, there have been various proposals (and in some cases laws enacted) addressing “deepfakes” and other"
+        }
+      ],
+      "human": []
+    },
+    "s-00563": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "•Content moderation: Various laws covering content moderation and removal, and related disclosure obligations, such as the EU's Digital Serv"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "•Content moderation: Various laws covering content moderation and removal, and related disclosure obligations, such as the EU's Digital Serv"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "•Content moderation: Various laws covering content moderation and removal, and related disclosure obligations, such as the EU's Digital Serv"
+        }
+      ],
+      "human": []
+    },
+    "s-00567": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "In addition, the applicability and scope of these and other laws and regulations, as interpreted by courts, regulators, or administrative bo"
+        }
+      ],
+      "human": []
+    },
+    "s-00568": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "For example, we rely on statutory safe harbors, like those set forth in the Digital Millennium Copyright Act and Section 230 of the Communic"
+        }
+      ],
+      "human": []
+    },
+    "s-00573": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under speci"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Our development, use, and commercialization of AI products and services ( including our implementation of AI in our offerings and internal s"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Our development, use, and commercialization of AI products and services ( including our implementation of AI in our offerings and internal s"
+        }
+      ]
+    },
+    "s-00577": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "We are and may continue to be subject to claims, lawsuits, regulatory and government inquiries and investigations, enforcement actions, cons"
+        }
+      ],
+      "human": []
+    },
+    "s-00578": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competit"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competit"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competit"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competit"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Human-centered",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competit"
+        }
+      ],
+      "human": []
+    },
+    "s-00595": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "We are also subject to a variety of claims including product warranty, product liability, and consumer protection claims related to product "
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "We are also subject to a variety of claims including product warranty, product liability, and consumer protection claims related to product "
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "We are also subject to a variety of claims including product warranty, product liability, and consumer protection claims related to product "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "We are also subject to a variety of claims including product warranty, product liability, and consumer protection claims related to product "
+        }
+      ]
+    },
+    "s-00598": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "defamation, negligence, breaches of contract, patent, copyright and trademark infringement, unfair competition, unlawful activity, torts, pr"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "defamation, negligence, breaches of contract, patent, copyright and trademark infringement, unfair competition, unlawful activity, torts, pr"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "defamation, negligence, breaches of contract, patent, copyright and trademark infringement, unfair competition, unlawful activity, torts, pr"
+        }
+      ],
+      "human": []
+    },
+    "s-00607": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Additionally, the increasing adoption of AI technologies, which rely on the collection of large amounts of data and use of such data for tra"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "Additionally, the increasing adoption of AI technologies, which rely on the collection of large amounts of data and use of such data for tra"
+        }
+      ],
+      "human": []
+    },
+    "s-00608": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Further, the increased risk of inadvertent disclosure of confidential information or personal data in connection with the utilization of AI "
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Further, the increased risk of inadvertent disclosure of confidential information or personal data in connection with the utilization of AI "
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Further, the increased risk of inadvertent disclosure of confidential information or personal data in connection with the utilization of AI "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Further, the increased risk of inadvertent disclosure of confidential information or personal data in connection with the utilization of AI "
+        }
+      ]
+    },
+    "s-00613": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "•Various U.S. federal, U.S. state, and foreign privacy laws related to the processing and security of personal data, including (1) comprehen"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "•Various U.S. federal, U.S. state, and foreign privacy laws related to the processing and security of personal data, including (1) comprehen"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "•Various U.S. federal, U.S. state, and foreign privacy laws related to the processing and security of personal data, including (1) comprehen"
+        }
+      ],
+      "human": []
+    },
+    "s-00614": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "•The EU’s Digital Markets Act, which will require in-scope companies to obtain user consent for combining data across certain products and r"
+        }
+      ],
+      "human": []
+    },
+    "s-00617": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "The validity of various data transfer mechanisms we currently rely upon remains subject to legal, regulatory, and political developments glo"
+        }
+      ],
+      "human": []
+    },
+    "s-00618": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "We face, and may continue to face, intellectual property infringement or misappropriation, violation of rights of publicity, and other claim"
+        }
+      ],
+      "human": []
+    },
+    "s-00620": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "Parties have also sought broad injunctive relief against us by filing claims in U.S. and international courts and the U.S. International Tra"
+        }
+      ],
+      "human": []
+    },
+    "s-00621": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "In addition, patent-holding companies may frequently seek to generate income from patents they have obtained by bringing claims against us."
+        }
+      ],
+      "human": []
+    },
+    "s-00622": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "As we continue to expand our business, the number of intellectual property claims against us has increased and may continue to increase as w"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "As we continue to expand our business, the number of intellectual property claims against us has increased and may continue to increase as w"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "As we continue to expand our business, the number of intellectual property claims against us has increased and may continue to increase as w"
+        }
+      ]
+    },
+    "s-00623": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "Adverse results in any of these lawsuits may include awards of monetary damages, costly royalty or licensing agreements (if licenses are ava"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Adverse results in any of these lawsuits may include awards of monetary damages, costly royalty or licensing agreements ( if licenses are av"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Adverse results in any of these lawsuits may include awards of monetary damages, costly royalty or licensing agreements ( if licenses are av"
+        }
+      ]
+    },
+    "s-00628": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "Furthermore, in connection with our divestitures, we have agreed, and may in the future agree, to provide indemnification for certain potent"
+        }
+      ],
+      "human": []
+    },
+    "s-00691": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "•failure to obtain required approvals on a timely basis, if at all, from governmental authorities; conditions placed upon approval that coul"
+        }
+      ],
+      "human": []
+    },
+    "s-00721": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "We maintain a comprehensive process for identifying, assessing, and managing material risks from cybersecurity threats as part of our broade"
+        }
+      ],
+      "human": []
+    },
+    "s-00722": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in our products and services, "
+        }
+      ],
+      "human": []
+    },
+    "s-00723": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "We obtain input, as appropriate, for our cybersecurity risk management program on the security industry and threat trends from multiple exte"
+        }
+      ],
+      "human": []
+    },
+    "s-00724": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Incident Monitoring, Response, and Recovery",
+          "strength": 2,
+          "sentence_excerpt": "Teams of dedicated privacy, safety, and security professionals oversee cybersecurity risk management and mitigation, incident prevention, de"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "Teams of dedicated privacy, safety, and security professionals oversee cybersecurity risk management and mitigation, incident prevention, de"
+        }
+      ],
+      "human": []
+    },
+    "s-00725": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "These teams comprise professionals with deep cybersecurity expertise across multiple industries and are led by our Vice President of Privacy"
+        }
+      ],
+      "human": []
+    },
+    "s-00726": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "Our executive leadership team, along with input from the above teams, are responsible for our overall enterprise risk management system and "
+        }
+      ],
+      "human": []
+    },
+    "s-00727": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Incident Monitoring, Response, and Recovery",
+          "strength": 3,
+          "sentence_excerpt": "As part of our cybersecurity risk management system, our incident management teams track and log privacy and security incidents across Alpha"
+        }
+      ],
+      "human": []
+    },
+    "s-00734": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 3,
+          "sentence_excerpt": "The Audit and Compliance Committee has oversight responsibility for risks and incidents relating to cybersecurity threats, including complia"
+        }
+      ],
+      "human": []
+    },
+    "s-00736": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Testing & Auditing",
+          "strength": 2,
+          "sentence_excerpt": "Internal Audit maintains a dedicated cybersecurity auditing team that independently tests our cybersecurity controls."
+        }
+      ],
+      "human": []
+    },
+    "s-00737": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "Our business strategy, results of operations and financial condition have not been materially affected by risks from cybersecurity threats, "
+        }
+      ],
+      "human": []
+    },
+    "s-00812": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Market Share Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "In addition, we face increasing competition for user engagement and advertisers, including from other developers and providers of AI product"
+        }
+      ],
+      "human": []
+    },
+    "s-00823": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Market Share Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "As interactions between users and advertisers change, and as online user behavior evolves, for example with AI, we continue to expand our pr"
+        }
+      ],
+      "human": []
+    },
+    "s-00824": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Market Share Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "We expect to continue to incorporate AI innovations into our products, such as AI in Search, that could affect our monetization trends."
+        }
+      ],
+      "human": []
+    },
+    "s-00842": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 1,
+          "sentence_excerpt": "We continue to make significant research and development investments in areas of strategic focus as we seek to develop new, innovative offer"
+        }
+      ],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Capabilities Safeguards",
+          "strength": 2,
+          "sentence_excerpt": "We continue to make significant research and development investments in areas of strategic focus as we seek to develop new, innovative offer"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Capabilities Safeguards",
+          "strength": 2,
+          "sentence_excerpt": "We continue to make significant research and development investments in areas of strategic focus as we seek to develop new, innovative offer"
+        }
+      ]
+    },
+    "s-00843": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "We also expect to increase, relative to 2024, our investment in our technical infrastructure, including servers, network equipment, and data"
+        }
+      ],
+      "human": []
+    },
+    "s-00845": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "We continue to face an evolving regulatory environment, and we are subject to claims, lawsuits, investigations, and other forms of potential"
+        }
+      ],
+      "human": []
+    },
+    "s-00847": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "As these global trends continue, our cost of doing business may increase, our products and services may become less useful, our ability to p"
+        }
+      ],
+      "human": []
+    },
+    "s-00894": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "AI Safety (General, Broad)",
+          "subcategory": "-",
+          "strength": null,
+          "sentence_excerpt": "These services provide access to solutions such as AI offerings including our AI infrastructure, Vertex AI platform, and Gemini for Google C"
+        }
+      ],
+      "human": []
+    },
+    "s-01096": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "•technical infrastructure, which consists of our investments in servers and network equipment for computing, storage, and networking require"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "•technical infrastructure, which consists of our investments in servers and network equipment for computing, storage, and networking require"
+        }
+      ],
+      "human": []
+    },
+    "s-01102": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "We expect to increase, relative to 2024, our investment in our technical infrastructure, including servers, network equipment, and data cent"
+        }
+      ],
+      "human": []
+    },
+    "s-01139": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "We subsequently appealed the General Court's affirmation of the EC decision with the European Court of Justice, which remains pending."
+        }
+      ],
+      "human": []
+    },
+    "s-01171": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Other",
+          "strength": null,
+          "sentence_excerpt": "These adjustments require quantitative assessments of the fair value of our securities, which may require the use of unobservable inputs."
+        }
+      ],
+      "human": []
+    },
+    "s-01193": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and consent orders involving "
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and consent orders involving "
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and consent orders involving "
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Privacy & Security",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and consent orders involving "
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Human-centered",
+          "strength": null,
+          "sentence_excerpt": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and consent orders involving "
+        }
+      ],
+      "human": []
+    },
+    "s-01300": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Operational Process Controls",
+          "subcategory": "Testing & Auditing",
+          "strength": 3,
+          "sentence_excerpt": "Our audit included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exis"
+        }
+      ],
+      "human": []
+    },
+    "s-01823": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "We appealed the EC decision and implemented changes to certain of our Android distribution practices."
+        }
+      ],
+      "human": []
+    },
+    "s-01863": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "IP & Copyright",
+          "strength": null,
+          "sentence_excerpt": "We have had patent, copyright, trade secret, and trademark infringement lawsuits filed against us claiming that certain of our products, ser"
+        }
+      ],
+      "human": []
+    },
+    "s-01866": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "In addition, the U.S. International Trade Commission (ITC) has increasingly become an important forum to litigate intellectual property disp"
+        }
+      ],
+      "human": []
+    },
+    "s-01871": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Litigation",
+          "strength": null,
+          "sentence_excerpt": "Such claims, consent orders, lawsuits, regulatory and government investigations, and other proceedings could result in substantial fines and"
+        },
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Reputational",
+          "subcategory": "Individual or Organizational Reputation",
+          "strength": null,
+          "sentence_excerpt": "Such claims, consent orders, lawsuits, regulatory and government investigations, and other proceedings could result in substantial fines and"
+        }
+      ],
+      "human": []
+    },
+    "s-01880": {
+      "ai": [
+        {
+          "side": "ai",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Due to the inherent complexity and uncertainty of these matters and judicial process in certain jurisdictions, the final outcome may be mate"
+        }
+      ],
+      "human": []
+    },
+    "s-00136": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Environmental Impact",
+          "subcategory": "Environmental Impact Mitigation",
+          "strength": 2,
+          "sentence_excerpt": "We are driving efficiencies in our data centers, while making significant hardware and model improvements"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Environmental Impact",
+          "subcategory": "Environmental Impact Mitigation",
+          "strength": 2,
+          "sentence_excerpt": "We are driving efficiencies in our data centers, while making significant hardware and model improvements"
+        }
+      ]
+    },
+    "s-00137": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Capabilities Safeguards",
+          "strength": 2,
+          "sentence_excerpt": "For example, since we started serving AI Overviews to our users, we have significantly lowered machine costs and latency through hardware, e"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Technical & Security Controls",
+          "subcategory": "AI Capabilities Safeguards",
+          "strength": 2,
+          "sentence_excerpt": "For example, since we started serving AI Overviews to our users, we have significantly lowered machine costs and latency through hardware, e"
+        }
+      ]
+    },
+    "s-00278": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "In addition, solutions for some key global challenges do not currently exist, and will depend heavily on the development and improvement of "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Environmental",
+          "strength": null,
+          "sentence_excerpt": "In addition, solutions for some key global challenges do not currently exist, and will depend heavily on the development and improvement of "
+        }
+      ]
+    },
+    "s-00301": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "As we have seen in recent years, different laws and regulations on the same topic may not always have the same requirements, and even when r"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "As we have seen in recent years, different laws and regulations on the same topic may not always have the same requirements, and even when r"
+        }
+      ]
+    },
+    "s-00302": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "(unresolved)",
+          "subcategory": "",
+          "strength": null,
+          "sentence_excerpt": "Our compliance with these laws and regulations may be onerous and could, individually or in the aggregate, increase our cost of doing busine"
+        }
+      ]
+    },
+    "s-00378": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Because all of these investment areas are inherently risky, no assurance can be given that such strategies and offerings will be successful "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Because all of these investment areas are inherently risky, no assurance can be given that such strategies and offerings will be successful "
+        },
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Because all of these investment areas are inherently risky, no assurance can be given that such strategies and offerings will be successful "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Competitive",
+          "subcategory": "Investment Cost & Uncertainty",
+          "strength": null,
+          "sentence_excerpt": "Because all of these investment areas are inherently risky, no assurance can be given that such strategies and offerings will be successful "
+        }
+      ]
+    },
+    "s-00529": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Many websites violate or attempt to violate our guidelines, including by seeking to inappropriately rank higher in search results than our s"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Many websites violate or attempt to violate our guidelines, including by seeking to inappropriately rank higher in search results than our s"
+        }
+      ]
+    },
+    "s-00530": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Such efforts have affected, and may continue to affect, the quality of content on our platforms and lead them to display false, misleading, "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Sociotechnical",
+          "subcategory": "Malicious Actors / Misuse",
+          "strength": null,
+          "sentence_excerpt": "Such efforts have affected, and may continue to affect, the quality of content on our platforms and lead them to display false, misleading, "
+        }
+      ]
+    },
+    "s-00550": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "The costs of compliance with these measures are high and are likely to increase in the future, including as a result of differing, and somet"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Compliance Costs",
+          "strength": null,
+          "sentence_excerpt": "The costs of compliance with these measures are high and are likely to increase in the future, including as a result of differing, and somet"
+        }
+      ]
+    },
+    "s-00574": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Further, we are subject to evolving laws, regulations, policies, and international accords relating to matters beyond our core products and "
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "Further, we are subject to evolving laws, regulations, policies, and international accords relating to matters beyond our core products and "
+        }
+      ]
+    },
+    "s-00575": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk Mitigation",
+          "category": "Transparency",
+          "subcategory": "System Documentation",
+          "strength": 2,
+          "sentence_excerpt": "In response, we have implemented robust programs, adopted reporting frameworks and principles, and announced a number of complex and ambitio"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk Mitigation",
+          "category": "Governance & Oversight",
+          "subcategory": "Overall Risk Management & Governance Plan",
+          "strength": 2,
+          "sentence_excerpt": "In response, we have implemented robust programs, adopted reporting frameworks and principles, and announced a number of complex and ambitio"
+        }
+      ]
+    },
+    "s-00624": {
+      "ai": [],
+      "human": [
+        {
+          "side": "human",
+          "coder": "A",
+          "coder_name": "Naomi",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "They may also cause us to change our business practices in ways that could result in a loss of revenues for us and otherwise harm our busine"
+        },
+        {
+          "side": "human",
+          "coder": "B",
+          "coder_name": "Chibudom",
+          "kind": "Risk",
+          "category": "Legal",
+          "subcategory": "Uncertainty & Complexity",
+          "strength": null,
+          "sentence_excerpt": "They may also cause us to change our business practices in ways that could result in a loss of revenues for us and otherwise harm our busine"
+        }
+      ]
+    }
+  },
+  "anchor_sources": {
+    "s-00077": "ai",
+    "s-00127": "ai",
+    "s-00135": "ai_and_both",
+    "s-00141": "ai_and_both",
+    "s-00142": "ai_and_both",
+    "s-00149": "ai",
+    "s-00153": "ai",
+    "s-00154": "ai",
+    "s-00171": "ai",
+    "s-00172": "ai",
+    "s-00193": "ai",
+    "s-00206": "ai",
+    "s-00207": "ai",
+    "s-00209": "ai",
+    "s-00226": "ai",
+    "s-00228": "ai",
+    "s-00233": "ai",
+    "s-00277": "ai_and_both",
+    "s-00289": "ai",
+    "s-00299": "ai",
+    "s-00300": "ai_and_both",
+    "s-00328": "ai",
+    "s-00330": "ai",
+    "s-00346": "ai",
+    "s-00347": "ai",
+    "s-00348": "ai",
+    "s-00349": "ai",
+    "s-00350": "ai",
+    "s-00351": "ai",
+    "s-00352": "ai",
+    "s-00360": "ai",
+    "s-00365": "ai",
+    "s-00368": "ai",
+    "s-00377": "ai_and_both",
+    "s-00393": "ai",
+    "s-00395": "ai",
+    "s-00396": "ai",
+    "s-00404": "ai",
+    "s-00410": "ai",
+    "s-00411": "ai",
+    "s-00427": "ai",
+    "s-00434": "ai",
+    "s-00437": "ai",
+    "s-00442": "ai",
+    "s-00450": "ai",
+    "s-00452": "ai",
+    "s-00475": "ai_and_both",
+    "s-00476": "ai_and_both",
+    "s-00477": "ai_and_both",
+    "s-00478": "ai_and_both",
+    "s-00479": "ai_and_both",
+    "s-00480": "ai_and_both",
+    "s-00488": "ai_and_both",
+    "s-00490": "ai",
+    "s-00492": "ai",
+    "s-00493": "ai",
+    "s-00495": "ai_and_both",
+    "s-00498": "ai",
+    "s-00507": "ai",
+    "s-00508": "ai",
+    "s-00511": "ai",
+    "s-00527": "ai",
+    "s-00528": "ai_and_both",
+    "s-00532": "ai",
+    "s-00549": "ai_and_both",
+    "s-00552": "ai",
+    "s-00555": "ai_and_both",
+    "s-00556": "ai_and_both",
+    "s-00557": "ai_and_both",
+    "s-00558": "ai",
+    "s-00559": "ai_and_both",
+    "s-00560": "ai",
+    "s-00563": "ai",
+    "s-00567": "ai",
+    "s-00568": "ai",
+    "s-00573": "ai_and_both",
+    "s-00577": "ai",
+    "s-00578": "ai",
+    "s-00595": "ai_and_both",
+    "s-00598": "ai",
+    "s-00607": "ai",
+    "s-00608": "ai_and_both",
+    "s-00613": "ai",
+    "s-00614": "ai",
+    "s-00617": "ai",
+    "s-00618": "ai",
+    "s-00620": "ai",
+    "s-00621": "ai",
+    "s-00622": "ai_and_both",
+    "s-00623": "ai_and_both",
+    "s-00628": "ai",
+    "s-00691": "ai",
+    "s-00721": "ai",
+    "s-00722": "ai",
+    "s-00723": "ai",
+    "s-00724": "ai",
+    "s-00725": "ai",
+    "s-00726": "ai",
+    "s-00727": "ai",
+    "s-00734": "ai",
+    "s-00736": "ai",
+    "s-00737": "ai",
+    "s-00812": "ai",
+    "s-00823": "ai",
+    "s-00824": "ai",
+    "s-00842": "ai_and_both",
+    "s-00843": "ai",
+    "s-00845": "ai",
+    "s-00847": "ai",
+    "s-00894": "ai",
+    "s-01096": "ai",
+    "s-01102": "ai",
+    "s-01139": "ai",
+    "s-01171": "ai",
+    "s-01193": "ai",
+    "s-01300": "ai",
+    "s-01823": "ai",
+    "s-01863": "ai",
+    "s-01866": "ai",
+    "s-01871": "ai",
+    "s-01880": "ai",
+    "s-00136": "coders_both",
+    "s-00137": "coders_both",
+    "s-00278": "coders_both",
+    "s-00301": "coders_both",
+    "s-00302": "coder_b",
+    "s-00378": "coders_both",
+    "s-00529": "coders_both",
+    "s-00530": "coders_both",
+    "s-00550": "coders_both",
+    "s-00574": "coders_both",
+    "s-00575": "coders_both",
+    "s-00624": "coders_both"
+  },
+  "unmatched_ai": [
+    {
+      "side": "ai",
+      "kind": "Risk",
+      "category": "Legal",
+      "subcategory": "Litigation",
+      "strength": null,
+      "sentence_excerpt": "Because the U.S. is an important market, a prohibition on importation could have an adverse effect on us, including preventing us from impor"
+    }
+  ],
+  "unmatched_human": [
+    {
+      "side": "human",
+      "coder": "A",
+      "coder_name": "Naomi",
+      "kind": "Risk",
+      "category": "Legal",
+      "subcategory": "Uncertainty & Complexity",
+      "strength": null,
+      "sentence_excerpt": "In the U.S., there is increasing uncertainty as to the federal government 's approach to AI regulation going forward, as the continued appli"
+    },
+    {
+      "side": "human",
+      "coder": "B",
+      "coder_name": "Chibudom",
+      "kind": "Risk",
+      "category": "Legal",
+      "subcategory": "Uncertainty & Complexity",
+      "strength": null,
+      "sentence_excerpt": "In the U.S., there is increasing uncertainty as to the federal government 's approach to AI regulation going forward, as the continued appli"
+    },
+    {
+      "side": "human",
+      "coder": "A",
+      "coder_name": "Naomi",
+      "kind": "Risk",
+      "category": "Legal",
+      "subcategory": "Other",
+      "strength": null,
+      "sentence_excerpt": "Further, at the federal and state level, there have been various proposals ( and in some cases laws enacted ) addressing \" deepfakes \" and o"
+    },
+    {
+      "side": "human",
+      "coder": "B",
+      "coder_name": "Chibudom",
+      "kind": "Risk",
+      "category": "Legal",
+      "subcategory": "Other",
+      "strength": null,
+      "sentence_excerpt": "Further, at the federal and state level, there have been various proposals ( and in some cases laws enacted ) addressing \" deepfakes \" and o"
+    }
+  ],
+  "counts": {
+    "ai_total": 166,
+    "ai_matched": 165,
+    "ai_unmatched": 1,
+    "human_total": 91,
+    "human_a_total": 45,
+    "human_b_total": 46,
+    "human_matched": 87,
+    "human_unmatched": 4,
+    "anchors_with_ai": 121,
+    "anchors_with_human": 38,
+    "anchors_with_a": 37,
+    "anchors_with_b": 38,
+    "anchors_with_both_coders": 37,
+    "anchors_with_ai_and_human": 26,
+    "human_subcategory_unresolved": [
+      "Risk / "
+    ]
+  }
+}
