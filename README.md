@@ -37,9 +37,15 @@ Full comparison on Alphabet 2024 — 38 human anchors (+ 4 unmatched-alignment):
 
 **Full auto-generated log:** [EXPERIMENT_LOG.md](EXPERIMENT_LOG.md).
 
-## Mentor's question mapping
+## Status against the notes doc
 
-If you're reading this because you sent the "Notes on LLM prompting experiments" doc: [docs/mentor_framework_mapping.md](docs/mentor_framework_mapping.md) walks your document top-to-bottom with direct answers under each header (Units, Pipeline, Structure, Outputs, Evaluation, Open Questions).
+If you're reading this because of the "Notes on LLM prompting experiments" [Google Doc](https://docs.google.com/document/d/1Z3y9SuAL3ujBw8sOOr5wR8YaloadKsdivELBpYrBiBg), see **[docs/notes_doc_mapping.md](docs/notes_doc_mapping.md)** — it walks that doc top-to-bottom with a status per bullet (✅ done, 🟡 partial, ⏳ deferred) and links each item to code paths and sample outputs.
+
+The **at-a-glance status table** is at the top of that doc. Short version:
+
+- ✅ Units A (whole doc) + C (keyword ± N window), All-at-once + Sequential pipelines, LLM output logs, predicted tags per sentence, per-subcategory + macro P/R/F1, category confusion matrix, FP/FN examples, experiment log.
+- 🟡 `<Reasoning>` tokens (V5 has it via `reason` field; V0–V4 don't).
+- ⏳ Units B (fixed N-sentence chunks), Units D (BM25), Pipeline hybrid, strength confusion matrix, redundancy handling (open decision).
 
 ## Is this Naomi's pipeline?
 
@@ -80,7 +86,7 @@ Short answer: no, but it shares foundations. Full answer with side-by-side compa
 │   ├── ai_annotations.json      validated + deduped annotations
 │   └── aligned.json             AI+human sentence-anchored comparison + counts
 ├── docs/
-│   ├── mentor_framework_mapping.md
+│   ├── notes_doc_mapping.md
 │   ├── vs_naomi.md
 │   └── diagnostics_2026-07-14.md
 ├── EXPERIMENT_LOG.md            auto-generated
@@ -120,4 +126,4 @@ The Streamlit dropdown and Netlify per-doc landing pick up new versions automati
 
 ## Diagnostics
 
-For status on the mentor's specific asks (sentence-splitting bugs, CoT for debugging, whether this is Naomi's pipeline): [docs/diagnostics_2026-07-14.md](docs/diagnostics_2026-07-14.md).
+For the deep-dive on specific questions raised in the notes doc (sentence-splitting bugs, CoT for debugging, whether this is Naomi's pipeline): [docs/diagnostics_2026-07-14.md](docs/diagnostics_2026-07-14.md).

@@ -29,6 +29,6 @@ Two of our components touch Naomi's work. They relate to it differently.
 
 **One-line summary:** `annotation_tool/` eats Naomi's `sections.jsonl` format and uses her taxonomy exactly. We swapped her regex splitter for pysbd (documented) and built a custom Flask UI instead of using Prodigy. Same annotation model, different tool.
 
-## Combined answer for the mentor
+## Combined answer
 
 *"No, this isn't Naomi's exact pipeline — but it shares foundations. Same AI-keywords list, same taxonomy, same keyword-window chunking concept. On top of that we've built (1) a versioned LLM annotator (`src/`) that ingests EDGAR HTML directly and runs 7 different strategies, and (2) a human annotation Flask app (`annotation_tool/`) that eats her `sections.jsonl` output and replaces Prodigy. The sentence splitter is upgraded from her regex to pysbd in both places — a deliberate decision documented in [annotation_tool/SEGMENTER_DECISION.md](../annotation_tool/SEGMENTER_DECISION.md)."*

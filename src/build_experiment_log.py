@@ -2,7 +2,7 @@
 
 Walks output/{slug}/versions/*/{meta.json, aligned.json} and emits one row per
 (doc, version) tuple with the fields that answer 'what did we try, what were
-the numbers?' — the mentor's experiment-journal ask.
+the numbers?' — the notes doc's experiment-journal ask.
 
 Run: python3 -m src.build_experiment_log
 Writes: EXPERIMENT_LOG.md at the repo root.

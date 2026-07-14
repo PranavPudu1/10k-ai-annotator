@@ -297,8 +297,8 @@ def _build_missed_page(doc, version_id: str, aligned: dict, sentences: list[dict
     )
 
     # For V3/V5, extract the AI's reasoning text separately so we can render it
-    # as CoT (highlighted, italicized) — this is the "thinking trace" the mentor
-    # asked for. V3 phase names: p1_candidates, p2_kind, p3a/b, p4_strength.
+    # as CoT (highlighted, italicized) — this is the "thinking trace" the notes
+    # doc asked for. V3 phase names: p1_candidates, p2_kind, p3a/b, p4_strength.
     # V5 phase names: p1_passages, p2_outside_mentions, p3_context_filter, ...
     # We look for `reason` fields on P3 verdicts specifically.
     ai_reasoning: dict[str, str] = {}

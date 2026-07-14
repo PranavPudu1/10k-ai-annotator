@@ -1,4 +1,4 @@
-# Phase 0 diagnostics — mentor follow-up
+# Phase 0 diagnostics — notes doc follow-up
 
 Read-only investigation before committing to any code changes.
 
@@ -97,7 +97,7 @@ Our pipeline (`src/`):
 - **Output:** per-doc, per-version `ai_annotations.json` + `aligned.json` + evaluation metrics + Netlify static site.
 - **Purpose:** actual RAI risk/mitigation tagging with side-by-side human comparison and versioned strategy experiments.
 
-**One-line answer for the mentor:** No, this is a different pipeline than Naomi's. Naomi's is a dataset-preparation script that emits keyword-filtered sentence spans as JSONL. Ours is an annotation pipeline that runs versioned LLM strategies against the same 10-Ks and produces labeled tags with precision/recall metrics against human ground truth. We reuse Naomi's keyword list (`ai-keywords.txt`), but not her sentence splitter (we use pysbd), not her SGML parser (we use HTML via BeautifulSoup), and not her output format.
+**One-line answer:** No, this is a different pipeline than Naomi's. Naomi's is a dataset-preparation script that emits keyword-filtered sentence spans as JSONL. Ours is an annotation pipeline that runs versioned LLM strategies against the same 10-Ks and produces labeled tags with precision/recall metrics against human ground truth. We reuse Naomi's keyword list (`ai-keywords.txt`), but not her sentence splitter (we use pysbd), not her SGML parser (we use HTML via BeautifulSoup), and not her output format.
 
 ---
 
@@ -127,7 +127,7 @@ Our pipeline (`src/`):
 | Item 2 — `README.md` overhaul | Naomi comparison ready (C) | **Yes, straight-through** |
 | Item 3 — sentence splitter fix | ~3 confirmed bugs, list-format issue not abbreviation (A) | **No — defer** |
 | Item 4 — `<Reasoning>` CoT schema-wide | V5 Phase 3 already has CoT-quality `reason` (B) | **No — surface existing `reason` on Missed page instead** |
-| Item 5 — draft mentor reply | Ready | **Yes** |
+| Item 5 — draft update message | Ready | **Yes** |
 
 **Cost of Phase 1 as scoped:** $0. No LLM re-runs needed.
 
