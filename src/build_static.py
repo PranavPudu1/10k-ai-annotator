@@ -404,10 +404,10 @@ def _build_missed_page(doc, version_id: str, aligned: dict, sentences: list[dict
     in its output.
   </p>
   <p style="background: rgba(37, 99, 235, 0.06); border-left: 3px solid #2563eb; padding: 8px 10px; border-radius: 3px;">
-    <strong>Chain-of-thought trace:</strong> for V5 (passage-aware sequential), we also render the model's
+    <strong>Chain-of-thought trace:</strong> V5 (passage-aware sequential) renders the model's
     verbatim <em>reasoning</em> from its Phase 3 (context filter) decision, highlighted in blue below each
-    diagnosis. This is the "thinking trace" for debugging — you can see exactly why the LLM chose to
-    drop or keep each candidate before it reached the kind/category/strength phases.
+    diagnosis. V6 (XML CoT) emits per-annotation reasoning too — that appears on the tags V6 <em>did</em>
+    emit (see aligned.json), not on missed ones, since V6 is a single-call strategy with no candidate-filtering step.
   </p>
 
   <h2>Headline counts</h2>

@@ -1,0 +1,586 @@
+[
+  {
+    "sentence": "We are using Gemini 2.0 in new research prototypes, including Project Astra, which explores the future capabilities of a universal AI assistant and Project Mariner, an early prototype capable of taking actions in Chrome as an experimental extension.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence says Gemini 2.0 is used in prototypes and names Project Mariner as “capable of taking actions in Chrome,” which indicates potentially broad AI safety concerns around autonomous behavior. It is not framed as a mitigation, but as a capability with related risk implications.</Reasoning>"
+  },
+  {
+    "sentence": "We believe our approach to AI must be both bold and responsible.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 1,
+    "reasoning": "<Reasoning>The phrase “must be both bold and responsible” is a general commitment to manage AI responsibly. This is an intention-level mitigation without specific controls, so strength 1 fits.</Reasoning>"
+  },
+  {
+    "sentence": "That means developing AI in a way that maximizes the positive benefits to society while addressing its potential challenges, guided by our AI Principles.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2,
+    "reasoning": "<Reasoning>This sentence explicitly says AI is developed to address “its potential challenges” and is “guided by our AI Principles,” which is a risk-management framework. It states an implemented approach rather than just a vague intention.</Reasoning>"
+  },
+  {
+    "sentence": "Our Vertex AI platform gives developers the ability to train, tune, augment, test, and deploy applications using Gemini, Imagen, Veo, and other generative AI models.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence describes broad capabilities to “train, tune, augment, test, and deploy” generative AI models, which implicitly raises general AI-related safety concerns. It does not itself describe a mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "Gemini for Google Cloud provides pre-packaged AI agents that can assist developers to write, document, test, and operate software as well as assist cybersecurity teams to analyze, detect, protect, and respond to threats.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2,
+    "reasoning": "<Reasoning>The phrase “assist cybersecurity teams to analyze, detect, protect, and respond to threats” describes security-oriented controls around AI use. This indicates an implemented mitigation, though the sentence is not highly specific.</Reasoning>"
+  },
+  {
+    "sentence": "We are embedding the power of generative AI to continue helping our users express themselves and get things done.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly discusses “generative AI” but only in a product-capability context, without a specific mitigation. The AI reference is enough to capture a general AI-related risk mention under the broad taxonomy.</Reasoning>"
+  },
+  {
+    "sentence": "We also know businesses of all sizes around the world rely on Google Ads to find customers and grow their businesses — and we",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence is incomplete in the provided text and does not clearly state a risk or mitigation tied to AI. I therefore do not code it.</Reasoning>"
+  },
+  {
+    "sentence": "We see tremendous potential for devices to be helpful and make people's lives easier by combining the best of our AI, software, and hardware.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence mentions “our AI” only as part of product development and does not state a specific AI risk or mitigation. It is not sufficiently risk-related for coding.</Reasoning>"
+  },
+  {
+    "sentence": "We are continually enhancing these efforts over time, whether by enabling users to auto-delete their data, applying privacy technologies like on-device processing, giving people tools to control their experience, or advancing anti-malware, anti-phishing, and password security features.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 3,
+    "reasoning": "<Reasoning>The sentence lists concrete privacy and security controls such as “auto-delete their data,” “on-device processing,” and “anti-malware, anti-phishing, and password security features.” Those are specific protective steps, so this is a stronger mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "We are now using Gemini customized for Google Search to provide our users an improved Search experience, and AI Overviews has been released in more than one hundred countries, reaching more than one billion users.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly discusses Gemini and AI Overviews, but only as product rollout information. It does not directly identify a risk or mitigation, so it is not coded beyond the general AI mention policy.</Reasoning>"
+  },
+  {
+    "sentence": "We have allocated substantial resources to stopping bad advertising practices and protecting users on the web.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Incident Monitoring, Response, and Recovery",
+    "strength": 2,
+    "reasoning": "<Reasoning>The phrase “allocated substantial resources to stopping bad advertising practices and protecting users on the web” shows an ongoing protective effort against harmful misuse. It reflects an implemented mitigation, though without detailed procedures.</Reasoning>"
+  },
+  {
+    "sentence": "We focus on creating the best advertising experiences for our users and advertisers in many ways, including filtering out invalid traffic, removing billions of bad ads from our systems every year, and closely monitoring the sites, apps, and videos where ads appear and blocklisting them when necessary to ensure that ads do not fund bad content.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Incident Monitoring, Response, and Recovery",
+    "strength": 3,
+    "reasoning": "<Reasoning>This sentence provides specific controls: “filtering out invalid traffic,” “removing billions of bad ads,” “closely monitoring” placements, and “blocklisting” when necessary. Those are concrete operational response measures, making it a strong mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "Customers use Google Cloud in multiple ways such as:",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>This is merely an introductory fragment and does not itself discuss an AI-related risk or mitigation. It is not coded.</Reasoning>"
+  },
+  {
+    "sentence": "AI-optimized Infrastructure: provides open, reliable, and scalable compute, networking, and storage to enable customers to run workloads anywhere — on our Cloud, at the edge, or in their data centers.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence describes AI infrastructure capabilities but does not identify a risk or risk mitigation. It is therefore not coded as an annotation.</Reasoning>"
+  },
+  {
+    "sentence": "Developer Platform: provides developers, through the Vertex AI platform, the ability to train, tune, augment, test, and deploy applications using Gemini and other leading generative AI models.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>This is another capability statement about generative AI model development and deployment. It lacks an explicit risk or mitigation statement, so it is not coded.</Reasoning>"
+  },
+  {
+    "sentence": "Cybersecurity: provides AI powered cybersecurity solutions to help customers analyze, detect, protect, and respond to a broad range of cybersecurity threats, to further strengthen security outcomes, prioritize which threats to investigate, and identify attack paths, as well as accelerate resolution of cybersecurity threats.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence says AI-powered cybersecurity solutions “analyze, detect, protect, and respond” to threats and “strengthen security outcomes.” That is an implemented security mitigation, though the description remains somewhat high-level.</Reasoning>"
+  },
+  {
+    "sentence": "AI has been used in Google Workspace for years to improve grammar, efficiency, security, and more with features like Smart Reply, Smart Compose, and malware and phishing protection in Gmail.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2,
+    "reasoning": "<Reasoning>The phrase “malware and phishing protection in Gmail” indicates AI used for security protection. This is a mitigation that is implemented, though not described with procedural detail.</Reasoning>"
+  },
+  {
+    "sentence": "We are expanding our investment in AI across the entire company.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence signals a company-wide expansion of AI investment, which implies significant cost exposure, but it is not itself a mitigation. It fits the investment/uncertainty risk theme.</Reasoning>"
+  },
+  {
+    "sentence": "This includes generative AI and continuing to integrate AI capabilities into our products and services.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence notes continued integration of generative AI, which underscores ongoing investment requirements and uncertainty. It is a risk-related statement, not a mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure, development and operational costs, to meet the changing needs and expectations of our existing users and attract new users.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>The words “highly competitive,” “rapidly evolving,” and “require significant investment” directly describe AI-related competitive and cost uncertainty. This is a clear risk statement.</Reasoning>"
+  },
+  {
+    "sentence": "Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly ties AI deployment to “availability and pricing” of third-party equipment and infrastructure costs. That is a direct investment/cost uncertainty risk.</Reasoning>"
+  },
+  {
+    "sentence": "Additionally, other companies may develop AI products and technologies that are similar or superior to our technologies or more cost-effective to develop and/or deploy.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence describes the risk that competitors may build “similar or superior” AI products or cheaper alternatives, which could erode competitive position. That fits market share uncertainty.</Reasoning>"
+  },
+  {
+    "sentence": "Other companies may also have (or in the future may obtain) patents or other proprietary rights that would prevent, limit, or interfere with our ability to make, use, or sell our own AI products and services.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "IP & Copyright",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly mentions patents and proprietary rights that could “prevent, limit, or interfere” with AI products and services. That is an intellectual property risk.</Reasoning>"
+  },
+  {
+    "sentence": "The investments that we are making across our businesses, such as building AI capabilities into new and existing products and services, reflect our ongoing efforts to innovate and provide products and services that are helpful to users, advertisers, publishers, customers, and content providers.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence refers to “building AI capabilities” as part of ongoing investment, which implies continued capital and development commitment. It is not framed as a mitigation, but as an investment risk context statement.</Reasoning>"
+  },
+  {
+    "sentence": "We are incuring costs to build and maintain infrastructure to support cloud computing services, invest in cybersecurity, and hire talent, particularly to support and scale our sales force.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>Although this sentence is about cloud infrastructure generally, it explicitly mentions costs to “build and maintain infrastructure” and “invest in cybersecurity,” which are cost burdens. It is risk-oriented rather than mitigation-oriented in this context."
+  },
+  {
+    "sentence": "In addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal, regulatory, and other challenges, which may negatively affect our brands and demand for our products and services.",
+    "kind": "Risk",
+    "category": "AI Safety (General, Broad)",
+    "subcategory": "-",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence directly says AI products “raise ethical, technological, legal, regulatory, and other challenges” and may negatively affect demand. That is a broad AI-related risk statement.</Reasoning>"
+  },
+  {
+    "sentence": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly lists “harmful content” and other misuse-related harms arising from AI efforts. It also includes several other AI risks, but the strongest match here is misuse/malicious or harmful content risk.</Reasoning>"
+  },
+  {
+    "sentence": "As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly states AI systems could lead to “regulatory action” and “legal liability,” including under new legislation and evolving applications of existing laws. That is a legal uncertainty/complexity risk.</Reasoning>"
+  },
+  {
+    "sentence": "In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significant resources to develop, test, and maintain our products and services, but we may not be able to identify or resolve all AI-related issues, deficiencies, and/or failures before they arise.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence explicitly says they “develop, test, and maintain” AI products to “minimize unintended harmful effects,” which is a mitigation. The mention of significant resources and testing indicates an implemented control, though not highly procedural.</Reasoning>"
+  },
+  {
+    "sentence": "Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Human-centered",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence specifically ties AI tools to harms affecting “human rights, privacy, employment, or other social concerns.” Those are human-centered risks, including socioeconomic and rights-related harms.</Reasoning>"
+  },
+  {
+    "sentence": "We continue to add new features involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to unanticipated security threats as our and the market’s understanding of AI-centric security risks and protection methods continue to develop.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly says AI features “may be susceptible to unanticipated security threats.” That is a clear privacy/security risk linked to AI systems.</Reasoning>"
+  },
+  {
+    "sentence": "While there is no guarantee that such incidents will not cause significant damage, we expect to continue to expend significant resources to maintain security protections that limit the effect of bugs, theft, misuse, and security vulnerabilities or breaches.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence describes continued spending on “security protections” to limit bugs, theft, misuse, and vulnerabilities. That is an implemented security mitigation, though not described in concrete technical steps.</Reasoning>"
+  },
+  {
+    "sentence": "For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber attacks or other security incidents, particularly where such technologies are exploited by third parties to breach our or other parties’ systems, including when such technologies are used to target our employees or impersonate members of senior management in order to gain unauthorized access to our systems.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly states AI technologies may increase exposure to cyber attacks and unauthorized access, including impersonation of senior management. That is a direct AI-related privacy and security risk.</Reasoning>"
+  },
+  {
+    "sentence": "Our efforts to prevent security incidents and address undesirable activity on our platform may require us to spend additional resources to prepare and defend against such threats, and could also increase the risk of retaliatory attack.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence describes efforts to prevent incidents but focuses on the residual downside that these efforts may require additional resources and even increase retaliation risk. The principal point is a security risk tied to AI/misuse context.</Reasoning>"
+  },
+  {
+    "sentence": "In addition, we face the risk of cyber attacks by nation-states and state-sponsored actors.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Privacy & Security",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence directly identifies cyberattack risk from nation-states and state-sponsored actors. It is a privacy/security risk statement.</Reasoning>"
+  },
+  {
+    "sentence": "In addition to our efforts to prevent and mitigate cyber attacks, we are making significant investments in safety, security, and review efforts to combat misuse of our services and unauthorized access to user data by third parties, including investigation and review of platform applications that could access the information of users of our services.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence explicitly says they are making “significant investments in safety, security, and review efforts” to combat misuse and unauthorized access to user data. That is an implemented mitigation, though the controls are broadly described.</Reasoning>"
+  },
+  {
+    "sentence": "Such incidents and activities may include the use of user data or our systems in a manner inconsistent with our terms, contracts or policies, the existence of false or undesirable user accounts, election interference, improper ad purchases, activities that threaten people’s safety on- or off-line, or instances of spamming, scraping, or spreading disinformation.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence enumerates harmful misuse scenarios including “election interference,” “spamming,” “scraping,” and “spreading disinformation.” Those are classic malicious-actor or misuse risks.</Reasoning>"
+  },
+  {
+    "sentence": "While we invest significantly in efforts to promote high-quality and relevant results and to detect and prevent low-quality content and invalid traffic, we have been unable and may continue to be unable to detect and prevent all such abuses or promote uniformly high-quality content.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence states they “invest significantly” to “detect and prevent low-quality content and invalid traffic,” which is an operational mitigation. The fact they may still fail keeps the risk context, but the mitigation is explicit.</Reasoning>"
+  },
+  {
+    "sentence": "Increased use of AI in our offerings and internal systems may create new avenues of abuse for bad actors.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence directly says increased AI use may create “new avenues of abuse for bad actors.” That is a clear misuse risk.</Reasoning>"
+  },
+  {
+    "sentence": "We are continually launching algorithmic changes designed to detect and prevent abuse from low-quality websites, but we may not always be successful.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence explicitly references “algorithmic changes designed to detect and prevent abuse,” which is a mitigation. The phrase indicates an implemented control, though not in detailed procedural form.</Reasoning>"
+  },
+  {
+    "sentence": "If we fail to either detect and prevent an increase in problematic content or effectively promote high-quality content, it could hurt our reputation for delivering relevant information or reduce use of our platforms, harming our financial condition and operating results.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence links failure to handle problematic content with reputational harm—“hurt our reputation for delivering relevant information.” That is a straightforward reputational risk.</Reasoning>"
+  },
+  {
+    "sentence": "We continue to invest in and deploy proprietary technology to detect and prevent web spam on our platforms, but there is no guarantee that our technology will always be successful, and our users may have negative experiences on our platforms if our technology fails to work as intended, which may affect our users' decisions in continuing to use our platforms.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Testing & Auditing",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence says they “invest in and deploy proprietary technology to detect and prevent web spam,” which is a mitigation. It is implemented but not described with enough specificity for the highest strength.</Reasoning>"
+  },
+  {
+    "sentence": "We also face other challenges on our platforms, including violations of our content guidelines involving incidents such as attempted election interference; activities that threaten the safety and/or well-being of our users, including minors, on- or off-line; and the spreading of misinformation or disinformation.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly names “attempted election interference” and “spreading of misinformation or disinformation,” both of which are misuse risks. It also references harm to minors, but the misuse category is strongest here.</Reasoning>"
+  },
+  {
+    "sentence": "In recent years, governments around the world have proposed and adopted a large number of new laws and regulations relevant to the digital economy, particularly in the areas of data privacy and security, competition, AI, and online content.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence says there are a “large number of new laws and regulations” relevant to AI, creating regulatory uncertainty and complexity. That fits the legal uncertainty category.</Reasoning>"
+  },
+  {
+    "sentence": "The costs of compliance with these measures are high and are likely to increase in the future, including as a result of differing, and sometimes conflicting, laws and regulations.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly states “costs of compliance” are high and likely to increase. This is a compliance-cost risk.</Reasoning>"
+  },
+  {
+    "sentence": "•AI: Laws and regulations focused on the development, use, and provision of AI technologies and other digital products and services, which could result in monetary penalties or other regulatory actions.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly says AI-focused laws and regulations “could result in monetary penalties or other regulatory actions.” That is a legal uncertainty and liability risk tied to AI.</Reasoning>"
+  },
+  {
+    "sentence": "The EU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year transitional period (although certain obligations will take effect at an earlier or later time).",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null,
+    "reasoning": "<Reasoning>By referencing the EU AI Act and its phased applicability, this sentence indicates upcoming compliance obligations around AI regulation. That is a compliance-cost and regulatory burden risk.</Reasoning>"
+  },
+  {
+    "sentence": "The EU AI Act introduces various requirements for AI systems and models placed on the market or put into service in the EU, including specific transparency and other requirements for general purpose AI systems and the models on which those systems are based.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Compliance Costs",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence states the EU AI Act “introduces various requirements” for AI systems and models, which creates compliance obligations. It is a compliance-cost risk tied to AI regulation.</Reasoning>"
+  },
+  {
+    "sentence": "In the U.S., there is increasing uncertainty as to the federal government's approach to AI regulation going forward, as the continued applicability of the White House's 2023 Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence, which lays out a framework for the U.S. government, among other things, to monitor private sector development of certain foundation models, remains subject to regulatory development.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly says there is “increasing uncertainty” about the government’s approach to AI regulation and continued applicability of the Executive Order. That is a legal uncertainty and complexity risk.</Reasoning>"
+  },
+  {
+    "sentence": "Several states are considering enacting or have already enacted regulations concerning the use of AI technologies, including those focused on consumer protection, and depending on the scope of AI regulation at the federal level, some states may move to regulate AI model development and deployment.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence describes multiple overlapping state and federal AI regulations, with uncertainty about scope and future action. That fits legal uncertainty and complexity.</Reasoning>"
+  },
+  {
+    "sentence": "Further, at the federal and state level, there have been various proposals (and in some cases laws enacted) addressing “deepfakes” and other AI-generated synthetic media.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence points to regulatory proposals and enacted laws on deepfakes and AI-generated media, which creates legal uncertainty and compliance complexity. It is not a mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "Our development, use, and commercialization of AI products and services (including our",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This is an incomplete fragment in the supplied text, but it clearly begins a statement about AI products and services subject to regulatory and legal risk in the next sentence. On its own, it is not sufficiently complete to code.</Reasoning>"
+  },
+  {
+    "sentence": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly states that AI implementation could lead to “regulatory action and legal liability” under various laws. That is a clear legal uncertainty/liability risk.</Reasoning>"
+  },
+  {
+    "sentence": "Further, we are subject to evolving laws, regulations, policies, and international accords relating to matters beyond our core products and services, including environmental sustainability, climate change, human capital, and employment matters.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence identifies evolving laws and accords across multiple domains, creating broad regulatory uncertainty. Although not AI-specific by itself, it appears in the AI-regulation context and contributes to legal uncertainty around our AI-related operations.</Reasoning>"
+  },
+  {
+    "sentence": "In response, we have implemented robust programs, adopted reporting frameworks and principles, and announced a number of complex and ambitious goals and initiatives that may require considerable investments.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 3,
+    "reasoning": "<Reasoning>The sentence says they have “implemented robust programs” and “adopted reporting frameworks and principles,” which is concrete risk management. The mention of frameworks and implemented programs supports a strong mitigation classification.</Reasoning>"
+  },
+  {
+    "sentence": "We cannot guarantee that our goals and initiatives will be fully realized on the timelines we expect or at all, and projects that are completed as planned may not achieve the results we anticipate.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence states that compliance/governance goals and initiatives may not be realized or achieve intended results, reflecting uncertainty in execution. It is a risk statement, not a mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "We are and may continue to be subject to claims, lawsuits, regulatory and government inquiries and investigations, enforcement actions, consent orders, and other forms of regulatory scrutiny and legal liability, including competition matters, that could harm our business, reputation, financial condition, and operating results.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Litigation",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence explicitly lists “claims, lawsuits, regulatory and government inquiries and investigations” and “legal liability.” That is a direct litigation/legal exposure risk.</Reasoning>"
+  },
+  {
+    "sentence": "We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competition, intellectual property, data privacy and security, tax and related compliance, labor and employment, commercial disputes, content generated by our users, goods and services offered by advertisers or publishers using our platforms, personal injury, and other matters.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Litigation",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence broadly lists claims, lawsuits, investigations, and proceedings, including matters involving content generated by users. It is clearly a litigation risk disclosure.</Reasoning>"
+  },
+  {
+    "sentence": "We are also subject to a variety of claims including product warranty, product liability, and consumer protection claims related to product defects, among other litigation, and we may also be subject to claims involving health and safety, hazardous materials usage, other environmental effects, AI training, development, and commercialization, or service disruptions or failures.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Litigation",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence expressly mentions possible claims involving “AI training, development, and commercialization,” and it is framed as litigation exposure. That fits the litigation category.</Reasoning>"
+  },
+  {
+    "sentence": "Our ongoing investments in safety, security, and content review will likely continue to identify abuse of our platforms and misuse of user data.",
+    "kind": "Risk Mitigation",
+    "category": "Operational Process Controls",
+    "subcategory": "Incident Monitoring, Response, and Recovery",
+    "strength": 2,
+    "reasoning": "<Reasoning>This sentence says ongoing investments in “safety, security, and content review” are intended to identify abuse and misuse. That is an implemented monitoring and response mitigation.</Reasoning>"
+  },
+  {
+    "sentence": "While we may not determine some of these incidents to be material at the time they occur and may remedy them quickly, there is no guarantee that these issues will not ultimately result in significant legal, financial, and reputational harm, including government inquiries and enforcement actions, litigation, and negative publicity.",
+    "kind": "Risk",
+    "category": "Reputational",
+    "subcategory": "Individual or Organizational Reputation",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly mentions “negative publicity” and reputational harm from incidents. That makes it a reputational risk statement.</Reasoning>"
+  },
+  {
+    "sentence": "We, like others in the industry, face violations of our content guidelines across our platforms, including sophisticated attempts by bad actors to manipulate our hosting and advertising systems to fraudulently generate revenues, or to otherwise generate traffic that does not represent genuine user interest or intent.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Malicious Actors / Misuse",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly describes “bad actors” manipulating systems to fraudulently generate revenues and traffic. That is a misuse/malicious-actors risk.</Reasoning>"
+  },
+  {
+    "sentence": "We are subject to a variety of new, existing, and changing laws and regulations worldwide that could harm our business, and will likely be subject to an even broader scope of laws and regulations as we continue to expand our business.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This is a broad statement about changing laws and regulations creating uncertainty. It is not AI-specific on its own, but in the AI-regulation section it supports legal uncertainty around AI-related operations.</Reasoning>"
+  },
+  {
+    "sentence": "Our development, use, and commercialization of AI products and services (including our implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.",
+    "kind": "Risk",
+    "category": "Legal",
+    "subcategory": "Uncertainty & Complexity",
+    "strength": null,
+    "reasoning": "<Reasoning>This duplicate sentence directly ties AI deployment to possible regulatory action and legal liability under multiple laws. That is a legal uncertainty risk.</Reasoning>"
+  },
+  {
+    "sentence": "We continue to invest heavily and develop localized versions of our products and advertising programs relevant to our users in these markets.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 2,
+    "reasoning": "<Reasoning>The sentence describes ongoing investment and development to support operations in foreign markets. While not AI-specific by itself, in this context it is a concrete operational response to market/regulatory complexity, so it is a mitigation with moderate strength.</Reasoning>"
+  },
+  {
+    "sentence": "Our approach will continue to evolve and will require us to navigate significant uncertainty, including the uncertainty around the future environmental impact of AI, which is complex and difficult to predict.",
+    "kind": "Risk",
+    "category": "Sociotechnical",
+    "subcategory": "Environmental",
+    "strength": null,
+    "reasoning": "<Reasoning>This sentence explicitly mentions “the future environmental impact of AI” and says it is “complex and difficult to predict.” That is an environmental risk linked to AI.</Reasoning>"
+  },
+  {
+    "sentence": "We make it a priority to protect the privacy and security of our products, users, and customers, even if there are near-term financial consequences.",
+    "kind": "Risk Mitigation",
+    "category": "Technical & Security Controls",
+    "subcategory": "AI Security, Privacy, and Data Protections",
+    "strength": 2,
+    "reasoning": "<Reasoning>This sentence is a clear commitment to privacy and security protection. It is a general implemented mitigation, though not AI-specific in wording, it appears in the AI-enabled product context.</Reasoning>"
+  },
+  {
+    "sentence": "Our AI-optimized infrastructure allows us to use, and offer our customers, a range of AI accelerator options, including our own custom-built Tensor Processing Units (TPUs).",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Investment Cost & Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>The sentence emphasizes AI infrastructure and hardware investment, including custom-built TPUs, which implies substantial capital intensity. It is not a mitigation statement.</Reasoning>"
+  },
+  {
+    "sentence": "Our focus on making it easy and scalable for others to innovate, and grow, with AI.",
+    "kind": "Risk",
+    "category": "Competitive",
+    "subcategory": "Market Share Uncertainty",
+    "strength": null,
+    "reasoning": "<Reasoning>This fragment is not a complete sentence in the supplied text and does not by itself state a clear risk or mitigation. It is not coded.</Reasoning>"
+  },
+  {
+    "sentence": "We are focused on making it easy and scalable for others to innovate, and grow, with AI.",
+    "kind": "Risk Mitigation",
+    "category": "Governance & Oversight",
+    "subcategory": "Overall Risk Management & Governance Plan",
+    "strength": 1,
+    "reasoning": "<Reasoning>This sentence conveys a strategic commitment to enable responsible scaling of AI offerings. It is commitment-level mitigation rather than a detailed control.</Reasoning>"
+  },
+  {
+    "sentence": "We are driving efficiencies in our data centers, while making significant hardware and model improvements.",
+    "kind": "Risk Mitigation",
+    "category": "Environmental Impact",
+    "subcategory": "Environmental Impact Mitigation",
+    "strength": 1,
+    "reasoning": "<Reasoning>The sentence refers to “driving efficiencies in our data centers,” which is a broad environmental/resource-efficiency mitigation. It is a commitment-level statement without specific protocols.</Reasoning>"
+  },
+  {
+    "sentence": "Our primary approach to reducing our Scope 2 emissions is through the procurement of carbon-free energy (CFE).",
+    "kind": "Risk Mitigation",
+    "category": "Environmental Impact",
+    "subcategory": "Environmental Impact Mitigation",
+    "strength": 3,
+    "reasoning": "<Reasoning>This sentence specifies a concrete environmental mitigation approach: “procurement of carbon-free energy.” That is a specific protocol for reducing environmental impact.</Reasoning>"
+  },
+  {
+    "sentence": "In 2023, we began implementing our carbon removals strategy, and we have begun establishing impactful partnerships and have started contracting for carbon removal credits.",
+    "kind": "Risk Mitigation",
+    "category": "Environmental Impact",
+    "subcategory": "Environmental Impact Mitigation",
+    "strength": 3,
+    "reasoning": "<Reasoning>The sentence describes concrete steps—implementing a carbon removals strategy, establishing partnerships, and contracting for carbon removal credits. Those are specific environmental mitigation actions.</Reasoning>"
+  }
+]

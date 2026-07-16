@@ -32,7 +32,13 @@ from .keyword_filter import get_or_compute_hits, load_keywords
 from .llm_call import call_model, call_model_per_chunk
 from .multi_human_csv import load_human_for_doc
 from .normalize import dedupe_annotations, validate_annotations
-from .prompt_build import build_hai_tuned_prompt, build_json_schema, build_system_prompt
+from .prompt_build import (
+    build_hai_tuned_prompt,
+    build_json_schema,
+    build_system_prompt,
+    build_xml_cot_prompt,
+    build_xml_cot_schema,
+)
 from .registry import discover_docs, get_doc
 from .sentence_index import build_index, write_index
 from .sequential_passage_workflow import run_sequential_passage_aware
@@ -72,7 +78,16 @@ def _build_prompt(strategy: Strategy, taxonomy: dict) -> str:
             rules_path=DATA_DIR / "hai_dont_rules_v2.md",
             examples_block="",
         )
+    if strategy.prompt_builder == "xml_cot":
+        return build_xml_cot_prompt(taxonomy)
     return build_system_prompt(taxonomy)
+
+
+def _build_schema_for_strategy(strategy: Strategy, taxonomy: dict) -> dict:
+    """Some strategies (V6) need a different JSON schema than the baseline."""
+    if strategy.prompt_builder == "xml_cot":
+        return build_xml_cot_schema(taxonomy)
+    return build_json_schema(taxonomy)
 
 
 def run_for(
@@ -145,7 +160,7 @@ def run_for(
 
         print("[5/5] building prompt + schema + LLM call(s)")
         system_prompt = _build_prompt(strategy, taxonomy)
-        schema = build_json_schema(taxonomy)
+        schema = _build_schema_for_strategy(strategy, taxonomy)
 
         if skip_llm and not versioned["llm_raw_path"].exists():
             raise SystemExit(f"{slug}: no cached LLM response; remove --skip-llm to make the call.")

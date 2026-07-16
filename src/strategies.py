@@ -134,6 +134,50 @@ SEQUENTIAL_PASSAGE_AWARE_STRATEGY = Strategy(
 )
 
 
+XML_COT_BASELINE_STRATEGY = Strategy(
+    id="xml_cot_baseline",
+    name="Baseline + XML `<Reasoning>` CoT",
+    display_label="V6 — Baseline + XML `<Reasoning>` CoT",
+    description=(
+        "Same shape as V0 baseline (full doc, one call) but the annotation schema "
+        "requires a `reasoning` field per annotation. The prompt asks the model to "
+        "wrap its reasoning in literal `<Reasoning>...</Reasoning>` XML tags — the "
+        "format the notes doc asks for. Each output annotation carries a "
+        "chain-of-thought trace citing the words that pushed the decision."
+    ),
+    chunker="full_doc",
+    prompt_builder="xml_cot",
+)
+
+N_SENTENCE_CHUNK_20_STRATEGY = Strategy(
+    id="n_sentence_chunk_20",
+    name="Fixed 20-sentence chunks (no keyword filter)",
+    display_label="V7 — 20-sentence chunks",
+    description=(
+        "Slide a 20-sentence window across the full doc with stride 20 (non-"
+        "overlapping). Each window becomes its own LLM call — the model tags "
+        "everything inside. Answers the notes doc's option B: 'Split doc into "
+        "chunks (e.g., N sentence chunks, maybe try 20, 40) – ask it to tag "
+        "everything inside.' No keyword filter — every sentence is seen at least once."
+    ),
+    chunker="n_sentence",
+    chunker_params={"n_sentences": 20},
+)
+
+N_SENTENCE_CHUNK_40_STRATEGY = Strategy(
+    id="n_sentence_chunk_40",
+    name="Fixed 40-sentence chunks (no keyword filter)",
+    display_label="V8 — 40-sentence chunks",
+    description=(
+        "Same as V7 but the window is 40 sentences instead of 20. Half as many "
+        "chunks, larger context per call. Direct comparison with V7 shows the "
+        "chunk-size sensitivity of the tagging quality."
+    ),
+    chunker="n_sentence",
+    chunker_params={"n_sentences": 40},
+)
+
+
 STRATEGIES: dict[str, Strategy] = {
     s.id: s for s in (
         BASELINE_STRATEGY,
@@ -143,6 +187,9 @@ STRATEGIES: dict[str, Strategy] = {
         HAI_TUNED_ONESHOT_STRATEGY,
         HAI_TUNED_ONESHOT_V2_STRATEGY,
         SEQUENTIAL_PASSAGE_AWARE_STRATEGY,
+        XML_COT_BASELINE_STRATEGY,
+        N_SENTENCE_CHUNK_20_STRATEGY,
+        N_SENTENCE_CHUNK_40_STRATEGY,
     )
 }
 

@@ -100,6 +100,9 @@ def align(
             "strength": ann.get("strength"),
             "sentence_excerpt": sentence_text[:140],
         }
+        # Preserve per-annotation reasoning (V6 emits it; others don't).
+        if ann.get("reasoning"):
+            card["reasoning"] = ann["reasoning"]
         if anchor is None:
             unmatched_ai.append(card)
             continue

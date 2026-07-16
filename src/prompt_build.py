@@ -90,6 +90,48 @@ def build_json_schema(taxonomy: dict) -> dict:
     }
 
 
+def build_xml_cot_prompt(taxonomy: dict) -> str:
+    """Baseline shape + explicit XML `<Reasoning>...</Reasoning>` chain-of-thought.
+
+    Each annotation includes a `reasoning` field whose content is expected to
+    be wrapped in `<Reasoning>...</Reasoning>` XML — the format the notes doc
+    asks for as an example. Used by V6.
+    """
+    base = build_system_prompt(taxonomy)
+    cot_addendum = """
+# Chain-of-thought (XML style)
+Each annotation MUST include a `reasoning` field alongside the other fields.
+Wrap your reasoning in literal `<Reasoning>...</Reasoning>` tags. The reasoning
+should be 1–2 sentences citing the specific words from the sentence (or from
+the immediately surrounding context if you saw the doc) that pushed you to
+this (kind, category, subcategory, strength) decision.
+
+Example format for a single annotation:
+```
+{
+  "reasoning": "<Reasoning>The sentence uses 'AI Act came into force' and describes compliance costs — this is a Legal / Compliance Cost risk.</Reasoning>",
+  "sentence": "The EU AI Act came into force on August 1, 2024...",
+  "kind": "Risk",
+  "category": "Legal",
+  "subcategory": "Compliance Costs",
+  "strength": null
+}
+```
+
+Reasoning is required on every annotation. Do not omit it.
+"""
+    return base + "\n" + cot_addendum
+
+
+def build_xml_cot_schema(taxonomy: dict) -> dict:
+    """JSON schema for V6 — same as the baseline schema but adds required `reasoning`."""
+    schema = build_json_schema(taxonomy)
+    item_schema = schema["properties"]["annotations"]["items"]
+    item_schema["required"] = ["reasoning"] + item_schema["required"]
+    item_schema["properties"]["reasoning"] = {"type": "string"}
+    return schema
+
+
 def build_hai_tuned_prompt(taxonomy: dict, rules_path=None, examples_block: str = "") -> str:
     """Augment the baseline prompt with HAI-derived DON'T rules + few-shot examples."""
     from pathlib import Path

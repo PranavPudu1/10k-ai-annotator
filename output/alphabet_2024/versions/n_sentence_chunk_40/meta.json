@@ -1,0 +1,15 @@
+{
+  "id": "n_sentence_chunk_40",
+  "name": "Fixed 40-sentence chunks (no keyword filter)",
+  "display_label": "V8 — 40-sentence chunks",
+  "description": "Same as V7 but the window is 40 sentences instead of 20. Half as many chunks, larger context per call. Direct comparison with V7 shows the chunk-size sensitivity of the tagging quality.",
+  "workflow": "chunked",
+  "prompt_builder": "baseline",
+  "chunker": "n_sentence",
+  "chunker_params": {
+    "n_sentences": 40
+  },
+  "model": "gpt-5.4-mini",
+  "n_chunks": 53,
+  "created_at": "2026-07-16T23:36:20"
+}

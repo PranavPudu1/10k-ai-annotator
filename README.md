@@ -19,7 +19,7 @@ If a part isn't relevant, it's skipped. If we haven't done something, it just sa
 
 > Done so far: Prompt with entire 10k as context. Prompt iteration.
 
-**What we did.** We're now on version 5. All seven versions (V0–V5) are on the live site. Numbers on Alphabet 2024 (38 human-tagged sentences):
+**What we did.** We're on version 8 now. All ten versions (V0–V8) are on the live site. Numbers on Alphabet 2024 (38 human-tagged sentences):
 
 | Version | Method | AI tags | Sentences caught | Sentences missed |
 |---|---|---:|---:|---:|
@@ -29,9 +29,12 @@ If a part isn't relevant, it's skipped. If we haven't done something, it just sa
 | V3 sequential_batched | Chain of 4 short LLM calls, one per decision | 55 | 20 | 22 |
 | V4 hai_tuned_oneshot | V0 but with prompt rules from Naomi + Angie's feedback (v1 rules) | 43 | 14 | 28 |
 | V4.1 hai_tuned_oneshot_v2 | V4 with deeper rules (v2, 15 principles from all 844 feedback rows) | 42 | 14 | 28 |
-| **V5** sequential_passage_aware | Chain of 6 short calls, with a step that finds AI-topic passages first (v3 rules) | 51 | **20** | 22 |
+| V5 sequential_passage_aware | Chain of 6 short calls, with a step that finds AI-topic passages first (v3 rules) | 51 | 20 | 22 |
+| **V6** xml_cot_baseline | Same as V0 but each annotation carries an XML `<Reasoning>` chain-of-thought | 73 | **22** | 20 |
+| **V7** n_sentence_chunk_20 | Split doc into non-overlapping 20-sentence chunks, tag each | 253 | **26** | 16 |
+| **V8** n_sentence_chunk_40 | Same as V7 but 40-sentence chunks | 175 | 21 | 21 |
 
-V3 and V5 tie for best coverage of human tags. V4/V4.1 make the fewest tags (least over-tagging). V2 catches the most but at 3× over-tagging.
+V7 ties V2 for the highest catch count (26/38) but tags 5× as much as V0 — over-tagging is the tradeoff. V6 is the best single-call result at 22/38 with modest over-tagging. V3 and V5 remain the balanced precision-aware picks. V4/V4.1 stay the most conservative.
 
 *See [`EXPERIMENT_LOG.md`](EXPERIMENT_LOG.md) for the full log across every run.*
 
@@ -52,6 +55,8 @@ V3 and V5 tie for best coverage of human tags. V4/V4.1 make the fewest tags (lea
 > Problem setup: Input: sentences. Output: label for each sentence where label is (risk/mitigation, subcategory, strength).
 
 **What we did.** Exactly this. Sentences come from a splitter (`pysbd`) run on the 10-K text. Labels are pulled from the RAI taxonomy CSVs. Each label is `(kind, category, subcategory, strength)`. Data lives under [`data/`](data/) and [`output/`](output/).
+
+**On sentence splitting (from the follow-up: "was this fixed?"):** yes, it's fixed. We diagnosed all 16 fragment cases flagged by the HAI reviewers — 3 were real fragments still present in the current output (list headers ending in `:` and lowercase continuations after bullets in `amazon_2024`, `meta_2024`, `oracle_2024`). The other 13 pointed at anchor IDs from an earlier indexing that no longer exist. We added a post-splitter merge pass in [`src/sentence_index.py`](src/sentence_index.py) with two rules (merge on colon-ended sentence; merge on lowercase continuation) and re-indexed the 3 affected docs. Verified with unit tests, regression against clean 10-K prose (decimals, `Ph.D.`, `EU AI Act`, section numbers all still split correctly), and sanity-check on 5 random docs (2.7–3.8% sentence-count drop, no colon-ends or lowercase-starts in the first 100 sentences). Full diagnostic in [`docs/diagnostics_2026-07-14.md`](docs/diagnostics_2026-07-14.md).
 
 ---
 
@@ -96,7 +101,33 @@ Which direction fits how you want the score to read?
 
 Few-shot examples are balanced across categories in the picker code.
 
-**What we could try next.** Keep iterating on v3 based on new errors we see. The current V5 misses are dominated by Legal-context sentences; v4 rules would target that specifically.
+**On the follow-up question — "do the errors go away when specified explicitly?"** Empirical answer: measurably yes, not fully.
+
+*Error 1 — "tagging for AI even if it's not specific to RAI"* (over-tagging on non-AI content). AI tag count drops as rules get more specific:
+
+| Version | AI tags | Sentences caught |
+|---|---:|---:|
+| V0 no rules | 52 | 12 |
+| V4 v1 rules | 43 | 14 |
+| V4.1 v2 rules | 42 | 14 |
+| V5 v3 rules + passage-aware | 51 | 20 |
+
+Rules cut over-tagging by ~19% (52 → 42) while lifting recall. V5 tags more than V4.1 because its passage step surfaces genuine AI-topic sentences, not because the rules got looser.
+
+*Error 2 — "failing to tag things due to missing context"* (under-recall on context-driven sentences). Anchors caught climbs:
+
+| Version | Anchors caught |
+|---|---:|
+| V0 baseline | 12 |
+| V4.1 rules alone | 14 |
+| V3 sequential (no passage step) | 20 |
+| V5 passage-aware sequential | 20 |
+
+Sequential staging (V3) helps by 8. Adding passage discovery (V5) matches V3 but catches a different set — V5 recovers 4 Legal/context sentences V3 misses; V3 catches 4 EU-AI-Act sentences V5's filter drops. Combined coverage would be 24 of 38.
+
+**Honest bottom line.** Rules measurably reduce both error modes. Neither is fully solved. Legal/Uncertainty-in-AI-regulation-passages remains the dominant residual miss category — see [`docs/diagnostics_2026-07-14.md`](docs/diagnostics_2026-07-14.md).
+
+**What we could try next.** Keep iterating on v3 based on new errors. A v4 rule set targeting Legal-context specifically is the obvious next iteration.
 
 ---
 
@@ -112,7 +143,12 @@ Few-shot examples are balanced across categories in the picker code.
 
 > B) Split doc into chunks (e.g., N sentence chunks, maybe try 20, 40) – ask it to tag everything inside.
 
-*To do.*
+**What we did.** Built two versions:
+
+- **V7 — 20-sentence chunks.** Slide a 20-sentence non-overlapping window across the whole doc, tag everything inside each chunk. 105 chunks on Alphabet 2024, 253 tags, 26 caught.
+- **V8 — 40-sentence chunks.** Same but 40-sentence windows. 53 chunks, 175 tags, 21 caught.
+
+**What we learned.** Smaller chunks catch more human anchors (V7 = 26 vs V0 = 12) but the tradeoff is heavy over-tagging: V7 emits 253 tags vs V0's 52. V8 (larger chunks) sits in the middle — 21 caught, 175 tags. The 20-sentence variant looks like a strong retrieval signal but needs a second-pass filter to be usable as final output.
 
 ### C. Keyword ±20 sentence context
 
@@ -154,16 +190,19 @@ Confirmed empirically. V3 (sequential) catches 20 sentences vs. V0's 12 on the s
 
 > Structure: Should try asking for thinking tokens, i.e., in `<REASONING> … </REASONING>`, followed by `<ANSWER> </ANSWER>` (Goal: better accuracy, and tool for debugging). If using a Reasoning LM, can also report the thinking trace (or summary, depends on the model).
 
-**What we did.** V5 has this. Every keep/drop decision in its filtering step comes with a plain-English reason string. On Alphabet 2024, all 205 decisions have one, averaging 151 characters for the kept sentences. Two real examples:
+**What we did.** Built a new version — **V6 — Baseline + XML `<Reasoning>` CoT** — that implements this format literally. Every annotation V6 emits carries a `reasoning` field whose content is wrapped in `<Reasoning>...</Reasoning>` tags. 73 out of 73 annotations on Alphabet 2024 have one. Real V6 sample:
 
-- Kept: *"Inside a sustainability passage, this explicitly identifies uncertainty around AI's future environmental impact as a risk consequence."*
-- Dropped: *"This is a descriptive statement about centralized AI R&D, not a risk consequence or mitigation action."*
+- Sentence: *"We believe our approach to AI must be both bold and responsible."*
+- Reasoning: `<Reasoning>The phrase "must be both bold and responsible" is a general commitment to manage AI responsibly. This is an intention-level mitigation without specific controls, so strength 1 fits.</Reasoning>`
 
-These show up highlighted in blue on the "Missed Human Tags" tab of the V5 page on the live site.
+**How existing versions overlap:**
 
-**What we could try next.** Add the same `reasoning` field to V0, V1, V2, V4, V4.1. *To do.*
+- **V5 (sequential_passage_aware)** already emits reasoning too, just not in XML. Its Phase 3 (context filter) has a required `reason` field on every keep/drop verdict. 205/205 verdicts on Alphabet 2024, averaging 151 characters, citing passage context. Same debugging value as V6's XML reasoning — different wrapping. Rendered in blue on the V5 "Missed Human Tags" tab.
+- **V0, V1, V2, V3, V4, V4.1** don't emit reasoning. Their outputs are annotations only. If we want CoT on those, the fix is straightforward — add a `reasoning` field to their schemas and re-run. Deferred because V6 already answers the question and the other versions aren't the ones we're actively iterating on.
 
-**What we'd need to discuss.** We're using gpt-5.4-mini, not a reasoning model. If you want us to switch to o1 or Claude with `thinking` enabled, the trace would land in the same saved cache alongside the response.
+**What we'd need to discuss.** We're using gpt-5.4-mini, not a reasoning model. If we switch to o1 or Claude with `thinking` enabled, the model's own thinking trace lands in the raw response cache alongside the JSON output — no schema change needed.
+
+*Comparing V6's tag counts to V0 baseline is interesting on its own: V6 = 73 tags, 22 caught, vs V0 = 52 tags, 12 caught. Asking the model to justify each tag surfaces genuine annotations V0 skipped.*
 
 ---
 

@@ -77,10 +77,41 @@ def keyword_per_sentence_chunker(sentences: list[dict], hits: list[dict], params
     return chunks
 
 
+def n_sentence_chunker(sentences: list[dict], hits: list[dict], params: dict) -> list[dict]:
+    """Slide a fixed N-sentence window across the whole doc. Ignores `hits`.
+
+    Notes doc option B: 'Split doc into chunks (e.g., N sentence chunks,
+    maybe try 20, 40) – ask it to tag everything inside.'
+
+    Params:
+      - n_sentences: window size (default 20)
+      - stride: how far to advance per chunk (default = n_sentences, non-overlapping)
+    """
+    n = int(params.get("n_sentences", 20))
+    stride = int(params.get("stride", n))
+    total = len(sentences)
+    if not total or n <= 0 or stride <= 0:
+        return []
+
+    chunks: list[dict] = []
+    k = 0
+    start = 0
+    while start < total:
+        end = min(total, start + n)
+        indices = list(range(start, end))
+        chunks.append(_make_chunk(k, sentences, indices))
+        k += 1
+        if end == total:
+            break
+        start += stride
+    return chunks
+
+
 _REGISTRY = {
     "full_doc": full_doc_chunker,
     "keyword_window": keyword_window_chunker,
     "keyword_per_sentence": keyword_per_sentence_chunker,
+    "n_sentence": n_sentence_chunker,
 }
 
 

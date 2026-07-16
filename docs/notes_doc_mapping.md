@@ -13,14 +13,15 @@ Full experiment log with numbers: [`EXPERIMENT_LOG.md`](../EXPERIMENT_LOG.md). I
 | Notes doc section | Status |
 |---|---|
 | Problem setup (input / output / labels) | ✅ Done |
+| Sentence-splitting fragments (check-in follow-up) | ✅ **Done** — fixed via post-splitter merge; verified 5 ways |
 | Units A — whole doc | ✅ Done (V0) |
-| Units B — fixed N-sentence chunks | ⏳ **Not done** — deferred |
+| Units B — fixed N-sentence chunks | ✅ **Done** (V7 = 20-sentence, V8 = 40-sentence) |
 | Units C — keyword ± N-sentence context | ✅ Done (V1 window + V2 per-sentence) |
-| Units D — BM25 | ⏳ **Not done** — deferred |
-| Pipeline: all outputs at once | ✅ Done (V0, V4, V4.1) |
+| Units D — BM25 | ⏳ **Not done** — deferred (notes doc marked LATER) |
+| Pipeline: all outputs at once | ✅ Done (V0, V4, V4.1, V6) |
 | Pipeline: sequential (kind → cat/sub → strength) | ✅ Done (V3, V5) |
 | Pipeline: hybrid (kind → cat+strength together) | ⏳ **Not done** — deferred |
-| Structure: `<Reasoning>` / thinking tokens | 🟡 **Partial** — V5 has it via `reason` field; V0–V4 don't |
+| Structure: `<Reasoning>` / thinking tokens | ✅ **Done** — V6 wraps reasoning in literal `<Reasoning>…</Reasoning>`; V5 has equivalent via `reason` field |
 | Outputs: LLM output logs | ✅ Done (`llm_raw_response.json` per version) |
 | Outputs: predicted tags per sentence | ✅ Done (`ai_annotations.json` + `aligned.json`) |
 | Evaluation: per-subcategory + macro P/R/F1 | ✅ Done |
@@ -46,7 +47,7 @@ Notes doc options: A (whole doc), B (fixed N-sentence chunks), C (keyword ± N w
 | Option | Status | Where |
 |---|---|---|
 | **A. Whole doc** | ✅ **Done** — V0 baseline | [src/chunkers.py](../src/chunkers.py) `full_doc_chunker`; strategy `baseline` |
-| **B. N-sentence chunks (20, 40)** | ⏳ **Not done — deferred.** No sliding-window-by-position chunker yet. | Would add e.g. `n_sentence_chunker(n=20, stride=20)` in [src/chunkers.py](../src/chunkers.py); register a new strategy in [src/strategies.py](../src/strategies.py) |
+| **B. N-sentence chunks (20, 40)** | ✅ **Done** — V7 (20-sentence chunks) and V8 (40-sentence chunks) | [src/chunkers.py](../src/chunkers.py) `n_sentence_chunker`; strategies `n_sentence_chunk_20` and `n_sentence_chunk_40` |
 | **C. Keyword ± 20 sentences** | ✅ **Done** — V1 `keyword_window_20` (window merging) and V2 `keyword_per_sentence` (matched sentence in isolation) | [src/keyword_filter.py](../src/keyword_filter.py), [src/chunkers.py](../src/chunkers.py) `keyword_window_chunker` and `keyword_per_sentence_chunker` |
 | **D. BM25 / retrieval** | ⏳ **Not done — deferred.** Explicitly labeled LATER in the notes doc. | Would live alongside the keyword filter as an alternative candidate-selection module |
 
@@ -69,19 +70,21 @@ Notes doc options: (1) all outputs at once, (2) sequential (kind → subcat → 
 
 ---
 
-## Structure — `<REASONING>` / thinking tokens 🟡
+## Structure — `<REASONING>` / thinking tokens ✅
 
 Notes doc ask: `<REASONING>…</REASONING>` followed by `<ANSWER>…</ANSWER>`.
 
-- **V5 (`sequential_passage_aware`)**: ✅ every Phase 3 verdict already includes a required `reason` field. 205 of 205 verdicts on Alphabet 2024 have one — average 151 chars for kept sentences, 86 chars for dropped. They cite the passage context. It's CoT-equivalent; it's just not wrapped in `<Reasoning>` XML. Surfaced verbatim on the **Missed Human Tags** tab of the V5 page on Netlify.
-- **V0, V1, V2, V4, V4.1**: ⏳ **not done.** Their schemas emit annotations directly, not verdicts with a reason field. Adding schema-wide `<Reasoning>` is a real change — deferred until we're actively iterating on one of those.
-- **Reasoning LM**: ⏳ we call gpt-5.4-mini via the OpenAI SDK — no built-in thinking trace. If we switch to a Reasoning model (o1, Claude with `thinking` enabled), the trace would land in the same `llm_raw_response.json` cache.
+- **V6 (`xml_cot_baseline`)** — ✅ **new version that matches this exactly.** Same shape as V0 baseline (full doc, one LLM call) but every annotation carries a `reasoning` string wrapped in literal `<Reasoning>...</Reasoning>` XML. 73 out of 73 annotations on Alphabet 2024 have one.
+- **V5 (`sequential_passage_aware`)** — ✅ CoT-equivalent via a `reason` field on every Phase 3 verdict. 205 of 205 verdicts on Alphabet 2024, averaging 151 chars for kept sentences and 86 for dropped, citing passage context. Surfaced highlighted-blue on the V5 Missed Human Tags tab. Different wrapping from V6, same debugging value.
+- **V0, V1, V2, V3, V4, V4.1** — no reasoning field. Their outputs are annotations only. If we want CoT there too, the fix is straightforward — deferred since V6 already answers the question.
+- **Reasoning LM** — we're using gpt-5.4-mini, not a reasoning model. If we switch to o1 or Claude with `thinking` enabled, the trace lands in `llm_raw_response.json` automatically.
 
-Sample kept reason (V5, Alphabet 2024):
+Sample V6 annotation (Alphabet 2024):
+> Sentence: *"We believe our approach to AI must be both bold and responsible."*
+> Reasoning: `<Reasoning>The phrase "must be both bold and responsible" is a general commitment to manage AI responsibly. This is an intention-level mitigation without specific controls, so strength 1 fits.</Reasoning>`
+
+Sample V5 kept reason:
 > `s-00277`: "Inside a sustainability passage, this explicitly identifies uncertainty around AI's future environmental impact as a risk consequence."
-
-Sample dropped reason:
-> `s-00110`: "This is a descriptive statement about centralized AI R&D, not a risk consequence or mitigation action."
 
 ---
 
