@@ -2,6 +2,8 @@
 
 Read-only investigation before committing to any code changes.
 
+> **Post-fix update (2026-07-16).** This is a dated snapshot from the diagnosis phase. The recommendations for Items 3 (skip splitter fix) and 4 (defer CoT) were later reversed once the fixes proved cheap and shippable. The two-rule post-splitter merge shipped in [`src/sentence_index.py`](../src/sentence_index.py) (`_should_merge` / `_post_merge`); the three affected docs were re-indexed. XML `<Reasoning>` CoT shipped as **V6** (`xml_cot_baseline`). See [README §Problem setup](../README.md) and [§Structure — thinking tokens](../README.md) for the current status. Registry counts in Diagnostic D are also frozen at 2026-07-14 (51 docs / 57 tuples / 7 Alphabet versions); current counts are in [`EXPERIMENT_LOG.md`](../EXPERIMENT_LOG.md).
+
 ---
 
 ## Diagnostic A — Sentence fragment analysis

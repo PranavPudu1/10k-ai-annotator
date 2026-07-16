@@ -132,10 +132,9 @@ None of these are implemented. **Awaiting a decision on the scoring philosophy**
 
 ## Consolidated "what's still open"
 
-- **Units option B** (arbitrary N-sentence chunks, not keyword-anchored).
 - **Units option D** (BM25 / vector retrieval).
 - **Pipeline hybrid** (kind → subcat + strength together in one call).
-- **`<Reasoning>` schema field for V0/V1/V2/V4/V4.1** (V5 already has it via `reason`).
+- **`<Reasoning>` schema field for V0/V1/V2/V3/V4/V4.1** (V5 has it via `reason`; V6 has it via XML).
 - **Strength confusion matrix / dedicated view.**
 - **Redundancy handling** — decision needed.
 - **CLI decomposition** (`--chunker`, `--pipeline`, `--rules`) — nice for sweeps; current `--version` presets are ergonomic enough for now.

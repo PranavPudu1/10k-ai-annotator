@@ -10,13 +10,13 @@ Two of our components touch Naomi's work. They relate to it differently.
 |---|---|---|
 | AI keywords | 195 terms in `filter-and-upload-to-hf/ai-keywords.txt` | **Same list** — literally copied into `data/ai_keywords.txt` |
 | Taxonomy | RAI Finance Pilot Information CSVs | **Same** CSVs, unchanged |
-| Chunking concept | ±N sentence window around keyword hits | **Same concept** — implemented as our V1 `keyword_window_20` in [src/chunkers.py](src/chunkers.py) `keyword_window_chunker` |
-| Input format | SEC EDGAR **full-submission SGML** | EDGAR **HTML** via [data/fetch_10ks.py](data/fetch_10ks.py) + BeautifulSoup extraction |
+| Chunking concept | ±N sentence window around keyword hits | **Same concept** — implemented as our V1 `keyword_window_20` in [src/chunkers.py](../src/chunkers.py) `keyword_window_chunker` |
+| Input format | SEC EDGAR **full-submission SGML** | EDGAR **HTML** via [data/fetch_10ks.py](../data/fetch_10ks.py) + BeautifulSoup extraction |
 | Sentence splitter | `re.compile(r'(?<=[.!?])\s+')` (plain regex) — breaks on `$7.4 billion`, `12.3%`, `U.S.`, `Ph.D.`, `Section 7.4.4` | `pysbd` — handles decimals, abbreviations, section numbers. Documented decision in [annotation_tool/SEGMENTER_DECISION.md](../annotation_tool/SEGMENTER_DECISION.md) |
 | Section extraction | Splits at Item boundaries (Item 1, 1A, 1C, 7) | None — processes full doc; V5 identifies AI-topic passages at annotation time via LLM |
 | Downstream purpose | Emit `sections.jsonl` with sentence spans + keyword char-offsets → upload to Hugging Face | LLM annotation → per-strategy `ai_annotations.json` + aligned metrics vs human ground truth + versioned experiments UI |
 
-**One-line summary:** Naomi's pipeline stops at "here are the keyword-relevant sentence spans." Ours starts around there and adds LLM annotation, 7 versioned strategies, and evaluation against human ground truth.
+**One-line summary:** Naomi's pipeline stops at "here are the keyword-relevant sentence spans." Ours starts around there and adds LLM annotation, 10 versioned strategies, and evaluation against human ground truth.
 
 ## `annotation_tool/` — the human annotation Flask app
 

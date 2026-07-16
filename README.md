@@ -200,7 +200,7 @@ Confirmed empirically. V3 (sequential) catches 20 sentences vs. V0's 12 on the s
 - **V5 (sequential_passage_aware)** already emits reasoning too, just not in XML. Its Phase 3 (context filter) has a required `reason` field on every keep/drop verdict. 205/205 verdicts on Alphabet 2024, averaging 151 characters, citing passage context. Same debugging value as V6's XML reasoning — different wrapping. Rendered in blue on the V5 "Missed Human Tags" tab.
 - **V0, V1, V2, V3, V4, V4.1** don't emit reasoning. Their outputs are annotations only. If we want CoT on those, the fix is straightforward — add a `reasoning` field to their schemas and re-run. Deferred because V6 already answers the question and the other versions aren't the ones we're actively iterating on.
 
-**What we'd need to discuss.** We're using gpt-5.4-mini, not a reasoning model. If we switch to o1 or Claude with `thinking` enabled, the model's own thinking trace lands in the raw response cache alongside the JSON output — no schema change needed.
+**What we'd need to discuss.** We're using `gpt-5.4-mini` (the small model — configured in [`src/config.py`](src/config.py) as `MODEL`), not a reasoning model. If we switch to `o1` or Claude with `thinking` enabled, the model's own thinking trace lands in the raw response cache alongside the JSON output — no schema change needed.
 
 *Comparing V6's tag counts to V0 baseline is interesting on its own: V6 = 73 tags, 22 caught, vs V0 = 52 tags, 12 caught. Asking the model to justify each tag surfaces genuine annotations V0 skipped.*
 
@@ -256,7 +256,7 @@ Confirmed empirically. V3 (sequential) catches 20 sentences vs. V0's 12 on the s
 python3 -m src.pipeline --doc alphabet_2024 --version sequential_passage_aware
 ```
 
-The 7 presets cover the combinations we've tried. It works, but it's not what you're asking for — you can't mix chunker A with pipeline B and rules C without adding a new preset in code.
+The 10 presets cover the combinations we've tried. It works, but it's not what you're asking for — you can't mix chunker A with pipeline B and rules C without adding a new preset in code.
 
 **What we could try next.** Refactor the CLI to take three independent flags:
 
@@ -278,25 +278,32 @@ Then you can sweep experiments from the command line. This is bounded work — 2
 
 ---
 
-## Try it yourself
+## Quickstart
 
-Clone the repo, add your OpenAI API key, run V5 on Alphabet 2024:
+Requires Python 3.10+. Clone, install, add your OpenAI key, run V5 on Alphabet 2024:
 
 ```bash
 git clone https://github.com/PranavPudu1/10k-ai-annotator
 cd 10k-ai-annotator
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 cp .env.local.example .env.local
-# then edit .env.local and paste your OpenAI key
+# then edit .env.local and paste your OpenAI key (the OPENAI_API_KEY= line)
 
 python3 -m src.pipeline --doc alphabet_2024 --version sequential_passage_aware
 streamlit run src/app.py
 ```
 
-Cost: about $0.05. Time: about 30 seconds. If you'd rather skip the run and just look at what's already there, all seven versions' outputs are checked in under [`output/alphabet_2024/versions/`](output/alphabet_2024/versions/).
+Cost: about $0.05. Time: about 30 seconds. If you'd rather skip the run and just look at what's already there, all ten versions' outputs are checked in under [`output/alphabet_2024/versions/`](output/alphabet_2024/versions/).
 
-To run a different version, swap `sequential_passage_aware` for any of: `baseline`, `keyword_window_20`, `keyword_per_sentence`, `sequential_batched`, `hai_tuned_oneshot`, `hai_tuned_oneshot_v2`.
+To run a different version, swap `sequential_passage_aware` for any of: `baseline`, `keyword_window_20`, `keyword_per_sentence`, `sequential_batched`, `hai_tuned_oneshot`, `hai_tuned_oneshot_v2`, `xml_cot_baseline`, `n_sentence_chunk_20`, `n_sentence_chunk_40`.
+
+## Viewing results — three modes
+
+- **Streamlit (local, interactive):** `streamlit run src/app.py` after any pipeline run. Best for iterating.
+- **Static site (Netlify-hosted):** `python3 -m src.build_static` regenerates [`dist/`](dist/); dragging that folder into Netlify updates https://warm-sawine-c7631b.netlify.app. No API key needed for readers.
+- **Flask + annotation app ([`annotation_tool/`](annotation_tool/)):** the `Procfile` + `railway.toml` at repo root deploy a lightweight Flask reader for human annotators over Postgres. Optional; skip if you only need the comparison view.
 
 ---
 
