@@ -13,9 +13,10 @@ All of the team's human and adjudicated annotations live in one folder:
 
 ### → **[`tool-exports/`](tool-exports/)**
 
-- **[`tool-exports/annotations.csv`](tool-exports/annotations.csv)** — every annotation across all filings in one file, including the adjudicated/final labels (`adjudicated_status`, `final_kind`, `final_category`, `final_subcategory`, `final_strength`, `final_tags`). GitHub renders it as a sortable, searchable table when you click it.
-  - To see **only finalized results**, filter to rows where `adjudicated_status` is `agreed` or `resolved`.
-- **[`tool-exports/MANIFEST.md`](tool-exports/MANIFEST.md)** — when it was last refreshed and how many annotations it holds.
+- **Everything in one file:** **[`tool-exports/annotations.csv`](tool-exports/annotations.csv)** — every annotation across all filings, including the adjudicated/final labels (`adjudicated_status`, `final_kind`, `final_category`, `final_subcategory`, `final_strength`, `final_tags`). GitHub renders it as a sortable, searchable table when you click it.
+- **One company / one year:** **[`tool-exports/by-company/`](tool-exports/by-company/)** — an index of every company; pick a company, then a year, to open and download just that filing's annotations.
+- To see **only finalized results**, filter any file to rows where `adjudicated_status` is `agreed` or `resolved`.
+- A **[column guide](tool-exports/#column-guide)** explaining every field, plus a [`MANIFEST.md`](tool-exports/MANIFEST.md) with the last-refreshed time and row count, are in the folder.
 
 This is exported straight from the live annotation tool and **refreshes automatically every day**, so it's always the current, adjudicated dataset — nothing to request or regenerate by hand.
 

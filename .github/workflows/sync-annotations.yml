@@ -97,6 +97,11 @@ jobs:
             echo "(\`adjudicated_status\`, \`final_kind/category/subcategory/strength\`, \`final_tags\`)."
           } > tool-exports/MANIFEST.md
 
+      - name: Split into per-company / per-year CSVs
+        # Pure local post-processing on the CSV just downloaded — no tool/DB access.
+        # Uses only the Python standard library (python3 is preinstalled on the runner).
+        run: python3 scripts/split_by_company.py
+
       - name: Commit if changed
         run: |
           git config user.name  "annotations-sync[bot]"
