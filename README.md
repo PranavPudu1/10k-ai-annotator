@@ -5,6 +5,20 @@ An automatic tagger that reads a 10-K filing and labels sentences with AI-relate
 - **Live site to browse results:** https://warm-sawine-c7631b.netlify.app
 - **The reference doc I'm responding to below:** "Notes on LLM prompting experiments" [Google Doc](https://docs.google.com/document/d/1Z3y9SuAL3ujBw8sOOr5wR8YaloadKsdivELBpYrBiBg).
 
+---
+
+## 📋 Latest human annotations (updated daily)
+
+All of the team's human and adjudicated annotations live in one folder:
+
+### → **[`tool-exports/`](tool-exports/)**
+
+- **[`tool-exports/annotations.csv`](tool-exports/annotations.csv)** — every annotation across all filings in one file, including the adjudicated/final labels (`adjudicated_status`, `final_kind`, `final_category`, `final_subcategory`, `final_strength`, `final_tags`). GitHub renders it as a sortable, searchable table when you click it.
+  - To see **only finalized results**, filter to rows where `adjudicated_status` is `agreed` or `resolved`.
+- **[`tool-exports/MANIFEST.md`](tool-exports/MANIFEST.md)** — when it was last refreshed and how many annotations it holds.
+
+This is exported straight from the live annotation tool and **refreshes automatically every day**, so it's always the current, adjudicated dataset — nothing to request or regenerate by hand.
+
 Each section below quotes the notes doc verbatim, then answers in three short parts:
 
 - **What we did.** What's already built.
