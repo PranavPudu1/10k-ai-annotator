@@ -5,7 +5,7 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**216 companies · 622 company-years**
+**223 companies · 644 company-years**
 
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
 - **AGILENT TECHNOLOGIES, INC.** — [2024](AGILENT_TECHNOLOGIES,_INC/AGILENT_TECHNOLOGIES,_INC_2024.csv) · [2025](AGILENT_TECHNOLOGIES,_INC/AGILENT_TECHNOLOGIES,_INC_2025.csv)
@@ -33,6 +33,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **BAXTER INTERNATIONAL INC** — [2024](BAXTER_INTERNATIONAL_INC/BAXTER_INTERNATIONAL_INC_2024.csv) · [2025](BAXTER_INTERNATIONAL_INC/BAXTER_INTERNATIONAL_INC_2025.csv) · [2026](BAXTER_INTERNATIONAL_INC/BAXTER_INTERNATIONAL_INC_2026.csv)
 - **BECTON DICKINSON & CO** — [2024](BECTON_DICKINSON_&_CO/BECTON_DICKINSON_&_CO_2024.csv) · [2025](BECTON_DICKINSON_&_CO/BECTON_DICKINSON_&_CO_2025.csv)
 - **BERKSHIRE HATHAWAY INC** — [2026](BERKSHIRE_HATHAWAY_INC/BERKSHIRE_HATHAWAY_INC_2026.csv)
+- **BEST BUY CO INC** — [2024](BEST_BUY_CO_INC/BEST_BUY_CO_INC_2024.csv) · [2025](BEST_BUY_CO_INC/BEST_BUY_CO_INC_2025.csv) · [2026](BEST_BUY_CO_INC/BEST_BUY_CO_INC_2026.csv)
 - **BIOGEN INC.** — [2024](BIOGEN_INC/BIOGEN_INC_2024.csv)
 - **BOEING CO** — [2024](BOEING_CO/BOEING_CO_2024.csv) · [2025](BOEING_CO/BOEING_CO_2025.csv) · [2026](BOEING_CO/BOEING_CO_2026.csv)
 - **BRISTOL MYERS SQUIBB CO** — [2025](BRISTOL_MYERS_SQUIBB_CO/BRISTOL_MYERS_SQUIBB_CO_2025.csv) · [2026](BRISTOL_MYERS_SQUIBB_CO/BRISTOL_MYERS_SQUIBB_CO_2026.csv)
@@ -52,6 +53,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **CHARTER COMMUNICATIONS, INC. /MO/** — [2024](CHARTER_COMMUNICATIONS,_INC._-MO/CHARTER_COMMUNICATIONS,_INC._-MO_2024.csv) · [2025](CHARTER_COMMUNICATIONS,_INC._-MO/CHARTER_COMMUNICATIONS,_INC._-MO_2025.csv) · [2026](CHARTER_COMMUNICATIONS,_INC._-MO/CHARTER_COMMUNICATIONS,_INC._-MO_2026.csv)
 - **CHEVRON CORP** — [2025](CHEVRON_CORP/CHEVRON_CORP_2025.csv) · [2026](CHEVRON_CORP/CHEVRON_CORP_2026.csv)
 - **CHURCH & DWIGHT CO INC /DE/** — [2024](CHURCH_&_DWIGHT_CO_INC_-DE/CHURCH_&_DWIGHT_CO_INC_-DE_2024.csv) · [2025](CHURCH_&_DWIGHT_CO_INC_-DE/CHURCH_&_DWIGHT_CO_INC_-DE_2025.csv) · [2026](CHURCH_&_DWIGHT_CO_INC_-DE/CHURCH_&_DWIGHT_CO_INC_-DE_2026.csv)
+- **CIENA CORP** — [2023](CIENA_CORP/CIENA_CORP_2023.csv) · [2025](CIENA_CORP/CIENA_CORP_2025.csv)
 - **CITIGROUP INC** — [2024](CITIGROUP_INC/CITIGROUP_INC_2024.csv) · [2025](CITIGROUP_INC/CITIGROUP_INC_2025.csv) · [2026](CITIGROUP_INC/CITIGROUP_INC_2026.csv)
 - **CITIZENS FINANCIAL GROUP INC/RI** — [2026](CITIZENS_FINANCIAL_GROUP_INC-RI/CITIZENS_FINANCIAL_GROUP_INC-RI_2026.csv)
 - **COCA COLA CO** — [2024](COCA_COLA_CO/COCA_COLA_CO_2024.csv) · [2025](COCA_COLA_CO/COCA_COLA_CO_2025.csv) · [2026](COCA_COLA_CO/COCA_COLA_CO_2026.csv)
@@ -65,6 +67,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **CONSTELLATION BRANDS, INC.** — [2024](CONSTELLATION_BRANDS,_INC/CONSTELLATION_BRANDS,_INC_2024.csv) · [2025](CONSTELLATION_BRANDS,_INC/CONSTELLATION_BRANDS,_INC_2025.csv) · [2026](CONSTELLATION_BRANDS,_INC/CONSTELLATION_BRANDS,_INC_2026.csv)
 - **Constellation Energy Corp** — [2024](Constellation_Energy_Corp/Constellation_Energy_Corp_2024.csv) · [2025](Constellation_Energy_Corp/Constellation_Energy_Corp_2025.csv) · [2026](Constellation_Energy_Corp/Constellation_Energy_Corp_2026.csv)
 - **COOPER COMPANIES, INC.** — [2024](COOPER_COMPANIES,_INC/COOPER_COMPANIES,_INC_2024.csv)
+- **CORNING INC /NY** — [2025](CORNING_INC_-NY/CORNING_INC_-NY_2025.csv) · [2026](CORNING_INC_-NY/CORNING_INC_-NY_2026.csv)
 - **Corteva, Inc.** — [2024](Corteva,_Inc/Corteva,_Inc_2024.csv) · [2025](Corteva,_Inc/Corteva,_Inc_2025.csv) · [2026](Corteva,_Inc/Corteva,_Inc_2026.csv)
 - **COSTAR GROUP, INC.** — [2023](COSTAR_GROUP,_INC/COSTAR_GROUP,_INC_2023.csv) · [2024](COSTAR_GROUP,_INC/COSTAR_GROUP,_INC_2024.csv) · [2025](COSTAR_GROUP,_INC/COSTAR_GROUP,_INC_2025.csv) · [2026](COSTAR_GROUP,_INC/COSTAR_GROUP,_INC_2026.csv)
 - **CROWN CASTLE INC.** — [2026](CROWN_CASTLE_INC/CROWN_CASTLE_INC_2026.csv)
@@ -77,6 +80,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **Diamondback Energy, Inc.** — [2025](Diamondback_Energy,_Inc/Diamondback_Energy,_Inc_2025.csv) · [2026](Diamondback_Energy,_Inc/Diamondback_Energy,_Inc_2026.csv)
 - **DIGITAL REALTY TRUST, INC.** — [2024](DIGITAL_REALTY_TRUST,_INC/DIGITAL_REALTY_TRUST,_INC_2024.csv) · [2025](DIGITAL_REALTY_TRUST,_INC/DIGITAL_REALTY_TRUST,_INC_2025.csv) · [2026](DIGITAL_REALTY_TRUST,_INC/DIGITAL_REALTY_TRUST,_INC_2026.csv)
 - **DOLLAR GENERAL CORP** — [2025](DOLLAR_GENERAL_CORP/DOLLAR_GENERAL_CORP_2025.csv) · [2026](DOLLAR_GENERAL_CORP/DOLLAR_GENERAL_CORP_2026.csv)
+- **DOLLAR TREE, INC.** — [2024](DOLLAR_TREE,_INC/DOLLAR_TREE,_INC_2024.csv) · [2025](DOLLAR_TREE,_INC/DOLLAR_TREE,_INC_2025.csv) · [2026](DOLLAR_TREE,_INC/DOLLAR_TREE,_INC_2026.csv)
 - **DOMINOS PIZZA INC** — [2024](DOMINOS_PIZZA_INC/DOMINOS_PIZZA_INC_2024.csv) · [2025](DOMINOS_PIZZA_INC/DOMINOS_PIZZA_INC_2025.csv) · [2026](DOMINOS_PIZZA_INC/DOMINOS_PIZZA_INC_2026.csv)
 - **DoorDash, Inc.** — [2024](DoorDash,_Inc/DoorDash,_Inc_2024.csv) · [2025](DoorDash,_Inc/DoorDash,_Inc_2025.csv) · [2026](DoorDash,_Inc/DoorDash,_Inc_2026.csv)
 - **DTE ENERGY CO** — [2026](DTE_ENERGY_CO/DTE_ENERGY_CO_2026.csv)
@@ -106,7 +110,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **FORD MOTOR CO** — [2023](FORD_MOTOR_CO/FORD_MOTOR_CO_2023.csv) · [2024](FORD_MOTOR_CO/FORD_MOTOR_CO_2024.csv) · [2025](FORD_MOTOR_CO/FORD_MOTOR_CO_2025.csv) · [2026](FORD_MOTOR_CO/FORD_MOTOR_CO_2026.csv)
 - **Fox Corp** — [2023](Fox_Corp/Fox_Corp_2023.csv) · [2024](Fox_Corp/Fox_Corp_2024.csv) · [2025](Fox_Corp/Fox_Corp_2025.csv)
 - **GARTNER INC** — [2023](GARTNER_INC/GARTNER_INC_2023.csv) · [2024](GARTNER_INC/GARTNER_INC_2024.csv) · [2025](GARTNER_INC/GARTNER_INC_2025.csv) · [2026](GARTNER_INC/GARTNER_INC_2026.csv)
-- **General Motors Co** — [2016](General_Motors_Co/General_Motors_Co_2016.csv) · [2017](General_Motors_Co/General_Motors_Co_2017.csv) · [2018](General_Motors_Co/General_Motors_Co_2018.csv) · [2019](General_Motors_Co/General_Motors_Co_2019.csv) · [2020](General_Motors_Co/General_Motors_Co_2020.csv) · [2025](General_Motors_Co/General_Motors_Co_2025.csv) · [2026](General_Motors_Co/General_Motors_Co_2026.csv)
+- **General Motors Co** — [2016](General_Motors_Co/General_Motors_Co_2016.csv) · [2017](General_Motors_Co/General_Motors_Co_2017.csv) · [2018](General_Motors_Co/General_Motors_Co_2018.csv) · [2019](General_Motors_Co/General_Motors_Co_2019.csv) · [2020](General_Motors_Co/General_Motors_Co_2020.csv) · [2021](General_Motors_Co/General_Motors_Co_2021.csv) · [2022](General_Motors_Co/General_Motors_Co_2022.csv) · [2023](General_Motors_Co/General_Motors_Co_2023.csv) · [2024](General_Motors_Co/General_Motors_Co_2024.csv) · [2025](General_Motors_Co/General_Motors_Co_2025.csv) · [2026](General_Motors_Co/General_Motors_Co_2026.csv)
 - **GENUINE PARTS CO** — [2024](GENUINE_PARTS_CO/GENUINE_PARTS_CO_2024.csv) · [2025](GENUINE_PARTS_CO/GENUINE_PARTS_CO_2025.csv) · [2026](GENUINE_PARTS_CO/GENUINE_PARTS_CO_2026.csv)
 - **GOLDMAN SACHS GROUP INC** — [2024](GOLDMAN_SACHS_GROUP_INC/GOLDMAN_SACHS_GROUP_INC_2024.csv) · [2025](GOLDMAN_SACHS_GROUP_INC/GOLDMAN_SACHS_GROUP_INC_2025.csv) · [2026](GOLDMAN_SACHS_GROUP_INC/GOLDMAN_SACHS_GROUP_INC_2026.csv)
 - **HALLIBURTON CO** — [2025](HALLIBURTON_CO/HALLIBURTON_CO_2025.csv) · [2026](HALLIBURTON_CO/HALLIBURTON_CO_2026.csv)
@@ -181,6 +185,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **REVVITY, INC.** — [2026](REVVITY,_INC/REVVITY,_INC_2026.csv)
 - **ROCKWELL AUTOMATION, INC** — [2024](ROCKWELL_AUTOMATION,_INC/ROCKWELL_AUTOMATION,_INC_2024.csv) · [2025](ROCKWELL_AUTOMATION,_INC/ROCKWELL_AUTOMATION,_INC_2025.csv)
 - **ROPER TECHNOLOGIES INC** — [2024](ROPER_TECHNOLOGIES_INC/ROPER_TECHNOLOGIES_INC_2024.csv) · [2025](ROPER_TECHNOLOGIES_INC/ROPER_TECHNOLOGIES_INC_2025.csv) · [2026](ROPER_TECHNOLOGIES_INC/ROPER_TECHNOLOGIES_INC_2026.csv)
+- **SCHWAB CHARLES CORP** — [2024](SCHWAB_CHARLES_CORP/SCHWAB_CHARLES_CORP_2024.csv) · [2025](SCHWAB_CHARLES_CORP/SCHWAB_CHARLES_CORP_2025.csv) · [2026](SCHWAB_CHARLES_CORP/SCHWAB_CHARLES_CORP_2026.csv)
 - **Seagate Technology Holdings plc** — [2022](Seagate_Technology_Holdings_plc/Seagate_Technology_Holdings_plc_2022.csv) · [2023](Seagate_Technology_Holdings_plc/Seagate_Technology_Holdings_plc_2023.csv) · [2024](Seagate_Technology_Holdings_plc/Seagate_Technology_Holdings_plc_2024.csv)
 - **SEMPRA** — [2025](SEMPRA/SEMPRA_2025.csv) · [2026](SEMPRA/SEMPRA_2026.csv)
 - **ServiceNow, Inc.** — [2020](ServiceNow,_Inc/ServiceNow,_Inc_2020.csv) · [2021](ServiceNow,_Inc/ServiceNow,_Inc_2021.csv) · [2022](ServiceNow,_Inc/ServiceNow,_Inc_2022.csv) · [2023](ServiceNow,_Inc/ServiceNow,_Inc_2023.csv) · [2024](ServiceNow,_Inc/ServiceNow,_Inc_2024.csv) · [2025](ServiceNow,_Inc/ServiceNow,_Inc_2025.csv) · [2026](ServiceNow,_Inc/ServiceNow,_Inc_2026.csv)
@@ -190,7 +195,9 @@ see [`../annotations.csv`](../annotations.csv).
 - **Snap-on Inc** — [2024](Snap-on_Inc/Snap-on_Inc_2024.csv) · [2025](Snap-on_Inc/Snap-on_Inc_2025.csv) · [2026](Snap-on_Inc/Snap-on_Inc_2026.csv)
 - **Solventum Corp** — [2025](Solventum_Corp/Solventum_Corp_2025.csv) · [2026](Solventum_Corp/Solventum_Corp_2026.csv)
 - **SOUTHWEST AIRLINES CO** — [2024](SOUTHWEST_AIRLINES_CO/SOUTHWEST_AIRLINES_CO_2024.csv) · [2025](SOUTHWEST_AIRLINES_CO/SOUTHWEST_AIRLINES_CO_2025.csv) · [2026](SOUTHWEST_AIRLINES_CO/SOUTHWEST_AIRLINES_CO_2026.csv)
+- **STANLEY BLACK & DECKER, INC.** — [2022](STANLEY_BLACK_&_DECKER,_INC/STANLEY_BLACK_&_DECKER,_INC_2022.csv) · [2024](STANLEY_BLACK_&_DECKER,_INC/STANLEY_BLACK_&_DECKER,_INC_2024.csv) · [2025](STANLEY_BLACK_&_DECKER,_INC/STANLEY_BLACK_&_DECKER,_INC_2025.csv) · [2026](STANLEY_BLACK_&_DECKER,_INC/STANLEY_BLACK_&_DECKER,_INC_2026.csv)
 - **STERIS plc** — [2024](STERIS_plc/STERIS_plc_2024.csv) · [2025](STERIS_plc/STERIS_plc_2025.csv) · [2026](STERIS_plc/STERIS_plc_2026.csv)
+- **Super Micro Computer, Inc.** — [2023](Super_Micro_Computer,_Inc/Super_Micro_Computer,_Inc_2023.csv)
 - **T-Mobile US, Inc.** — [2024](T-Mobile_US,_Inc/T-Mobile_US,_Inc_2024.csv) · [2025](T-Mobile_US,_Inc/T-Mobile_US,_Inc_2025.csv) · [2026](T-Mobile_US,_Inc/T-Mobile_US,_Inc_2026.csv)
 - **TAPESTRY, INC.** — [2024](TAPESTRY,_INC/TAPESTRY,_INC_2024.csv) · [2025](TAPESTRY,_INC/TAPESTRY,_INC_2025.csv)
 - **TE Connectivity plc** — [2023](TE_Connectivity_plc/TE_Connectivity_plc_2023.csv) · [2024](TE_Connectivity_plc/TE_Connectivity_plc_2024.csv) · [2025](TE_Connectivity_plc/TE_Connectivity_plc_2025.csv)
