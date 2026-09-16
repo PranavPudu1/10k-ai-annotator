@@ -5,7 +5,7 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**248 companies · 720 company-years**
+**249 companies · 722 company-years**
 
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
 - **AGILENT TECHNOLOGIES, INC.** — [2024](AGILENT_TECHNOLOGIES,_INC/AGILENT_TECHNOLOGIES,_INC_2024.csv) · [2025](AGILENT_TECHNOLOGIES,_INC/AGILENT_TECHNOLOGIES,_INC_2025.csv)
@@ -28,7 +28,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **ARCH CAPITAL GROUP LTD.** — [2024](ARCH_CAPITAL_GROUP_LTD/ARCH_CAPITAL_GROUP_LTD_2024.csv) · [2025](ARCH_CAPITAL_GROUP_LTD/ARCH_CAPITAL_GROUP_LTD_2025.csv) · [2026](ARCH_CAPITAL_GROUP_LTD/ARCH_CAPITAL_GROUP_LTD_2026.csv)
 - **Arista Networks, Inc.** — [2024](Arista_Networks,_Inc/Arista_Networks,_Inc_2024.csv) · [2025](Arista_Networks,_Inc/Arista_Networks,_Inc_2025.csv) · [2026](Arista_Networks,_Inc/Arista_Networks,_Inc_2026.csv)
 - **ASSURANT, INC.** — [2020](ASSURANT,_INC/ASSURANT,_INC_2020.csv) · [2021](ASSURANT,_INC/ASSURANT,_INC_2021.csv) · [2024](ASSURANT,_INC/ASSURANT,_INC_2024.csv) · [2025](ASSURANT,_INC/ASSURANT,_INC_2025.csv)
-- **Autodesk, Inc.** — [2021](Autodesk,_Inc/Autodesk,_Inc_2021.csv) · [2022](Autodesk,_Inc/Autodesk,_Inc_2022.csv) · [2023](Autodesk,_Inc/Autodesk,_Inc_2023.csv) · [2024](Autodesk,_Inc/Autodesk,_Inc_2024.csv) · [2025](Autodesk,_Inc/Autodesk,_Inc_2025.csv)
+- **Autodesk, Inc.** — [2021](Autodesk,_Inc/Autodesk,_Inc_2021.csv) · [2022](Autodesk,_Inc/Autodesk,_Inc_2022.csv) · [2023](Autodesk,_Inc/Autodesk,_Inc_2023.csv) · [2024](Autodesk,_Inc/Autodesk,_Inc_2024.csv) · [2025](Autodesk,_Inc/Autodesk,_Inc_2025.csv) · [2026](Autodesk,_Inc/Autodesk,_Inc_2026.csv)
 - **AUTOMATIC DATA PROCESSING INC** — [2023](AUTOMATIC_DATA_PROCESSING_INC/AUTOMATIC_DATA_PROCESSING_INC_2023.csv) · [2024](AUTOMATIC_DATA_PROCESSING_INC/AUTOMATIC_DATA_PROCESSING_INC_2024.csv) · [2025](AUTOMATIC_DATA_PROCESSING_INC/AUTOMATIC_DATA_PROCESSING_INC_2025.csv)
 - **Baker Hughes Co** — [2020](Baker_Hughes_Co/Baker_Hughes_Co_2020.csv) · [2021](Baker_Hughes_Co/Baker_Hughes_Co_2021.csv) · [2025](Baker_Hughes_Co/Baker_Hughes_Co_2025.csv) · [2026](Baker_Hughes_Co/Baker_Hughes_Co_2026.csv)
 - **BANK OF AMERICA CORP /DE/** — [2019](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2019.csv) · [2020](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2020.csv) · [2021](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2021.csv) · [2022](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2022.csv) · [2023](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2023.csv) · [2024](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2024.csv) · [2025](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2025.csv) · [2026](BANK_OF_AMERICA_CORP_-DE/BANK_OF_AMERICA_CORP_-DE_2026.csv)
@@ -175,6 +175,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **NEXTERA ENERGY INC** — [2024](NEXTERA_ENERGY_INC/NEXTERA_ENERGY_INC_2024.csv) · [2025](NEXTERA_ENERGY_INC/NEXTERA_ENERGY_INC_2025.csv) · [2026](NEXTERA_ENERGY_INC/NEXTERA_ENERGY_INC_2026.csv)
 - **NIKE, Inc.** — [2024](NIKE,_Inc/NIKE,_Inc_2024.csv) · [2025](NIKE,_Inc/NIKE,_Inc_2025.csv)
 - **NORTHROP GRUMMAN CORP /DE/** — [2022](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2022.csv) · [2023](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2023.csv) · [2024](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2024.csv) · [2025](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2025.csv) · [2026](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2026.csv)
+- **NRG ENERGY, INC.** — [2024](NRG_ENERGY,_INC/NRG_ENERGY,_INC_2024.csv)
 - **NVIDIA CORP** — [2024](NVIDIA_CORP/NVIDIA_CORP_2024.csv)
 - **OCCIDENTAL PETROLEUM CORP /DE/** — [2025](OCCIDENTAL_PETROLEUM_CORP_-DE/OCCIDENTAL_PETROLEUM_CORP_-DE_2025.csv) · [2026](OCCIDENTAL_PETROLEUM_CORP_-DE/OCCIDENTAL_PETROLEUM_CORP_-DE_2026.csv)
 - **OLD DOMINION FREIGHT LINE, INC.** — [2024](OLD_DOMINION_FREIGHT_LINE,_INC/OLD_DOMINION_FREIGHT_LINE,_INC_2024.csv)
