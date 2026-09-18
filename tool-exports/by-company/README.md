@@ -5,7 +5,7 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**252 companies · 725 company-years**
+**252 companies · 726 company-years**
 
 - **ABBOTT LABORATORIES** — [2026](ABBOTT_LABORATORIES/ABBOTT_LABORATORIES_2026.csv)
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
@@ -177,7 +177,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **NEXTERA ENERGY INC** — [2024](NEXTERA_ENERGY_INC/NEXTERA_ENERGY_INC_2024.csv) · [2025](NEXTERA_ENERGY_INC/NEXTERA_ENERGY_INC_2025.csv) · [2026](NEXTERA_ENERGY_INC/NEXTERA_ENERGY_INC_2026.csv)
 - **NIKE, Inc.** — [2024](NIKE,_Inc/NIKE,_Inc_2024.csv) · [2025](NIKE,_Inc/NIKE,_Inc_2025.csv)
 - **NORTHROP GRUMMAN CORP /DE/** — [2022](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2022.csv) · [2023](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2023.csv) · [2024](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2024.csv) · [2025](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2025.csv) · [2026](NORTHROP_GRUMMAN_CORP_-DE/NORTHROP_GRUMMAN_CORP_-DE_2026.csv)
-- **NRG ENERGY, INC.** — [2024](NRG_ENERGY,_INC/NRG_ENERGY,_INC_2024.csv)
+- **NRG ENERGY, INC.** — [2024](NRG_ENERGY,_INC/NRG_ENERGY,_INC_2024.csv) · [2025](NRG_ENERGY,_INC/NRG_ENERGY,_INC_2025.csv)
 - **NVIDIA CORP** — [2024](NVIDIA_CORP/NVIDIA_CORP_2024.csv)
 - **OCCIDENTAL PETROLEUM CORP /DE/** — [2025](OCCIDENTAL_PETROLEUM_CORP_-DE/OCCIDENTAL_PETROLEUM_CORP_-DE_2025.csv) · [2026](OCCIDENTAL_PETROLEUM_CORP_-DE/OCCIDENTAL_PETROLEUM_CORP_-DE_2026.csv)
 - **OLD DOMINION FREIGHT LINE, INC.** — [2024](OLD_DOMINION_FREIGHT_LINE,_INC/OLD_DOMINION_FREIGHT_LINE,_INC_2024.csv)
