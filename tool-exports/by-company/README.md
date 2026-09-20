@@ -5,7 +5,7 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**252 companies · 726 company-years**
+**254 companies · 731 company-years**
 
 - **ABBOTT LABORATORIES** — [2026](ABBOTT_LABORATORIES/ABBOTT_LABORATORIES_2026.csv)
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
@@ -14,6 +14,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **ALBEMARLE CORP** — [2026](ALBEMARLE_CORP/ALBEMARLE_CORP_2026.csv)
 - **ALIGN TECHNOLOGY INC** — [2023](ALIGN_TECHNOLOGY_INC/ALIGN_TECHNOLOGY_INC_2023.csv) · [2024](ALIGN_TECHNOLOGY_INC/ALIGN_TECHNOLOGY_INC_2024.csv) · [2025](ALIGN_TECHNOLOGY_INC/ALIGN_TECHNOLOGY_INC_2025.csv) · [2026](ALIGN_TECHNOLOGY_INC/ALIGN_TECHNOLOGY_INC_2026.csv)
 - **ALLIANT ENERGY CORP** — [2024](ALLIANT_ENERGY_CORP/ALLIANT_ENERGY_CORP_2024.csv) · [2025](ALLIANT_ENERGY_CORP/ALLIANT_ENERGY_CORP_2025.csv) · [2026](ALLIANT_ENERGY_CORP/ALLIANT_ENERGY_CORP_2026.csv)
+- **ALLSTATE CORP** — [2023](ALLSTATE_CORP/ALLSTATE_CORP_2023.csv)
 - **ALTRIA GROUP, INC.** — [2024](ALTRIA_GROUP,_INC/ALTRIA_GROUP,_INC_2024.csv) · [2025](ALTRIA_GROUP,_INC/ALTRIA_GROUP,_INC_2025.csv) · [2026](ALTRIA_GROUP,_INC/ALTRIA_GROUP,_INC_2026.csv)
 - **Amcor plc** — [2024](Amcor_plc/Amcor_plc_2024.csv) · [2025](Amcor_plc/Amcor_plc_2025.csv)
 - **AMEREN CORP** — [2024](AMEREN_CORP/AMEREN_CORP_2024.csv) · [2025](AMEREN_CORP/AMEREN_CORP_2025.csv) · [2026](AMEREN_CORP/AMEREN_CORP_2026.csv)
@@ -186,6 +187,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **ORACLE CORP** — [2024](ORACLE_CORP/ORACLE_CORP_2024.csv)
 - **Palantir Technologies Inc.** — [2021](Palantir_Technologies_Inc/Palantir_Technologies_Inc_2021.csv) · [2022](Palantir_Technologies_Inc/Palantir_Technologies_Inc_2022.csv) · [2023](Palantir_Technologies_Inc/Palantir_Technologies_Inc_2023.csv) · [2024](Palantir_Technologies_Inc/Palantir_Technologies_Inc_2024.csv) · [2025](Palantir_Technologies_Inc/Palantir_Technologies_Inc_2025.csv) · [2026](Palantir_Technologies_Inc/Palantir_Technologies_Inc_2026.csv)
 - **Paramount Skydance Corp** — [2026](Paramount_Skydance_Corp/Paramount_Skydance_Corp_2026.csv)
+- **PAYCHEX INC** — [2019](PAYCHEX_INC/PAYCHEX_INC_2019.csv) · [2020](PAYCHEX_INC/PAYCHEX_INC_2020.csv) · [2021](PAYCHEX_INC/PAYCHEX_INC_2021.csv) · [2022](PAYCHEX_INC/PAYCHEX_INC_2022.csv)
 - **PayPal Holdings, Inc.** — [2020](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2020.csv) · [2021](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2021.csv) · [2022](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2022.csv) · [2023](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2023.csv) · [2024](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2024.csv) · [2025](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2025.csv) · [2026](PayPal_Holdings,_Inc/PayPal_Holdings,_Inc_2026.csv)
 - **PENTAIR plc** — [2024](PENTAIR_plc/PENTAIR_plc_2024.csv) · [2025](PENTAIR_plc/PENTAIR_plc_2025.csv) · [2026](PENTAIR_plc/PENTAIR_plc_2026.csv)
 - **PEPSICO INC** — [2020](PEPSICO_INC/PEPSICO_INC_2020.csv) · [2022](PEPSICO_INC/PEPSICO_INC_2022.csv) · [2023](PEPSICO_INC/PEPSICO_INC_2023.csv) · [2024](PEPSICO_INC/PEPSICO_INC_2024.csv) · [2025](PEPSICO_INC/PEPSICO_INC_2025.csv) · [2026](PEPSICO_INC/PEPSICO_INC_2026.csv)
