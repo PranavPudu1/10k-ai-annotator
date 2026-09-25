@@ -23,6 +23,19 @@ Where: `tool-exports/` in this repo has the whole corpus (`final_labels.csv`, `a
 - `filing_finalized` = true means adjudication of the whole filing is done.
 - Only the six annotators on real filings are in the corpus file. No screening, admin or demo data.
 
+## How final_labels.csv relates to annotations.csv
+
+annotations.csv has one row per tag per person, with flags. final_labels.csv has one row per sentence, and the same information is in `final_source`:
+
+| In annotations.csv | In final_labels.csv |
+|---|---|
+| `disputed` = false, `adjudicated_status` = agreed | `final_source` = agreed |
+| `disputed` = true, `adjudicated_status` = resolved | `final_source` = resolved, resolved_to_none, or resolved_span |
+| `disputed` = true, `adjudicated_status` = disputed | `final_source` = pending |
+| filing with one annotator | `final_source` = solo |
+| `pair_disputed` | compare `annotator_a_tags` and `annotator_b_tags` |
+| `group_id`, `spans_n_sentences` | `span_ordinals` |
+
 ## final_labels.csv
 
 | # | Column | Meaning |
