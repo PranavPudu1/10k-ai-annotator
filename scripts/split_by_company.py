@@ -50,21 +50,30 @@ def main() -> int:
         # Column positions in the tool's export: cik, company, year, accession, ...
         c_company = header.index("company")
         c_year = header.index("year")
+        c_acc = header.index("accession")
 
-        # (company, year) -> list of rows
-        groups: dict[tuple[str, str], list[list[str]]] = {}
+        # (company, year, accession) -> list of rows. Keying on the accession too
+        # keeps two filings that share a company + year (e.g. a screening copy)
+        # in separate files instead of silently merging their rows.
+        groups: dict[tuple[str, str, str], list[list[str]]] = {}
         for row in reader:
             if not row:
                 continue
-            key = (row[c_company], row[c_year])
+            key = (row[c_company], row[c_year], row[c_acc])
             groups.setdefault(key, []).append(row)
+    # How many accessions each (company, year) has: only ambiguous ones get the
+    # accession in the filename, so the normal case keeps <Company>_<Year>.csv.
+    n_acc: dict[tuple[str, str], int] = {}
+    for company, year, _acc in groups:
+        n_acc[(company, year)] = n_acc.get((company, year), 0) + 1
 
     # Write one CSV per (company, year), grouped into a folder per company.
     # by_company_display: original company name -> {year -> relative path}
     index: dict[str, dict[str, str]] = {}
-    for (company, year), rows in groups.items():
+    for (company, year, acc), rows in groups.items():
         comp_dir = slug(company)
-        fname = f"{comp_dir}_{slug(year)}.csv"
+        label = year if n_acc[(company, year)] == 1 else f"{year} ({acc})"
+        fname = f"{comp_dir}_{slug(year)}.csv" if n_acc[(company, year)] == 1 else f"{comp_dir}_{slug(year)}_{slug(acc)}.csv"
         rel = f"{comp_dir}/{fname}"
         abs_dir = os.path.join(OUT, comp_dir)
         os.makedirs(abs_dir, exist_ok=True)
@@ -72,7 +81,7 @@ def main() -> int:
             w = csv.writer(out)
             w.writerow(header)
             w.writerows(rows)
-        index.setdefault(company, {})[year] = rel
+        index.setdefault(company, {})[label] = rel
 
     # Build the clickable index (README.md renders when the folder is opened).
     lines = [
