@@ -6,20 +6,50 @@ Updated 2026-09-25. Sample filing: Workday 2025 (Amali Oakley and Joseline Viver
 
 | File | What it is | One row per |
 |---|---|---|
+| `final_labels.csv` | The label that stands for each tagged sentence after adjudication, with where it came from. Use this for analysis. | tagged sentence |
 | `annotations.csv` | Every tag by every annotator, with the final decision on each row. The dataset. | tag |
 | adjudication report | Only the sentences the two annotators disagreed on, with both sides and the final decision. | disputed sentence |
 | `filings.csv` | Per-filing summary: annotators, counts, whether adjudication is done. Includes filings with no AI content. | filing |
 
-Where: `tool-exports/` in this repo has the whole corpus (`annotations.csv`, `filings.csv`, and one file per company-year under `by-company/`), refreshed daily. The Manage page of the tool has the same downloads per filing, plus the adjudication report.
+Where: `tool-exports/` in this repo has the whole corpus (`final_labels.csv`, `annotations.csv`, `filings.csv`, and one file per company-year under `by-company/`), refreshed daily. The Manage page of the tool has the same downloads per filing, plus the adjudication report.
 
-## How to read annotations.csv
+## How to read the files
 
+- `final_labels.csv`: one row per sentence. `final_tags` is the label; `final_source` says whether it was agreed, decided in adjudication, or is still pending.
 - One row is one tag by one annotator. A sentence tagged by both people appears once per person.
 - A tag covering several sentences is one row. `sentence_ordinal` lists the sentences.
 - Which label to use: `final_tags` if `adjudicated_status` is resolved, the tag itself if agreed, none yet if disputed.
 - `resolved_to_none` = true means the decision was "no tag".
 - `filing_finalized` = true means adjudication of the whole filing is done.
 - Only the six annotators on real filings are in the corpus file. No screening, admin or demo data.
+
+## final_labels.csv
+
+| # | Column | Meaning |
+|---|---|---|
+| 1 | `doc_id` | Filing id in the tool. |
+| 2 | `cik` | The company's SEC id, 10 digits. |
+| 3 | `company` | Company name. |
+| 4 | `year` | Filing year. |
+| 5 | `accession` | SEC accession number of the 10-K. |
+| 6 | `section_name` | The 10-K section the sentence is in. |
+| 7 | `sentence_ordinal` | Sentence number within the filing. One sentence per row, always. |
+| 8 | `sentence_text` | The sentence. |
+| 9 | `final_tags` | The label(s) that stand for this sentence, separated by '; '. Blank if resolved to no tag or still pending. |
+| 10 | `final_source` | Where the label came from: agreed (both gave it), resolved (decided in adjudication), resolved_to_none (decided: no tag), resolved_span (decided on another sentence of the same span), solo (only one annotator on the filing), pending (still disputed). |
+| 11 | `n_final_tags` | How many final tags the sentence has. |
+| 12 | `annotator_a` | First annotator (alphabetical). |
+| 13 | `annotator_a_tags` | Their original tags on this sentence. |
+| 14 | `annotator_b` | Second annotator. Blank on single-annotator filings. |
+| 15 | `annotator_b_tags` | Their original tags on this sentence. |
+| 16 | `strength_disputed` | true if both gave the same Mitigation tag but different strengths. |
+| 17 | `span_ordinals` | If the sentence is part of a multi-sentence tag, the span's first and last sentence numbers. |
+| 18 | `resolved_by` | Who recorded the decision. |
+| 19 | `resolved_at` | When the decision was recorded (UTC). |
+| 20 | `n_comments` | Adjudication comments on this sentence. |
+| 21 | `filing_finalized` | true if adjudication of the whole filing was marked done. |
+| 22 | `adjudication_done_at` | When adjudication was marked done (UTC). |
+| 23 | `archived` | true if the filing has been archived. |
 
 ## annotations.csv
 
