@@ -98,7 +98,8 @@ jobs:
             echo "archived filings) including the adjudicated/final columns"
             echo "(\`adjudicated_status\`, \`final_kind/category/subcategory/strength\`, \`final_tags\`)."
             echo "\`filings.csv\` is one row per filing (annotators, counts, finalized/archived state,"
-            echo "and filings that had no AI content)."
+            echo "and filings that had no AI content). \`final_labels.csv\` is one row per tagged"
+            echo "sentence with the label that stands after adjudication."
           } > tool-exports/MANIFEST.md
 
       - name: Download the filings export (one row per filing)
@@ -136,6 +137,42 @@ jobs:
           fi
           mv "$TMP" tool-exports/filings.csv
           sed -i "s/^- Annotation rows: .*/&\n- Filing rows: $ROWS/" tool-exports/MANIFEST.md
+
+      - name: Download the final labels export (one row per tagged sentence)
+        env:
+          EXPORT_BOT_PASSWORD: ${{ secrets.EXPORT_BOT_PASSWORD }}
+        run: |
+          set -euo pipefail
+          COOKIES="$(mktemp)"
+          LOGIN_CODE="$(curl -sS -c "$COOKIES" -o /dev/null -w '%{http_code}' \
+            --data-urlencode "name=$EXPORT_BOT_USER" \
+            --data-urlencode "password=$EXPORT_BOT_PASSWORD" \
+            "$APP_URL/login")"
+          if [ "$LOGIN_CODE" != "302" ]; then
+            echo "::error::Login did not return 302 (got $LOGIN_CODE)."
+            exit 1
+          fi
+          TMP="$(mktemp)"
+          DL_CODE="$(curl -sS -b "$COOKIES" -o "$TMP" -w '%{http_code}' "$APP_URL/export-final-labels.csv")"
+          echo "final labels download http_code=$DL_CODE size=$(wc -c < "$TMP") bytes"
+          if [ "$DL_CODE" != "200" ]; then
+            echo "::error::final_labels.csv download failed (http $DL_CODE)."
+            exit 1
+          fi
+          HEADER="$(head -1 "$TMP")"
+          echo "final labels header: $HEADER"
+          case "$HEADER" in
+            doc_id,cik,company,year,accession,*) : ;;
+            *) echo "::error::Unexpected final labels header: $HEADER"; exit 1 ;;
+          esac
+          ROWS="$(python3 -c 'import csv,sys; csv.field_size_limit(2**31-1); f=open(sys.argv[1], newline=""); r=csv.reader(f); next(r); print(sum(1 for _ in r))' "$TMP")"
+          echo "final label rows: $ROWS"
+          if [ "$ROWS" -lt 100 ]; then
+            echo "::error::Only $ROWS final label rows — refusing to overwrite the last good file."
+            exit 1
+          fi
+          mv "$TMP" tool-exports/final_labels.csv
+          sed -i "s/^- Filing rows: .*/&\n- Final label rows: $ROWS/" tool-exports/MANIFEST.md
 
       - name: Split into per-company / per-year CSVs
         # Pure local post-processing on the CSV just downloaded — no tool/DB access.

@@ -21,6 +21,10 @@ and refreshable on demand from the Actions tab.
 - **What is in the file:** research data only. Screening filings and rows from
   admin, screening and demo accounts are left out, and `disputed` is computed
   among each filing's real annotators.
+- **The final labels:** **[`final_labels.csv`](final_labels.csv)** — one row per
+  tagged sentence with the label that stands after adjudication (`final_tags`) and
+  where it came from (`final_source`: agreed, resolved, resolved_to_none,
+  resolved_span, solo, pending). Use this for analysis.
 - **Per-filing summary:** **[`filings.csv`](filings.csv)** — one row per filing
   (annotators, statuses, sentence counts, tagged/agreed/disputed/resolved counts,
   finalized and archived state, and filings that had no AI content). Join to
@@ -102,6 +106,36 @@ One row per disputed sentence: each annotator's tags next to the final decision.
 | `n_comments` | Number of adjudication comments on this sentence (0 when there was no discussion). |
 | `adjudication_comments` | The discussion thread: 'Name (timestamp): text' entries joined by ' \| '. Internal; contains names. |
 
+### final_labels.csv
+
+One row per tagged sentence: the label that stands after adjudication.
+
+| Column | Meaning |
+|---|---|
+| `doc_id` | Filing id in the tool. |
+| `cik` | The company's SEC id, 10 digits. |
+| `company` | Company name. |
+| `year` | Filing year. |
+| `accession` | SEC accession number of the 10-K. |
+| `section_name` | The 10-K section the sentence is in. |
+| `sentence_ordinal` | Sentence number within the filing. One sentence per row, always. |
+| `sentence_text` | The sentence. |
+| `final_tags` | The label(s) that stand for this sentence, separated by '; '. Blank if resolved to no tag or still pending. |
+| `final_source` | Where the label came from: agreed (both gave it), resolved (decided in adjudication), resolved_to_none (decided: no tag), resolved_span (decided on another sentence of the same span), solo (only one annotator on the filing), pending (still disputed). |
+| `n_final_tags` | How many final tags the sentence has. |
+| `annotator_a` | First annotator (alphabetical). |
+| `annotator_a_tags` | Their original tags on this sentence. |
+| `annotator_b` | Second annotator. Blank on single-annotator filings. |
+| `annotator_b_tags` | Their original tags on this sentence. |
+| `strength_disputed` | true if both gave the same Mitigation tag but different strengths. |
+| `span_ordinals` | If the sentence is part of a multi-sentence tag, the span's first and last sentence numbers. |
+| `resolved_by` | Who recorded the decision. |
+| `resolved_at` | When the decision was recorded (UTC). |
+| `n_comments` | Adjudication comments on this sentence. |
+| `filing_finalized` | true if adjudication of the whole filing was marked done. |
+| `adjudication_done_at` | When adjudication was marked done (UTC). |
+| `archived` | true if the filing has been archived. |
+
 ### filings.csv
 
 One row per filing, including filings that had no AI content.
@@ -136,7 +170,7 @@ One row per filing, including filings that had no AI content.
 
 The job logs into the live tool as a dedicated read-only service account
 (`export-bot`) and downloads `/export.csv` — the same "Download all" the admin
-page offers — plus `/export-filings.csv`. All the query work happens inside the app, next to the database, so
+page offers — plus `/export-filings.csv` and `/export-final-labels.csv`. All the query work happens inside the app, next to the database, so
 it finishes in under a minute. Splitting into `by-company/` is pure local
 processing on that downloaded file. The job never modifies the tool, the tool's
 database, or anything in this repo outside this folder, and it only commits when
