@@ -36,7 +36,7 @@ Where: `tool-exports/` in this repo has the whole corpus (`final_labels.csv`, `a
 | 7 | `sentence_ordinal` | Sentence number within the filing. One sentence per row, always. |
 | 8 | `sentence_text` | The sentence. |
 | 9 | `final_tags` | The label(s) that stand for this sentence, separated by '; '. Blank if resolved to no tag or still pending. |
-| 10 | `final_source` | Where the label came from: agreed (both gave it), resolved (decided in adjudication), resolved_to_none (decided: no tag), resolved_span (decided on another sentence of the same span), solo (only one annotator on the filing), pending (still disputed). |
+| 10 | `final_source` | Where the label came from: agreed (both gave it), resolved (decided in adjudication), resolved_to_none (decided: no tag, on this sentence or its span), resolved_span (decided on another sentence of the same span), solo (only one annotator on the filing), pending (still disputed). |
 | 11 | `n_final_tags` | How many final tags the sentence has. |
 | 12 | `annotator_a` | First annotator (alphabetical). |
 | 13 | `annotator_a_tags` | Their original tags on this sentence. |
