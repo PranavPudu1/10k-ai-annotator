@@ -5,7 +5,7 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**283 companies · 845 company-years**
+**285 companies · 850 company-years**
 
 - **ABBOTT LABORATORIES** — [2026](ABBOTT_LABORATORIES/ABBOTT_LABORATORIES_2026.csv)
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
@@ -60,6 +60,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **CARDINAL HEALTH INC** — [2024](CARDINAL_HEALTH_INC/CARDINAL_HEALTH_INC_2024.csv) · [2025](CARDINAL_HEALTH_INC/CARDINAL_HEALTH_INC_2025.csv)
 - **Carnival Corp Ltd.** — [2025](Carnival_Corp_Ltd/Carnival_Corp_Ltd_2025.csv) · [2026](Carnival_Corp_Ltd/Carnival_Corp_Ltd_2026.csv)
 - **CARVANA CO.** — [2024](CARVANA_CO/CARVANA_CO_2024.csv) · [2025](CARVANA_CO/CARVANA_CO_2025.csv) · [2026](CARVANA_CO/CARVANA_CO_2026.csv)
+- **Cboe Global Markets, Inc.** — [2024](Cboe_Global_Markets,_Inc/Cboe_Global_Markets,_Inc_2024.csv) · [2025](Cboe_Global_Markets,_Inc/Cboe_Global_Markets,_Inc_2025.csv) · [2026](Cboe_Global_Markets,_Inc/Cboe_Global_Markets,_Inc_2026.csv)
 - **CDW Corp** — [2022](CDW_Corp/CDW_Corp_2022.csv) · [2023](CDW_Corp/CDW_Corp_2023.csv) · [2024](CDW_Corp/CDW_Corp_2024.csv) · [2025](CDW_Corp/CDW_Corp_2025.csv) · [2026](CDW_Corp/CDW_Corp_2026.csv)
 - **CENTERPOINT ENERGY INC** — [2024](CENTERPOINT_ENERGY_INC/CENTERPOINT_ENERGY_INC_2024.csv) · [2025](CENTERPOINT_ENERGY_INC/CENTERPOINT_ENERGY_INC_2025.csv) · [2026](CENTERPOINT_ENERGY_INC/CENTERPOINT_ENERGY_INC_2026.csv)
 - **CHARLES RIVER LABORATORIES INTERNATIONAL, INC.** — [2025](CHARLES_RIVER_LABORATORIES_INTERNATIONAL,_INC/CHARLES_RIVER_LABORATORIES_INTERNATIONAL,_INC_2025.csv) · [2026](CHARLES_RIVER_LABORATORIES_INTERNATIONAL,_INC/CHARLES_RIVER_LABORATORIES_INTERNATIONAL,_INC_2026.csv)
@@ -281,6 +282,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **Warner Bros. Discovery, Inc.** — [2024](Warner_Bros._Discovery,_Inc/Warner_Bros._Discovery,_Inc_2024.csv) · [2025](Warner_Bros._Discovery,_Inc/Warner_Bros._Discovery,_Inc_2025.csv) · [2026](Warner_Bros._Discovery,_Inc/Warner_Bros._Discovery,_Inc_2026.csv)
 - **WASTE MANAGEMENT INC** — [2023](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2023.csv) · [2024](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2024.csv) · [2025](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2025.csv) · [2026](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2026.csv)
 - **WEC ENERGY GROUP, INC.** — [2025](WEC_ENERGY_GROUP,_INC/WEC_ENERGY_GROUP,_INC_2025.csv) · [2026](WEC_ENERGY_GROUP,_INC/WEC_ENERGY_GROUP,_INC_2026.csv)
+- **WESTERN DIGITAL CORP** — [2024](WESTERN_DIGITAL_CORP/WESTERN_DIGITAL_CORP_2024.csv) · [2025](WESTERN_DIGITAL_CORP/WESTERN_DIGITAL_CORP_2025.csv)
 - **WEYERHAEUSER CO** — [2024](WEYERHAEUSER_CO/WEYERHAEUSER_CO_2024.csv) · [2025](WEYERHAEUSER_CO/WEYERHAEUSER_CO_2025.csv) · [2026](WEYERHAEUSER_CO/WEYERHAEUSER_CO_2026.csv)
 - **WILLIAMS COMPANIES, INC.** — [2025](WILLIAMS_COMPANIES,_INC/WILLIAMS_COMPANIES,_INC_2025.csv) · [2026](WILLIAMS_COMPANIES,_INC/WILLIAMS_COMPANIES,_INC_2026.csv)
 - **WILLIAMS SONOMA INC** — [2023](WILLIAMS_SONOMA_INC/WILLIAMS_SONOMA_INC_2023.csv) · [2024](WILLIAMS_SONOMA_INC/WILLIAMS_SONOMA_INC_2024.csv) · [2025](WILLIAMS_SONOMA_INC/WILLIAMS_SONOMA_INC_2025.csv) · [2026](WILLIAMS_SONOMA_INC/WILLIAMS_SONOMA_INC_2026.csv)
