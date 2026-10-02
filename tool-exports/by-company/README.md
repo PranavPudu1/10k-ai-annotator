@@ -5,11 +5,11 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**286 companies · 851 company-years**
+**286 companies · 853 company-years**
 
 - **ABBOTT LABORATORIES** — [2026](ABBOTT_LABORATORIES/ABBOTT_LABORATORIES_2026.csv)
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
-- **ADVANCED MICRO DEVICES INC** — [2020](ADVANCED_MICRO_DEVICES_INC/ADVANCED_MICRO_DEVICES_INC_2020.csv)
+- **ADVANCED MICRO DEVICES INC** — [2020](ADVANCED_MICRO_DEVICES_INC/ADVANCED_MICRO_DEVICES_INC_2020.csv) · [2021](ADVANCED_MICRO_DEVICES_INC/ADVANCED_MICRO_DEVICES_INC_2021.csv) · [2022](ADVANCED_MICRO_DEVICES_INC/ADVANCED_MICRO_DEVICES_INC_2022.csv)
 - **AFLAC INC** — [2024](AFLAC_INC/AFLAC_INC_2024.csv) · [2025](AFLAC_INC/AFLAC_INC_2025.csv) · [2026](AFLAC_INC/AFLAC_INC_2026.csv)
 - **AGILENT TECHNOLOGIES, INC.** — [2024](AGILENT_TECHNOLOGIES,_INC/AGILENT_TECHNOLOGIES,_INC_2024.csv) · [2025](AGILENT_TECHNOLOGIES,_INC/AGILENT_TECHNOLOGIES,_INC_2025.csv)
 - **AKAMAI TECHNOLOGIES INC** — [2024](AKAMAI_TECHNOLOGIES_INC/AKAMAI_TECHNOLOGIES_INC_2024.csv)
