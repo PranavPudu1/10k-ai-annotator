@@ -5,7 +5,7 @@ just that filing's annotations (GitHub shows each CSV as a searchable table;
 use the "Download raw file" button to save it). For every filing in one file,
 see [`../annotations.csv`](../annotations.csv).
 
-**286 companies · 853 company-years**
+**288 companies · 858 company-years**
 
 - **ABBOTT LABORATORIES** — [2026](ABBOTT_LABORATORIES/ABBOTT_LABORATORIES_2026.csv)
 - **Accenture plc** — [2020](Accenture_plc/Accenture_plc_2020.csv) · [2021](Accenture_plc/Accenture_plc_2021.csv) · [2022](Accenture_plc/Accenture_plc_2022.csv) · [2023](Accenture_plc/Accenture_plc_2023.csv) · [2024](Accenture_plc/Accenture_plc_2024.csv) · [2025](Accenture_plc/Accenture_plc_2025.csv)
@@ -187,7 +187,8 @@ see [`../annotations.csv`](../annotations.csv).
 - **MASCO CORP /DE/** — [2026](MASCO_CORP_-DE/MASCO_CORP_-DE_2026.csv)
 - **MCCORMICK & CO INC** — [2024](MCCORMICK_&_CO_INC/MCCORMICK_&_CO_INC_2024.csv) · [2025](MCCORMICK_&_CO_INC/MCCORMICK_&_CO_INC_2025.csv) · [2026](MCCORMICK_&_CO_INC/MCCORMICK_&_CO_INC_2026.csv)
 - **MCKESSON CORP** — [2024](MCKESSON_CORP/MCKESSON_CORP_2024.csv) · [2025](MCKESSON_CORP/MCKESSON_CORP_2025.csv) · [2026](MCKESSON_CORP/MCKESSON_CORP_2026.csv)
-- **METLIFE INC** — [2024](METLIFE_INC/METLIFE_INC_2024.csv)
+- **Meta Platforms, Inc.** — [2026](Meta_Platforms,_Inc/Meta_Platforms,_Inc_2026.csv)
+- **METLIFE INC** — [2024](METLIFE_INC/METLIFE_INC_2024.csv) · [2025](METLIFE_INC/METLIFE_INC_2025.csv) · [2026](METLIFE_INC/METLIFE_INC_2026.csv)
 - **METTLER TOLEDO INTERNATIONAL INC/** — [2024](METTLER_TOLEDO_INTERNATIONAL_INC/METTLER_TOLEDO_INTERNATIONAL_INC_2024.csv) · [2025](METTLER_TOLEDO_INTERNATIONAL_INC/METTLER_TOLEDO_INTERNATIONAL_INC_2025.csv) · [2026](METTLER_TOLEDO_INTERNATIONAL_INC/METTLER_TOLEDO_INTERNATIONAL_INC_2026.csv)
 - **MICRON TECHNOLOGY INC** — [2023](MICRON_TECHNOLOGY_INC/MICRON_TECHNOLOGY_INC_2023.csv) · [2024](MICRON_TECHNOLOGY_INC/MICRON_TECHNOLOGY_INC_2024.csv) · [2025](MICRON_TECHNOLOGY_INC/MICRON_TECHNOLOGY_INC_2025.csv)
 - **Moderna, Inc.** — [2021](Moderna,_Inc/Moderna,_Inc_2021.csv) · [2022](Moderna,_Inc/Moderna,_Inc_2022.csv) · [2023](Moderna,_Inc/Moderna,_Inc_2023.csv) · [2024](Moderna,_Inc/Moderna,_Inc_2024.csv) · [2025](Moderna,_Inc/Moderna,_Inc_2025.csv) · [2026](Moderna,_Inc/Moderna,_Inc_2026.csv)
@@ -282,6 +283,7 @@ see [`../annotations.csv`](../annotations.csv).
 - **Walt Disney Co** — [2023](Walt_Disney_Co/Walt_Disney_Co_2023.csv) · [2024](Walt_Disney_Co/Walt_Disney_Co_2024.csv) · [2025](Walt_Disney_Co/Walt_Disney_Co_2025.csv)
 - **Warner Bros. Discovery, Inc.** — [2024](Warner_Bros._Discovery,_Inc/Warner_Bros._Discovery,_Inc_2024.csv) · [2025](Warner_Bros._Discovery,_Inc/Warner_Bros._Discovery,_Inc_2025.csv) · [2026](Warner_Bros._Discovery,_Inc/Warner_Bros._Discovery,_Inc_2026.csv)
 - **WASTE MANAGEMENT INC** — [2023](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2023.csv) · [2024](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2024.csv) · [2025](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2025.csv) · [2026](WASTE_MANAGEMENT_INC/WASTE_MANAGEMENT_INC_2026.csv)
+- **WATERS CORP /DE/** — [2025](WATERS_CORP_-DE/WATERS_CORP_-DE_2025.csv) · [2026](WATERS_CORP_-DE/WATERS_CORP_-DE_2026.csv)
 - **WEC ENERGY GROUP, INC.** — [2025](WEC_ENERGY_GROUP,_INC/WEC_ENERGY_GROUP,_INC_2025.csv) · [2026](WEC_ENERGY_GROUP,_INC/WEC_ENERGY_GROUP,_INC_2026.csv)
 - **WESTERN DIGITAL CORP** — [2024](WESTERN_DIGITAL_CORP/WESTERN_DIGITAL_CORP_2024.csv) · [2025](WESTERN_DIGITAL_CORP/WESTERN_DIGITAL_CORP_2025.csv)
 - **WEYERHAEUSER CO** — [2024](WEYERHAEUSER_CO/WEYERHAEUSER_CO_2024.csv) · [2025](WEYERHAEUSER_CO/WEYERHAEUSER_CO_2025.csv) · [2026](WEYERHAEUSER_CO/WEYERHAEUSER_CO_2026.csv)
